@@ -1,0 +1,42 @@
+Design pattern: Simple Factory
+	* I use simpe factory for the Computer creation
+
+Design pattern: Strategy
+	* The square calculation must be a strategy, there must be different strategies for 32bit or 64bit CPU's
+
+Design pattern: Template Method
+	* 
+
+Design pattern: Abstract factory
+	* I use the abstract factory for the Manufacturers creation
+
+Design pattern: Composite
+	* 
+
+Design pattern: Mediator
+	* The Motherboard class is a mediator, but there are some little bugs
+
+Found bottlenecks:
+	* There's a bottleneck in the 
+
+Found bugs:
+	* I fixed them because the program but I forgot them, please look if I fixed them if you know them
+
+Single responsibility principle
+	* Every part of the computer is a single class
+	* Every manufacturer is a separate class
+	* All different types of computers are separate classes, and do only their features
+
+Open/closed principle
+	* If you want to extend the program with a new type of computer you must only add few lines of code (if clause) and a new class for the new type
+
+Liskov substitution principle
+	* I'm just mind blowed man, look for it please
+
+Interface segregation principle
+	* Every part has an interface if you want, to extend the part you can make a new interface and just implement it instead of the old one
+
+Dependency inversion principle
+	* Every class implements dependency inversion, because it depends only on what it use.
+
+I just didnt find how to rename the C# project folder, I was thinking that VS2013 do that. Dont judge me :D

@@ -1,0 +1,4 @@
+1. Employee has one Department - one to one
+2. Employee has one manager (type Employee) or not - self relationship
+3. Employee has many Reports - one to many
+4. Employee has many Projects and Project has many Employees - many to many

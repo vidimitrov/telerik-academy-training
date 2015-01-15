@@ -1,0 +1,10 @@
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\Company.Data.dll.config
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\Company.Data.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\Company.Data.pdb
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\EntityFramework.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\EntityFramework.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\obj\Debug\Company.Data.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\obj\Debug\Company.Data.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.Data\obj\Debug\Company.Data.pdb

@@ -1,0 +1,5 @@
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Computers.Tests\bin\Debug\Computers.Tests.dll
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Computers.Tests\bin\Debug\Computers.Tests.pdb
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Computers.Tests\obj\Debug\Computers.Tests.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Computers.Tests\obj\Debug\Computers.Tests.dll
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Computers.Tests\obj\Debug\Computers.Tests.pdb

@@ -1,0 +1,12 @@
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\Company.SampleDataGenerator.exe.config
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\Company.SampleDataGenerator.exe
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\Company.SampleDataGenerator.pdb
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\Company.Data.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\EntityFramework.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\Company.Data.pdb
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\EntityFramework.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\obj\Debug\Company.SampleDataGenerator.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\obj\Debug\Company.SampleDataGenerator.exe
+C:\Users\vesel_000\Desktop\Databases-Exam\Company\Company\Company.SampleDataGenerator\obj\Debug\Company.SampleDataGenerator.pdb

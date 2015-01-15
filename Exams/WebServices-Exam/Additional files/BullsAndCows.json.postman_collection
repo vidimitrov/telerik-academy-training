@@ -1,0 +1,264 @@
+{
+	"id": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+	"name": "BullsAndCows",
+	"description": "",
+	"order": [
+		"7845c784-568c-d6ad-6aae-e9c971e77ab6",
+		"2a226b9c-15db-22fc-2b94-98d507dbe198",
+		"c81d0b4c-9398-17be-da25-f1a30095ced5",
+		"68f8c768-83ac-cfc5-815b-7a69a4da0ebb",
+		"6e7b3aa7-a915-f44f-aa13-fa517f1c3367",
+		"29d67603-97cd-8094-ee67-09e02059f37a",
+		"90c3ff59-9815-ba27-842e-0b5503109c39",
+		"c60b344e-aac6-ad9b-f458-2dbf92800f41",
+		"9885e581-e767-7f04-7d09-02d3b9d01899",
+		"a0781a6f-f9cd-890b-3fd1-4b6734d25698"
+	],
+	"folders": [],
+	"timestamp": 1411460067743,
+	"synced": false,
+	"requests": [
+		{
+			"id": "29d67603-97cd-8094-ee67-09e02059f37a",
+			"headers": "",
+			"url": "http://localhost:27840/api/games/1",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "Get game details",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411477648345,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		},
+		{
+			"id": "2a226b9c-15db-22fc-2b94-98d507dbe198",
+			"headers": "",
+			"url": "http://localhost:27840/token",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "Username",
+					"value": "pesho@gmail.com",
+					"type": "text"
+				},
+				{
+					"key": "Password",
+					"value": "123456",
+					"type": "text"
+				},
+				{
+					"key": "grant_type",
+					"value": "password",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"time": 1411482878257,
+			"name": "Login User",
+			"description": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "68f8c768-83ac-cfc5-815b-7a69a4da0ebb",
+			"headers": "Authorization: Bearer wQGwf91fm__XTAoqHAQNPBMfjq5kafslTPxjzmSjNlrGESmPWLNyMXutq8QPTOq2GZj3r1UW7QfVWGk-Nsr0dOUTxDA4K0dB4dDWA2LzIIaiobN1LrgqKxZSYW1foUTugmb_jky_UlEqIJOkLi6gRRXFC54FvZitFt7Q-P2xCOE9IBSIRBGVf-FeSdLm_D925_WExpcgVmyBWiZGP1ZQvtM0M0tq0Y1nTTxgSlCMGiZ5dpz54C_ihPl9dPdVOHMinJc86jThZT2Elv0IfkQTzKzqxjfSN4IKlRz6bkfrtvhAw-NJ3682VpGPs8xX4E_BKhbq_uiOqv0BziW8oBJfuz5VHat8FkXlgHXprnKKcQ62ALmGlU4XnsKYh75N-yGo6rnDtIO-TQBPDydG6cdWko-s559dCoDuJALELN3DrLyFgbbjarnGmVYxtJg69QJxBOOEBW3IiD4d5QbRjtGg1jAJaiZvacYxaD7PS9noUhASzYmoJClMhJlE50Kd-I79\n",
+			"url": "http://localhost:27840/api/games",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "Get all games (Auth)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411471715112,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		},
+		{
+			"id": "6e7b3aa7-a915-f44f-aa13-fa517f1c3367",
+			"headers": "",
+			"url": "http://localhost:27840/api/games?page=5",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "Get all games (Non Auth with page)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411474712531,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		},
+		{
+			"id": "7845c784-568c-d6ad-6aae-e9c971e77ab6",
+			"headers": "",
+			"url": "http://localhost:27840/api/account/register",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "Email",
+					"value": "pesho@gmail.com",
+					"type": "text"
+				},
+				{
+					"key": "Password",
+					"value": "123456",
+					"type": "text"
+				},
+				{
+					"key": "ConfirmPassword",
+					"value": "123456",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"time": 1411483103242,
+			"name": "Register User",
+			"description": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "90c3ff59-9815-ba27-842e-0b5503109c39",
+			"headers": "Authorization: Bearer sCmq1lNgX6q9Rc3dOpMZ0G-vuUd5qv1OzLe0tOGxRorzN66QM7N3ZZ7GEhvE34WbSD0PeVEhg9DRe8K6AfTuDzVuAGmNyfISpsqocASjelAftJwkezBnGvugLXC_ONknZCdbTfTsHdNL7ZDT1QDKLxI4BnFKh365hbMZApSbYcX5gplE_cL7_Zmbxa07R_Nmz72RF1QDNKSHQQEGE_3MJJNm_CA3Cur_MqHF61Vg8iwuHmIlx40bo_5Pjp1vMcfSuxcPxtlzp4LXCBDtWPIbOvsrMS_A-jBJOM4GjWtfXGSWAj2h8-UzBOroAh7EPDrl6H4fdJDkGZb-RnwUbLe83_Ih1IdHeoxuwqHRMM_JdWDUbcjOOPG9Li6shGYNN95aEfCddPpcyTJDrRHQ2eyeX7ZpF23E5Cpx0ii410v_NfkNJqu7YLXO662BxLRMbDETfTsWJLH-detAbizufvtgPnpunq4hc--KZS_X3S3JRlcWGEmbA0tXgrzkNx2l1UTP\n",
+			"url": "http://localhost:27840/api/games",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "First test game",
+					"type": "text"
+				},
+				{
+					"key": "number",
+					"value": "1234",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Create game",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411479294293,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		},
+		{
+			"id": "9885e581-e767-7f04-7d09-02d3b9d01899",
+			"headers": "Authorization: Bearer OZauenDn_3K28WxANJh-PhVyaGddxGh2icrXL17qm_POlNMEnzqsXtGSALOVBZguLDJvxCGTiQzPKYA4ABp27TqCrD433sPNxbx5Jnx4D-6wcwRyCltSWneHFCz5U-KgefrXGIUPeercJH3J0MqsR85yW5v39665X4LdCikSdPzxw6jrjekcDF9OUmTsX8l9E1vFT-BYQSTePRx6emsNZ700j7kGjefXZ0aqH4xKwRSv-Ko_I6otER0Lnb0AB_AvK1B6BVFqcgzL-m86oiqJ7wkcWi3jRveFzyeEQFlXhH2MSu6VR2jlJodg2uSHB8hQl63idmy9XJrnm-CwalW9tJT8mikqPUJBXo0yxuryc4gb0njJXYXe8Y5KqLeQt2F6SVzd1wmvwxvxqLPjDlcBKuw2uPnTKaA9t4PX5FMhoIUT4USTo46i76qmDCV-KZ95aIQs59PMBK9b2-Mjcv2msaoIyBwvmBEDiMj0qoktMgU_X7tpg57Wx1PqXJwnHAei\n",
+			"url": "http://localhost:27840/api/games/1/guess",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "number",
+					"value": "4567",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"time": 1411482334475,
+			"name": "Make guess",
+			"description": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "a0781a6f-f9cd-890b-3fd1-4b6734d25698",
+			"headers": "",
+			"url": "http://localhost:27840/api/scores",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "Get scores",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411484684253,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		},
+		{
+			"id": "c60b344e-aac6-ad9b-f458-2dbf92800f41",
+			"headers": "Authorization: Bearer OZauenDn_3K28WxANJh-PhVyaGddxGh2icrXL17qm_POlNMEnzqsXtGSALOVBZguLDJvxCGTiQzPKYA4ABp27TqCrD433sPNxbx5Jnx4D-6wcwRyCltSWneHFCz5U-KgefrXGIUPeercJH3J0MqsR85yW5v39665X4LdCikSdPzxw6jrjekcDF9OUmTsX8l9E1vFT-BYQSTePRx6emsNZ700j7kGjefXZ0aqH4xKwRSv-Ko_I6otER0Lnb0AB_AvK1B6BVFqcgzL-m86oiqJ7wkcWi3jRveFzyeEQFlXhH2MSu6VR2jlJodg2uSHB8hQl63idmy9XJrnm-CwalW9tJT8mikqPUJBXo0yxuryc4gb0njJXYXe8Y5KqLeQt2F6SVzd1wmvwxvxqLPjDlcBKuw2uPnTKaA9t4PX5FMhoIUT4USTo46i76qmDCV-KZ95aIQs59PMBK9b2-Mjcv2msaoIyBwvmBEDiMj0qoktMgU_X7tpg57Wx1PqXJwnHAei\n",
+			"url": "http://localhost:27840/api/games/1",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "PUT",
+			"data": [
+				{
+					"key": "number",
+					"value": "4567",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Join game",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411480669519,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		},
+		{
+			"id": "c81d0b4c-9398-17be-da25-f1a30095ced5",
+			"headers": "",
+			"url": "http://localhost:27840/api/games",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "Get all games (Non Auth)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1411471644267,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "1fef714c-0ab3-d26a-2325-ceb02a7cb69d",
+			"synced": false
+		}
+	]
+}

@@ -1,0 +1,7 @@
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\bin\Debug\Phonebook.Core.exe
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\bin\Debug\Phonebook.Core.pdb
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\bin\Debug\PowerCollections.dll
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\bin\Debug\PowerCollections.xml
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\obj\Debug\Phonebook.Core.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\obj\Debug\Phonebook.Core.exe
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\ConsoleApplication1\obj\Debug\Phonebook.Core.pdb

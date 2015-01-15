@@ -1,0 +1,2 @@
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\bin\Debug\Computers.UI.Console.exe.config
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\bin\Debug\Computers.exe.config

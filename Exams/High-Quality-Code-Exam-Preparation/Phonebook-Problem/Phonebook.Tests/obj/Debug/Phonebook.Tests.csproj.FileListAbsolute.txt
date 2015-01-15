@@ -1,0 +1,5 @@
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\Phonebook.Tests\bin\Debug\Phonebook.Tests.dll
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\Phonebook.Tests\bin\Debug\Phonebook.Tests.pdb
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\Phonebook.Tests\obj\Debug\Phonebook.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\Phonebook.Tests\obj\Debug\Phonebook.Tests.dll
+D:\Telerik Academy\Exams\High-Quality-Code-Exam-Preparation\Phonebook-Problem\Phonebook.Tests\obj\Debug\Phonebook.Tests.pdb

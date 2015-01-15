@@ -1,0 +1,12 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\Cars.Data.dll.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\Cars.Data.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\Cars.Data.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\Cars.Models.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\EntityFramework.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\Cars.Models.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\EntityFramework.xml
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\obj\Debug\Cars.Data.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\obj\Debug\Cars.Data.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Cars\Cars.Data\obj\Debug\Cars.Data.pdb

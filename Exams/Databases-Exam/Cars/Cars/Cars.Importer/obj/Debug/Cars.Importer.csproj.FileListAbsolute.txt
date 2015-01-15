@@ -1,0 +1,16 @@
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Importer.exe.config
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Importer.exe
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Importer.pdb
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Data.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Models.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\EntityFramework.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Data.pdb
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Cars.Models.pdb
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\EntityFramework.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\obj\Debug\Cars.Importer.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\obj\Debug\Cars.Importer.exe
+C:\Users\vesel_000\Desktop\Databases-Exam\Cars\Cars\Cars.Importer\obj\Debug\Cars.Importer.pdb

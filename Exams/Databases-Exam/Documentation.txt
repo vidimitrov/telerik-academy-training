@@ -1,0 +1,7 @@
+Connection string for "Company" database: 
+	<add name="CompanyEntities" connectionString="metadata=res://*/CompanyEntities.csdl|res://*/CompanyEntities.ssdl|res://*/CompanyEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+Connection string for "Cars" database: 
+	<add name="CarsConnection" connectionString="Data Source=.;Initial Catalog=Cars;Integrated Security=true" providerName="System.Data.SqlClient"/>
+Relationships for "Company" database: in the Diagram, Script and Backup folder
+Relationships for "Cars" database: in the Diagram, Script and Backup folder
+Query files: in the Diagram, Script and Backup folder

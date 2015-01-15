@@ -1,0 +1,16 @@
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\bin\Debug\Computers.exe.config
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\bin\Debug\Computers.exe
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\bin\Debug\Computers.pdb
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\bin\Debug\System.Collections.Generic.dll
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\obj\Debug\Computers.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\obj\Debug\Computers.exe
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Computers-problem\Niki\obj\Debug\Computers.pdb
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Exam\Computers-problem\Niki\bin\Debug\Computers.exe.config
+C:\Users\vesel_000\Desktop\High-Quality-Code-Exam\Exam\Computers-problem\Niki\obj\Debug\Computers.exe
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\bin\Debug\Computers.exe.config
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\obj\Debug\Computers.exe
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\bin\Debug\Computers.exe
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\bin\Debug\Computers.pdb
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\bin\Debug\System.Collections.Generic.dll
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\obj\Debug\Computers.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Exams\High-Quality-Code-Exam\Exam\Computers-problem\Niki\obj\Debug\Computers.pdb
