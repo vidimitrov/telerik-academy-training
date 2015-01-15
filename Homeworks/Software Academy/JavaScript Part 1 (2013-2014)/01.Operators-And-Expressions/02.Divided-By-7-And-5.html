@@ -1,0 +1,27 @@
+<!--02. Write a boolean expression that checks for given integer
+if it can be divided (without remainder) by 7 and 5 in the same time.-->
+
+<html>
+<head>
+    <title>Check for divided by 5 and 7</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="inputNumber" />
+    <input type="button" onclick="check()" value="Check">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function check() {
+            var inputNum = document.getElementById("inputNumber").value;
+
+            if ((inputNum % 5 == 0) && (inputNum % 7 == 0)) {
+                jsConsole.writeLine("True");
+            }
+            else {
+                jsConsole.writeLine("False");
+            }
+        }
+    </script>
+</body>
+</html>

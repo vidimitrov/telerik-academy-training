@@ -1,0 +1,92 @@
+body{
+	font-family:Constantia, Sans-serif;
+}
+#wrapper{
+	width:670px;
+	border:2px solid black;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	padding:0px 10px 10px 10px;
+}
+a{
+	color:#00ADF0;
+	font-weight:bold;
+	font-family:sans-serif;
+	font-size:20px;
+}
+ul{
+	list-style-type:none;
+	margin: 0 auto;
+	padding: 0px;
+	height: 40px;
+	width: 497px;
+}
+li{
+	float:left;
+	margin:10px 2px;
+}
+li:first-of-type{
+	margin-left: 65px;
+}
+nav{
+	border-bottom:2px solid black;
+	width:650px;
+	height:40px;
+	margin:0 auto;
+}
+#main{
+	float:left;
+	border:2px solid black;
+	padding:5px 0px;
+	margin-top: 5px;
+}
+.title{
+	font-weight: lighter;
+	position: relative;
+	top: -14px;
+	left: 20px;
+	background-color: white;
+	width: 142px;
+	margin: 0px;
+	padding:0px 5px 0px 2px;
+}
+#main h4:not(.title){
+	font-weight: lighter;
+	margin:7px;
+}
+.left-heading{
+	margin:0px !important;
+	position: relative;
+	bottom: 7px;
+	left: 27px;
+}
+.box{
+	border:2px solid black;
+	width:212px;
+	margin:5px;
+	padding: 5px;
+}
+.box .right{
+	padding-top: 21px;
+}
+#sidebar{
+	float:right;
+	padding-top:65px;
+}
+#sidebar h3{
+	font-weight:lighter;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.floated-img{
+	width:111px;
+	height:87px;
+	background:url("images/laptop.png") 0 0 no-repeat;
+}

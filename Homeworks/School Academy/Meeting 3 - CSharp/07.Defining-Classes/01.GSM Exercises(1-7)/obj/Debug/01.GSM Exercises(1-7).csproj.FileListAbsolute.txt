@@ -1,0 +1,10 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\01.GSM\bin\Debug\01.GSM.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\01.GSM\obj\Debug\01.GSM.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\01.GSM\obj\Debug\01.GSM.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\01.GSM\bin\Debug\01.GSM.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\01.GSM\bin\Debug\01.GSM.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\07.Defining-Classes\01.GSM Exercises(1-7)\bin\Debug\01.GSM.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\07.Defining-Classes\01.GSM Exercises(1-7)\obj\Debug\01.GSM.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\07.Defining-Classes\01.GSM Exercises(1-7)\obj\Debug\01.GSM.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\07.Defining-Classes\01.GSM Exercises(1-7)\bin\Debug\01.GSM.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\07.Defining-Classes\01.GSM Exercises(1-7)\bin\Debug\01.GSM.pdb

@@ -1,0 +1,10 @@
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\01.Create-Northwind-DbContext.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\01.Create-Northwind-DbContext.exe
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\01.Create-Northwind-DbContext.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\EntityFramework.dll
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\EntityFramework.xml
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\obj\Debug\01-05.Northwind-DbContext.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\obj\Debug\01.Create-Northwind-DbContext.exe
+C:\Users\vesel_000\Documents\Visual Studio 2013\Projects\Databases-EntityFramework\01-05.Northwind-DbContext\obj\Debug\01.Create-Northwind-DbContext.pdb

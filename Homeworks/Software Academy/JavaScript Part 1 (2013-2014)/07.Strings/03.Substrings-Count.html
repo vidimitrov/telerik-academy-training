@@ -1,0 +1,37 @@
+<!--03. Write a JavaScript function that finds how many times a substring
+        is contained in a given text (perform case insensitive search).-->
+
+<html>
+<head>
+    <title>Substrings count</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var text = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+        var substr = "in";
+        
+        var countMatchesInText = countMatches(text, substr);
+        
+        jsConsole.writeLine("The result is: " + countMatchesInText);
+        
+        
+        function countMatches(text, substr) {
+            var matches = 0;
+            var pos = 0;
+            var sLen = substr.length;
+            var textToLower = text.toLowerCase();
+            
+            while(textToLower.indexOf(substr, pos) != -1){
+                var indexOfMatch = textToLower.indexOf(substr, pos);
+                matches++;
+                pos = indexOfMatch + sLen;
+            }
+            
+            return matches;
+        }
+    </script>
+</body>
+</html>

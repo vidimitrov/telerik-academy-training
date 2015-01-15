@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urn:students xmlns:urn="someurn-com" urn:schemaLocation="students-schema.xml">
+  <student>
+    <name>Pesho Goshov</name>
+    <sex>Male</sex>
+    <birth-date>01-05-1990</birth-date>
+    <phone>+359 896 655 521</phone>
+    <email>pesho123@gmail.com</email>
+    <course>2nd</course>
+    <specialty>Software engineering</specialty>
+    <faculty-number>1276543</faculty-number>
+    <exams>
+      <name>Databases</name>
+      <tutor>Ivaylo Kenov</tutor>
+      <score>99.8</score>
+    </exams>
+  </student>
+  <student>
+    <name>Ivan Petrov</name>
+    <sex>Male</sex>
+    <birth-date>01-03-1993</birth-date>
+    <phone>+359 892 123 541</phone>
+    <email>vancho@gmail.com</email>
+    <course>3nd</course>
+    <specialty>Informatics</specialty>
+    <faculty-number>55124124</faculty-number>
+    <exams>
+      <name>JS-OOP</name>
+      <tutor>Doncho Minkov</tutor>
+      <score>79.2</score>
+    </exams>
+  </student>
+  <student>
+    <name>Draganka Dimitrova</name>
+    <sex>Female</sex>
+    <birth-date>21-03-1991</birth-date>
+    <phone>+359 896 623 261</phone>
+    <email>ddimitrova@gmail.com</email>
+    <course>4th</course>
+    <specialty>Economics</specialty>
+    <faculty-number>21252341</faculty-number>
+    <exams>
+      <name>Makroeconomics</name>
+      <tutor>Petranka Ivanova</tutor>
+      <score>48.8</score>
+    </exams>
+  </student>
+</urn:students>

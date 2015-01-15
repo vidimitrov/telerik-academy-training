@@ -1,0 +1,106 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Web.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Web.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Antlr3.Runtime.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.AspNet.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.Core.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\EntityFramework.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Newtonsoft.Json.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Net.Http.Formatting.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Helpers.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.WebHost.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Mvc.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Optimization.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Razor.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\WebGrease.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.Data.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.WebData.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\EntityFramework.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Newtonsoft.Json.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Net.Http.Formatting.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Helpers.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.WebHost.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Mvc.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Razor.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.Data.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.WebData.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.AspNet.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.Core.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\obj\Debug\DebuggingSystem.Web.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\obj\Debug\DebuggingSystem.Web.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\obj\Debug\DebuggingSystem.Web.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Model.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Model.pdb
+C:\Users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\RouteDebugger.dll
+C:\Users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Web\bin\Kendo.Mvc.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Web.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Web.pdb
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Antlr3.Runtime.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Model.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.AspNet.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.Core.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\EntityFramework.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Kendo.Mvc.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Newtonsoft.Json.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\RouteDebugger.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Net.Http.Formatting.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Helpers.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.WebHost.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Mvc.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Optimization.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Razor.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Deployment.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Razor.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\WebGrease.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.Data.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.WebData.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DebuggingSystem.Model.pdb
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\EntityFramework.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Newtonsoft.Json.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Net.Http.Formatting.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Helpers.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Http.WebHost.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Mvc.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.Razor.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Deployment.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\System.Web.WebPages.Razor.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.Data.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\WebMatrix.WebData.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.AspNet.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.Core.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OAuth.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\obj\Debug\DebuggingSystem.Web.csprojResolveAssemblyReference.cache
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\obj\Debug\DebuggingSystem.Web.dll
+E:\ASP.NET Project - Debugging System\DebuggingSystem\DebuggingSystem.Web\obj\Debug\DebuggingSystem.Web.pdb

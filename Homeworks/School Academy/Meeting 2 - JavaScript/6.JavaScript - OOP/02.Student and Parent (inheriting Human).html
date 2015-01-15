@@ -1,0 +1,100 @@
+<html>
+<head>
+	<script>		
+		var Human = function(name){
+			var self = this;
+			self.name = name;
+		}
+		
+		var Student = function(name, school, marks, parents){
+			var self = this;
+			self.name = name;
+			self.school = school;
+			self.marks = marks;
+			var temp = marks;
+			var length = marks.length
+			self.avgMarks = function(){
+				var array = temp;
+				var numberOfMarks = length;
+				var average = 0;
+				var sum = 0;
+				for(var i=0; i < numberOfMarks; i++){
+					sum += array[i];
+				}
+				average = sum / numberOfMarks;
+				return average;
+			}
+			self.addMark = function(newMark){
+				marks.push(newMark);
+			}
+			self.removeMark = function(){
+				marks.pop();
+			}
+		}
+		
+		var Parent = function(name, children){
+			var self = this;
+			self.name = name;
+			self.children = children;			
+			self.childrenMatch = function(){
+				var existChildren = new Array();
+				var allChildren = studentsArray.length;
+				var allPrntChildren = children.length;
+				for(var i=0; i < allChildren; i++){
+					for(var j=0; j < allPrntChildren; j++){
+						if(studentsArray[i].name == children[j]){
+							existChildren.push(studentsArray[i].name);
+						}
+						else if((i ==(allChildren - 1)) && (existChildren[0] == null)){
+							alert(self.name + " has got no existing children!");
+						}
+					}
+				}
+				return existChildren;
+			}
+			self.yell = function(){
+				var matchedChildren = self.childrenMatch();
+				var numOfExistedChildren = matchedChildren.length;
+				var numOfChildren = studentsArray.length;
+				var match = new Array();
+				for(var n=0; n < numOfExistedChildren; n++){
+					for(var k=0; k < numOfChildren; k++){
+						if(matchedChildren[n] == studentsArray[k].name){
+							match.push(k);
+						}
+					}
+				}
+				for(var i=0; i < match.length; i++){
+						var avg = studentsArray[match[i]].avgMarks();
+						if(avg < 4){
+							alert(self.name + ": I'm yelling at you " + studentsArray[match[i]].name);
+						}
+					}
+			}
+		}
+		
+		Student.prototype = new Human();
+		Parent.prototype = new Human();
+		
+		studentsArray = new Array(
+			new Student("Pesho","PG",[2,3,2,3,2,3,2]),
+			new Student("Gosho","OU",[6,3,4,5,6,2,5]),
+			new Student("Vesko","SMG",[6,6,6,6,6,6,5]),
+			new Student("Joro","SMG",[2,3,2,3,3,2,5])
+		);
+		
+		parentsArray = new Array(
+			new Parent("Ivan",["Pesho","Gosho"]),
+			new Parent("Gergana",["Pesho","Gosho","Joro"]),
+			new Parent("Rosen",["Vesko","Joro"]),
+			new Parent("Reni",["Vesko"])
+		);
+		
+		parentsArray[1].yell();
+		parentsArray[3].yell();
+		parentsArray[2].yell();
+	</script>
+</head>
+<body>
+</body>
+</html>

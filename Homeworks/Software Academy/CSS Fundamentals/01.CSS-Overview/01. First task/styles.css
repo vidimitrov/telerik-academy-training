@@ -1,0 +1,73 @@
+#task{
+    display: inline;
+    margin-left: 20px;
+}
+
+#main{
+    background-color: #595959;
+    width: 304px;
+    height: 206px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+
+p{
+    margin: 3px 0px;
+}
+
+.heading3{
+    text-align: left;
+    margin: 6px 0px;
+    font-weight: normal;
+}
+
+.gray-text{
+    color: #A5A4A3;
+}
+
+.red-text{
+    color: red;
+}
+
+.neg-margin{
+    margin-top: -3px;
+}
+
+.yellow-text{
+    color: #DBCC82;
+}
+
+.orange-text{
+    color: #D86633;
+}
+
+.label{
+    color: #DAE0E5;
+    margin-right: 25px;
+}
+
+.dotted{
+    display: inline;
+    margin-left: 5px;
+}
+
+.dotted:before{
+    display: block;
+    content: "";
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #71B47A;
+    border-radius: 5px;
+}
+
+#green-dot{
+    display: inline;
+    width: 10px;
+    height: 10px;
+}
+
+.left{
+    float: left;
+}

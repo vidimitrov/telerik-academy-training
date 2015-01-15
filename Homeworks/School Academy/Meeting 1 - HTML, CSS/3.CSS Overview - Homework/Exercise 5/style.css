@@ -1,0 +1,31 @@
+body{
+	color:#656565;
+	font-weight:bold;
+	font-family:Sans-serif;
+}
+#example_form{
+	background-color:#E0E0E0;
+	width:280px;
+	height:283px;
+	padding-left:15px;
+	box-shadow:2px 2px 1px 1px #30356E;
+}
+h1{
+	margin-left:-9px;
+	color:#000000;
+}
+input{
+	border-radius:5px;
+	margin-bottom:20px;
+	color:#6D6D6D;
+	font-size:15px;
+	width:239px;
+}
+input:nth-of-type(3){
+	background-color:#FFFFFF;
+	border-radius:20px;
+	width:102px;
+	height:36px;
+	font-weight:bold;
+	font-size:13px;
+}

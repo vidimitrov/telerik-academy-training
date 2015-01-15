@@ -1,0 +1,45 @@
+<!--01. Write a function that returns the last digit of given integer as an English word. 
+        Examples: 512 -> "two", 1024 -> "four", 12309 -> "nine"-->
+
+<html>
+<head>
+    <title>Last digit as an English word</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="number">Number: </label>
+    <input type="text" id="number"/>
+    <input type="button" onclick="inEnglish()" value="Check">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function inEnglish() {
+            var num = jsConsole.readInteger("#number");
+            
+            var lastDigitInEnglish = getLastDigitInEnglish(num);
+            
+            jsConsole.writeLine("Last digit in English: " + lastDigitInEnglish);
+        }
+        
+        function getLastDigitInEnglish(number) {
+            var word = "";
+            var lastDigit = parseInt(number % 10);
+            
+            switch(lastDigit){
+                case 0: word = "Zero"; break;
+                case 1: word = "One"; break;
+                case 2: word = "Two"; break;
+                case 3: word = "Three"; break;
+                case 4: word = "Four"; break;
+                case 5: word = "Five"; break;
+                case 6: word = "Six"; break;
+                case 7: word = "Seven"; break;
+                case 8: word = "Eight"; break;
+                case 9: word = "Nine"; break;
+            }
+            
+            return word;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+#1. What database models do you know?
+- Hierarchical, Network, Relational, Non-relational, Object-oriented
+
+================================================================================
+
+#2. Which are the main functions performed by a Relational Database Management System (RDBMS)?
+- Manage data stored in tables
+
+================================================================================
+
+#3. Define what is "table" in database terms.
+- Structure that consist of data, arranged in rows and columns
+
+================================================================================
+
+#4. Explain the difference between a primary and a foreign key.
+- Primary key is the main column from a table, and a foreign key is the column that points to
+that column from other table
+
+================================================================================
+
+#5. Explain the different kinds of relationships between tables in relational databases.
+- One to one is used to make a relation for a same objects but in different state, or objects
+that are related to only one other object and vice versa
+
+================================================================================
+
+#6. When is a certain database schema normalized? 
+	What are the advantages of normalized databases?
+- Normalized database schema is that there are no repeating objects. In the most cases
+this is done by auto incrementing primary key called id. The advantage is the fastest 
+searching and sorting.
+
+================================================================================
+
+#7. What are database integrity constraints and when are they used?
+- They are used to define rules that can be violated. They are used when we need 
+to secure our data.
+
+================================================================================
+
+#8. Point out the pros and cons of using indexes in a database.
+- When we use indexes in a database, we guaranteed that there will not be a repeating data.
+Also the searching and sorting are faster.
+
+================================================================================
+
+#9. What's the main purpose of the SQL language?
+- To interact directly with the RDBMS systems on a low level, to get the data in a 
+structured way.
+
+================================================================================
+
+#10. What are transactions used for? Give an example.
+- For example in the automated teller machines. If a person want to get money, but
+on the middle of the process the electricity gone, his money must not be decreased.
+The ATM must rollback the transaction and when the electricity come, everything must
+be how it was before the transaction.
+
+================================================================================
+
+#11. What is a NoSQL database?
+#12. Explain the classical non-relational data models.
+#13. Give few examples of NoSQL databases and their pros and cons.
+
+- A database that has no relations between the objects. It consist of collections,
+instead of tables, and the rows are called documents. It is used to store a big amounts
+of data, that are no related to each other. It is fast and very scalable. For example
+YouTube store the info about their videos in NoSQL DB.

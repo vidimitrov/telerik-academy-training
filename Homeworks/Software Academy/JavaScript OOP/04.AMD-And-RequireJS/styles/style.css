@@ -1,0 +1,25 @@
+.person {
+    margin-top: 5px; 
+}
+.person-age {
+    margin: 0px;
+}
+.person-image {
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+.current-selection {
+    margin: 0px;
+    width: 210px;
+}
+.items-container {
+    display: none;
+    border: 2px solid #0d49ed;
+    background-color: #3594ef;
+    width: 200px;
+    padding: 5px;
+}
+.items-container .person:hover {
+    background-color: #8dc3f4;
+} 

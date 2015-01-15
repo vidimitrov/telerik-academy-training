@@ -1,0 +1,191 @@
+/*---------------- Exercise 1 -----------------*/
+#navigation{
+	height:116px;
+	width:500px;
+	background:url("images/bg-tile.png") 0 0;
+}
+ul{
+	list-style-type:none;
+	padding:0px;
+}
+#navigation li{
+	float:left;
+	width:100px;
+	height:104px;	
+	text-align:center;
+}
+.link{
+	text-decoration:none;
+	color:#A9A9A9 !important;
+	display:block;
+	margin-top:73px;
+	font-family:sans-serif;
+	font-size:12px;
+}
+#navigation li:nth-child(1){
+	background:url('images/monitor-small.png'), url('images/separator.png');
+	background-position: center, top right;
+	background-repeat: no-repeat, no-repeat;
+}
+#navigation li:nth-child(2){
+	background:url('images/clock-small.png'), url('images/separator.png');
+	background-position: center, top right;
+	background-repeat: no-repeat, no-repeat;
+}
+#navigation li:nth-child(3){
+	background:url('images/people-small.png'), url('images/separator.png');
+	background-position: center, top right;
+	background-repeat: no-repeat, no-repeat;
+}
+#navigation li:nth-child(4){
+	background:url('images/points-small.png'), url('images/separator.png');
+	background-position: center, top right;
+	background-repeat: no-repeat, no-repeat;
+}
+#navigation li:nth-child(5){
+	background:url('images/404-small.png') center no-repeat;
+}
+/*---------------- Exercise 2 -----------------*/
+#sidebar{
+	background:url("images/li-tile.png") 0 0;
+	width:184px;
+}
+#sidebar li{
+	height:36px;
+}
+#sidebar li:nth-of-type(1){
+	background:url('images/icon.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(2){
+	background:url('images/icon2.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(3){
+	background:url('images/icon3.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(4){
+	background:url('images/icon4.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(5){
+	background:url('images/icon5.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(6){
+	background:url('images/icon6.png'), url('images/blue-icon.png');
+	background-position: center left, center right;
+	background-repeat: no-repeat, no-repeat;
+}
+#sidebar li:nth-of-type(7){
+	background:url('images/icon7.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(8){
+	background:url('images/icon8.png'), url('images/blue-icon2.png');
+	background-position: center left, center right;
+	background-repeat: no-repeat,no-repeat;
+}
+#sidebar li:nth-of-type(9){
+	background:url('images/icon9.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(10){
+	background:url('images/icon10.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(11){
+	background:url('images/icon15.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(12){
+	background:url('images/icon11.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(13){
+	background:url('images/icon12.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(14){
+	background:url('images/icon13.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar li:nth-of-type(15){
+	background:url('images/icon14.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+#sidebar span {
+	margin-top:10px;
+	display:inline-block;
+}
+#sidebar ul{
+	padding:0px 5px 0px;
+}
+.menu{
+	color:#45444a;
+	font-family:Arial, Sans-serif;
+	margin-left:25px;
+	font-size:14px;
+}
+/*---------------- Exercise 3 -----------------*/
+.login{
+	width:150px !important;
+	float:right;
+	background:#6BC2DE url(images/lock.png) 15px 4px no-repeat;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#form{
+	padding: 15px;
+	width: 300px;
+	height:172px;
+}
+form label{
+	color:#A7B3BE;
+	font-family:Arial, Sans-serif;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+#form input:nth-of-type(1){
+	margin-top:5px;
+}
+#form input{
+	width: 286px;
+	height:38px;
+}
+#form input:not(.login){
+	color:#B7B1AC;
+	border-radius:7px;
+	padding-left:10px;
+	margin-bottom:10px;
+	-moz-box-shadow: inset 1px 1px 4px #999;
+	-webkit-box-shadow: inset 1px 1px 4px #999;
+	box-shadow: inset 1px 1px 4px #999;
+}
+form a:nth-of-type(1){
+	position: relative;
+	top: 12px;
+	font-family:sans-serif;
+	font-size:15px;
+}
+a:link,
+a:visited{
+	color:#78C5DF;
+}

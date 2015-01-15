@@ -1,0 +1,39 @@
+<!--01. Write a JavaScript function reverses string and returns it
+        Example: "sample" -> "elpmas".-->
+
+<html>
+<head>
+    <title>Reverse string</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="inputString">String: </label>
+    <input type="text" id="inputString"/>
+    <input type="button" onclick="reverseStr()" value="Reverse">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function reverseStr() {
+            var str = jsConsole.read("#inputString");
+            
+            var reversedStr = reverse(str);
+            var anotherReversedStr = str.split("").reverse().join("");
+            
+            jsConsole.writeLine("First way reversing: " + reversedStr);
+            jsConsole.writeLine("Second way reversing: " + anotherReversedStr);
+        }
+        
+        function reverse(str){
+            var reversed = "";
+
+            var i;
+            var length = str.length;
+            for (i = length - 1; i >= 0; i--) {
+                reversed += str[i];
+            }
+
+            return reversed;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.pdb
+D:\Telerik Academy\Homework\School Academy\Meeting 3 - CSharp\02.Arrays\08.MaximalSumInArray\bin\Debug\08.MaximalSumInArray.exe.config
+D:\Telerik Academy\Homework\School Academy\Meeting 3 - CSharp\02.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.exe
+D:\Telerik Academy\Homework\School Academy\Meeting 3 - CSharp\02.Arrays\08.MaximalSumInArray\obj\Debug\08.MaximalSumInArray.pdb

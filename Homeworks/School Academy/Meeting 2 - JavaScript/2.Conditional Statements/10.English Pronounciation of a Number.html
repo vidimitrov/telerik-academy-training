@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<script>
+			function englishPronounce(){
+				var number = parseInt(document.getElementById("number").value);
+				var result = document.getElementById("result");
+				var firstDigit = (number / 100) | 0;
+				var secondDigit = ((number / 10 ) % 10) | 0;
+				var thirdDigit = (number % 10) |0;
+				var hunderts="";
+				var tens="";
+				var units="";
+				var d="";
+				var specialNum="";
+					switch(firstDigit){
+						case 1: hunderts = "One Hundret"; break;
+						case 2: hunderts = "Two Hundrets"; break;
+						case 3: hunderts = "Three Hundrets"; break;
+						case 4: hunderts = "Four Hundrets"; break;
+						case 5: hunderts = "Five Hundrets"; break;
+						case 6: hunderts = "Six Hundrets"; break;
+						case 7: hunderts = "Seven Hundrets"; break;
+						case 8: hunderts = "Eight Hundrets"; break;
+						case 9: hunderts = "Nine Hundrets"; break;	
+					}
+					switch(secondDigit){
+						case 1: tens = "Ten"; break;
+						case 2: tens = "Twenty"; break;
+						case 3: tens = "Thirty"; break;
+						case 4: tens = "Fourty"; break;
+						case 5: tens = "Fifty"; break;
+						case 6: tens = "Sixty"; break;
+						case 7: tens = "Seventy"; break;
+						case 8: tens = "Eighty"; break;
+						case 9: tens = "Ninety"; break;
+					}
+					switch (thirdDigit){
+						case 0: units = "Zero"; break;
+						case 1: units = "One"; break;
+						case 2: units = "Two"; break;
+						case 3: units = "Three"; break;
+						case 4: units = "Four"; break;
+						case 5: units = "Five"; break;
+						case 6: units = "Six"; break;
+						case 7: units = "Seven"; break;
+						case 8: units = "Eight"; break;
+						case 9: units = "Nine"; break;
+					}
+					switch(thirdDigit){
+						case 1: specialNum = "Eleven"; break;
+						case 2: specialNum = "Twelve"; break;
+						case 3: specialNum = "Thirteen"; break;
+						case 4: specialNum = "Fourteen"; break;
+						case 5: specialNum = "Fifteen"; break;
+						case 6: specialNum = "Sixteen"; break;
+						case 7: specialNum = "Seventeen";break;
+						case 8: specialNum = "Eighteen";break;
+						case 9: specialNum = "Nineteen";break;	
+					}
+					if(firstDigit == 0){
+						if(secondDigit == 0){
+							result.innerText = units;
+						}
+						else if(thirdDigit == 0){
+									result.innerText = tens;
+							}
+							else if(secondDigit == 1){
+									result.innerText = specialNum;
+								}
+								else{
+									result.innerText = tens + " " + units;
+						}
+					}
+					else if(secondDigit == 0){
+							if(thirdDigit == 0){
+								result.innerText = hunderts;
+							}
+							else{
+								result.innerText = hunderts + " and " + units;
+							}
+						}
+						else if(secondDigit == 1){
+							if(thirdDigit == 0){
+								result.innerText = hunderts + " and " + tens;
+							}
+							else{
+								result.innerText = hunderts + " and " + specialNum;
+							}
+						}
+						else{
+							result.innerText = hunderts + " " + tens + " " + units;
+						}
+					}
+		</script>
+	</head>
+	<body>
+		<div>
+			Number : <input type="text" id="number"/><br />
+			<input type="button" onclick="englishPronounce()" value="English pronounce"/><br />
+			<div id="result"></div>
+		</div>
+	</body>
+</html>

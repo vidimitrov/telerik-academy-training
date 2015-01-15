@@ -1,0 +1,128 @@
+#wrapper{
+	background:url("images/bg-tile.png") 0 0;
+	width:729px;
+	padding:5px 7px;
+}
+#content{
+	background-color:#FFFFFF;
+	width:706px;
+	height:515px;
+	padding:5px 10px 10px;
+}
+#navigation{
+	padding-left: 5px;
+}
+#left-side{
+	width:75%;
+	float:left;
+}
+#right-side{
+	width:23%;
+	float:right;
+}
+.border{
+	border:1px solid #D7D7D7;
+	border-radius:2px;
+}
+
+.header{
+	height:32px;
+	background-color:#E0E0E0;
+	border:1px solid;
+	border-color:#F1F1F1 #F1F1F1 #DADADA #F1F1F1;
+	border-radius:2px 2px 0px 0px;
+}
+.main-content{
+	background-color:#FFFFFF;
+	border-radius:0px 0px 2px 2px;
+}
+.center{
+	text-align:center;
+}
+#nav-right{
+	display:inline-block;
+	float:right;
+}
+a{
+	display:inline-block;
+	width:27px;
+	height:27px;
+}
+a:nth-of-type(1){
+	background-image:url("images/button-left.png");
+}
+a:nth-of-type(2){
+	background-image:url("images/button-right.png");
+}
+a:nth-of-type(3),a:nth-of-type(4),
+a:nth-of-type(5){
+	float:right;
+	margin-left:10px;
+	height:24px;
+}
+a:nth-of-type(3){
+	background-image:url("images/day.png");
+	width:33px;
+}
+a:nth-of-type(4){
+	background-image:url("images/week.png");
+	width:42px;
+}
+a:nth-of-type(5){
+	background-image:url("images/month.png");
+	width:48px;
+}
+h4{
+	font-size:13px;
+	margin:7px;
+	font-family:sans-serif;
+	color:#7F868E;
+}
+ul{
+	list-style-type:none;
+	margin:10px;
+	padding:0px;
+}
+li{
+	background:url("images/li-bg.png") 0 0 no-repeat;
+	width:143px;
+	height:29px;
+	margin-top:10px;
+	color:#ffffff;
+	font-family:sans-serif;
+	padding:8px 0px 0px 10px;
+}
+table{
+	border:1px solid #D7D7D7;
+	width:100%;
+}
+th{
+	text-align:center;
+	border:1px solid #D7D7D7;
+	font-size: 12px;
+}
+td{
+	width:72px;
+	height:63px;
+	border:1px solid #D7D7D7;
+	text-align:right;
+	vertical-align:top;
+	padding:4px 3px 0px 0px;
+}
+td:hover{
+	background-color:#FFFFCD;
+}
+tr:nth-of-type(6) td:nth-of-type(3),
+tr:nth-of-type(6) td:nth-of-type(4),
+tr:nth-of-type(6) td:nth-of-type(5),
+tr:nth-of-type(6) td:nth-of-type(6),
+tr:nth-of-type(6) td:nth-of-type(7),
+tr:nth-of-type(7) td:nth-of-type(1),
+tr:nth-of-type(7) td:nth-of-type(2),
+tr:nth-of-type(7) td:nth-of-type(3),
+tr:nth-of-type(7) td:nth-of-type(4),
+tr:nth-of-type(7) td:nth-of-type(5),
+tr:nth-of-type(7) td:nth-of-type(6),
+tr:nth-of-type(7) td:nth-of-type(7){
+	color:#DADAD8;
+}

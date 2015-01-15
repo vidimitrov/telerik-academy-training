@@ -1,0 +1,54 @@
+<html>
+<head>
+	<script>
+		function maximalSequence(){
+			var array =[3,7,6,3,4,5,6,1,7,8,6];
+			var countArray = new Array();
+			var elementsArray = new Array();
+			var result = document.getElementById("result");
+			text.innerText += " [ " + array.join(", ") +" ]";
+			var count = 1;
+			var tempElement;
+			var numberOfSequences = 1;
+			var max = 1;
+			for(var i=0; i<array.length; i++){
+				if(array[i] + 1 == (array[i+1])){
+					count++;
+					tempElement = array[i] - (count-2);
+				}
+				else{
+					countArray.push(count);
+					elementsArray.push(tempElement);
+					tempElement = array[i+1];
+					count = 1;
+				}
+			}
+			for(var i in countArray){
+				if((countArray[i] == max) && (countArray[i] != 1)){
+					numberOfSequences++;
+				}
+				else
+				if(countArray[i] > max){
+					max = countArray[i];
+				}
+			}
+			if(numberOfSequences > 1){
+				result.innerText = "There are "+ numberOfSequences +" maximal sequnces";
+			}                                                                           
+			else{                                                                       
+				var startIncreasingElement = elementsArray[countArray.indexOf(max)];
+				var sequence = new Array(max);
+				for(var i=1; i <= max; i++){
+					sequence[i-1] = startIncreasingElement + (i-1);
+				}
+				result.innerText = sequence.join(", ");
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="text">Find the maximal sequence of equal elements in the array: </div>
+	<div id="result"></div>
+	<input type="button" value="Find" onclick="maximalSequence()"/>
+</body>
+</html>

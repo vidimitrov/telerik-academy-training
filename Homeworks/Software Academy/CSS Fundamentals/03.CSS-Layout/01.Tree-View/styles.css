@@ -1,0 +1,28 @@
+.treeview ul, 
+.treeview li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.treeview a {
+    text-decoration: none;
+    color: black;
+}
+
+.treeview ul ul a {
+    color: grey;
+}
+
+.treeview a:hover {
+    text-decoration: underline;
+}
+
+.treeview li > ul{
+    display: none;
+    margin-left: 20px;
+}
+
+.treeview li:hover > ul{
+    display: block;
+}

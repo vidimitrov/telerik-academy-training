@@ -1,0 +1,11 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\obj\Debug\01. CreatingObjectContext.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\bin\Debug\_01.CreatingObjectContext.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\bin\Debug\_01.CreatingObjectContext.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\bin\Debug\_01.CreatingObjectContext.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\bin\Debug\EntityFramework.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\bin\Debug\EntityFramework.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\obj\Debug\_01.CreatingObjectContext.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\ADO.NET-Entity Framework\01. CreatingObjectContext\obj\Debug\_01.CreatingObjectContext.pdb
+D:\Telerik Academy\Homework\Meeting 4 - DataBases\05.ORM and Entity Framework\ADO.NET-Entity Framework\01. CreatingObjectContext\bin\Debug\_01.CreatingObjectContext.exe.config
+D:\Telerik Academy\Homework\Meeting 4 - DataBases\05.ORM and Entity Framework\ADO.NET-Entity Framework\01. CreatingObjectContext\obj\Debug\_01.CreatingObjectContext.exe
+D:\Telerik Academy\Homework\Meeting 4 - DataBases\05.ORM and Entity Framework\ADO.NET-Entity Framework\01. CreatingObjectContext\obj\Debug\_01.CreatingObjectContext.pdb

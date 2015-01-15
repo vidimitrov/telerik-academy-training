@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script>
+		function fibonacciNums(){
+			var n = parseInt(document.getElementById("n").value) | 0;
+			var result = document.getElementById("result");
+			var firstMember = 0;
+			var secondMember = 1;
+			var sum = firstMember + secondMember;
+			var temp;
+			if(n <= 0){
+				result.innerText = "The input value must be > 0";
+			}
+			else{
+				if(n == 1){
+					sum = firstMember;
+				}
+				else if(n >= 3){
+					for(var i=0; i<n-2; i++){
+						temp = firstMember + secondMember;
+						sum = sum + temp;
+						firstMember = secondMember;
+						secondMember = temp;
+					}
+				}
+				result.innerText = "The sum is: " + sum;
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="n"/></br>
+	<input type="button" value="CalculateSum" onclick="fibonacciNums()"/>                       
+	<div id="result"></div>
+</body>
+</html>

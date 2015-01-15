@@ -1,0 +1,13 @@
+h4 {
+    margin: 0;
+}
+
+#current-result {
+    border: 1px solid black;
+    height: 30px;
+    width: 260px;
+}
+
+#guess-number {
+    width: 203px;
+}

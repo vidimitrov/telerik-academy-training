@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CyberChimps Free Elements\n"
+"POT-Creation-Date: 2013-03-19 16:26-0000\n"
+"PO-Revision-Date: 2013-03-19 16:27-0000\n"
+"Last-Translator: \n"
+"Language-Team: CyberChimps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;"
+"translate_nooped_plural\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../boxes.php:25 ../../boxes.php:26 ../../init.php:46 ../../init.php:58
+msgid "Boxes Lite"
+msgstr ""
+
+#: ../../boxes.php:39 ../../boxes.php:41
+msgid "Boxes Lite Element"
+msgstr ""
+
+#: ../../boxes.php:42
+msgid "Box Image"
+msgstr ""
+
+#: ../../boxes.php:43
+msgid "Box URL"
+msgstr ""
+
+#: ../../boxes.php:44
+msgid "Box Text"
+msgstr ""
+
+#: ../../boxes.php:150
+msgid "Responsive iFeature Slider"
+msgstr ""
+
+#: ../../boxes.php:151
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+
+#: ../../boxes.php:158
+msgid "Responsive Design"
+msgstr ""
+
+#: ../../boxes.php:159
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+
+#: ../../boxes.php:166
+msgid "Excellent Support"
+msgstr ""
+
+#: ../../boxes.php:167
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+
+#: ../../init.php:47 ../../init.php:59
+msgid "Portfolio Lite"
+msgstr ""
+
+#: ../../init.php:48
+msgid "Post Page"
+msgstr ""
+
+#: ../../init.php:49 ../../init.php:61
+msgid "Slider Lite"
+msgstr ""
+
+#: ../../init.php:50 ../../init.php:62
+msgid "Twitter Bar"
+msgstr ""
+
+#: ../../init.php:60
+msgid "Page"
+msgstr ""
+
+#: ../../twitter-bar.php:90
+msgid "No tweets to display"
+msgstr ""
+
+#: ../../twitter-bar.php:167
+msgid "Invalid Response"
+msgstr ""

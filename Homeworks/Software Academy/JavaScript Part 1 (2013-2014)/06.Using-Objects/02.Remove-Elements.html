@@ -1,0 +1,40 @@
+<!--02. Write a function that removes all elements with a given value
+        Attach it to the array class.
+        Read about prototype and how to attach methods.-->
+
+<html>
+    <head>
+        <title>Remove elements with given value</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <label for="elToRemove"></label>
+        <input type="text" id="elToRemove">
+        <label for="array"></label>
+        <input type="text" id="array">
+        <input type="button" value="Remove" onclick="removeElements()">
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            function removeElements() {
+                var elementToRemove = jsConsole.readInteger("#elToRemove");
+                var array = jsConsole.read("#array").split(",");
+
+                Array.prototype.remove = function(element){
+                    var i;
+                    var count = this.length;
+                    for (i = 0; i < count; i++) {
+                        if(this[i] == element){
+                            this.splice(i, 1);
+                        }
+                    }
+                }
+
+                array.remove(elementToRemove);
+
+
+                jsConsole.writeLine(array);
+            }
+        </script>
+    </body>
+</html>

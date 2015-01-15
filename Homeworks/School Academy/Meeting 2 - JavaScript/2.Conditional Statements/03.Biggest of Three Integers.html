@@ -1,0 +1,16 @@
+<script>
+	var firstNumber = 56;
+	var secondNumber = 13;
+	var thirdNumber = 43;
+	var max = firstNumber;
+	if(secondNumber > firstNumber){
+		max = secondNumber;
+		if(thirdNumber > secondNumber){
+			max = thirdNumber;
+		}
+	}
+	else if(thirdNumber > firstNumber){
+		max = thirdNumber;
+	}
+	console.log("The biggest number is: "+ max);
+</script>

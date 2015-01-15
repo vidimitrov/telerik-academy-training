@@ -1,0 +1,115 @@
+<html>
+<head>
+	<script>
+		function selectionSort(unsortedArray){
+			var arr = new Array();
+			for(var i in unsortedArray){
+				arr[i] = unsortedArray[i];
+			}
+			var length = arr.length;
+			var sortedArray = new Array(length);
+			var min;
+			var swap;
+			for(var i=0; i < length; i++){
+				min = arr[0];
+				for(var j=0; j < length; j++){
+					if(arr[j] < min){
+						min = arr[j];
+						swap = arr[0];
+						arr[0] = arr[j];
+						arr[j] = swap;
+					}
+				}
+				arr.shift();
+				sortedArray[i] = min;
+			}
+			return sortedArray;
+		}
+		function indexOfElement(){
+			var array =[2,41,11,8,7,51,5,66,6,101,13];
+			var sorted = document.getElementById("sorted");
+			var unsorted = document.getElementById("unsorted");
+			var result = document.getElementById("result");
+			var element = parseInt(document.getElementById("element").value) | 0;
+			var length = array.length;
+			var sortedArray = selectionSort(array);
+			unsorted.innerText = "[ " + array.join(", ") + " ]";
+			sorted.innerText = "[ " + sortedArray.join(", ") + " ]";
+			var middle, secondMiddle;
+			var middleParity;
+			var rest;
+			var mainRest;
+			var counter = 0;
+			if((length % 2) == 0){
+				middle = (length / 2) - 1;
+				secondMiddle = length / 2;
+				middleParity = 1;
+			}
+			else{
+				middle = (length / 2) | 0;
+				middleParity = 0;
+			}		
+			rest = middle;
+			mainRest = rest;
+			for(var i=0; i<(mainRest + 1); i++){
+				if(middleParity == 1){
+					if(sortedArray[middle] == element){
+						result.innerText = "The index of the element you search is :[ " + (middle + counter) + " ]"; 
+						break;
+					}
+					else if (sortedArray[middle] > element){
+						for(var j=0; j <= rest+1; j++){
+							sortedArray.pop();
+						}
+					}
+					else if (sortedArray[secondMiddle] == element){
+						result.innerText = "The index of the element you search is :[ " + (secondMiddle + counter) + " ]";
+						break;
+					}
+					else if(sortedArray[secondMiddle] < element){
+						for(var j=0; j <= rest+1; j++){
+							counter++;
+							sortedArray.shift();
+						}
+					}
+				}
+				else{
+					if(sortedArray[middle] == element){
+						result.innerText = "The index of the element you search is :[ " + (middle + counter) + " ]"; 
+						break;
+					}
+					else if(sortedArray[middle] > element){
+						for(var j=0; j < rest + 1; j++){
+							sortedArray.pop();
+						}
+					}
+					else{
+						for(var j=0; j < rest + 1; j++){
+							counter++;
+							sortedArray.shift();
+						}
+					}
+				}
+				if((sortedArray.length % 2) == 0){
+					middle = (sortedArray.length / 2) - 1;
+					secondMiddle = sortedArray.length / 2;
+					middleParity = 1;
+				}
+				else{
+					middle = (sortedArray.length / 2) | 0;
+					middleParity = 0;
+				}
+				rest = middle;
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="text">What is the element you want to find the index of?</div>
+	<div id="unsorted"></div>
+	<div id="sorted"></div>
+	<div id="result"></div>
+	<input id="element" type="text"/>
+	<input type="button" value="Find" onclick="indexOfElement()"/>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script>
+		function quadraticEquation(){
+			var a = parseInt(document.getElementById("coefficient_a").value) | 0;
+			var b = parseInt(document.getElementById("coefficient_b").value) | 0;
+			var c = parseInt(document.getElementById("coefficient_c").value) | 0;
+			var result = document.getElementById("result");
+			var discriminant = (Math.pow(b,2) - 4*a*c) | 0;
+			var x1,x2;
+			if(a == 0){
+				result.innerText = "It's not a quadratic equation (a=0)!";
+			}
+			else if(discriminant == 0){
+				x1 = (-b / 2*a) | 0;
+				result.innerText = "There is only one real root and it is: "+ x1;
+			}
+			else if(discriminant < 0){
+				result.innerText = "There aren't real roots!";
+			}
+			else if(discriminant > 0){
+				x1 = ((-b + Math.sqrt(discriminant))/ (2*a));
+				x2 = ((-b - Math.sqrt(discriminant))/ (2*a));
+				result.innerText = "There are two real roots and they are: "+ x1+ " and "+ x2;
+			}
+		}
+	</script>
+</head>
+<body>
+	a = <input type="text" id="coefficient_a"/></br>
+	b = <input type="text" id="coefficient_b"/></br>
+	c = <input type="text" id="coefficient_c"/>
+	<input type="button" onclick="quadraticEquation()" value="Click"/>
+	<div id="result"></div>
+</body>
+</html>

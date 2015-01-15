@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\05.Set\bin\Debug\05.Set.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\05.Set\bin\Debug\05.Set.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\05.Set\bin\Debug\05.Set.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\05.Set\obj\Debug\05.Set.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\05.Set\obj\Debug\05.Set.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\05.Set\obj\Debug\05.Set.pdb

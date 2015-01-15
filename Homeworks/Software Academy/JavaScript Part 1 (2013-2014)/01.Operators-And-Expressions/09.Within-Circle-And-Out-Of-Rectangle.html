@@ -1,0 +1,66 @@
+﻿<!--09. Write an expression that checks for given point (x, y) 
+    if it is within the circle K( (1,1), 3) and out of 
+    the rectangle R(top=1, left=-1, width=6, height=2).-->
+
+<html>
+<head>
+    <title>Check if point is in circle and out of the rectangle</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="pointX">X:</label>
+    <input type="text" name="pointX" id="pointX" />
+    <label for="pointY">Y:</label>
+    <input type="text" name="pointY" id="pointY" />
+    <input type="button" onclick="isInRange()" value="Check">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isInRange() {
+            var x = jsConsole.readInteger("#pointX");
+            var y = jsConsole.readInteger("#pointY");
+
+            var kXCoord = 1;
+            var kYCoord = 1;
+            var kRadius = 3;
+
+            var rectTop = 1;
+            var rectLeft = -1;
+            var rectWidth = 6;
+            var rectHeight = 2;
+
+            var isInCircleRange = false;
+            var isInRectRange = false;
+
+            var distance = Math.sqrt(Math.pow((kXCoord - x), 2) + (Math.pow((kYCoord - y), 2)));
+
+            if (distance <= kRadius) {
+                isInCircleRange = true;
+            }
+
+            if (x >= rectLeft && x <= rectLeft + rectWidth) {
+                if (y <= rectTop && y >= rectTop - rectHeight) {
+                    isInRectRange = true;
+                }
+            }
+
+            if (isInCircleRange) {
+                if (!isInRectRange) {
+                    jsConsole.writeLine("The point (" + x + ", " + y + ") is in the circle k((1, 1), 3) and out of the rectangle!");
+                }
+                else {
+                    jsConsole.writeLine("The point (" + x + ", " + y + ") is in the circle k((1, 1), 3), but NOT out of the rectangle!");
+                }
+            }
+            else {
+                if (!isInRectRange) {
+                    jsConsole.writeLine("The point (" + x + ", " + y + ") is NOT in the circle k((1, 1), 3), but is out of the rectangle!");
+                }
+                else {
+                    jsConsole.writeLine("The point (" + x + ", " + y + ") is NOT in the circle k((1, 1), 3) and is NOT out of the rectangle!");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

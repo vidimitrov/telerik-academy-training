@@ -1,0 +1,30 @@
+*{
+	font-family:Arial;
+}
+.box{
+	background-color:#595959;
+	width:300px;
+}
+.grey-text{
+	color:#ADB3A3;
+}
+.yellow-text{
+	color:#E3E9AB;
+}
+.red-text{
+	color:#C10907;
+	font-size:14px;
+	font-weight:bold;
+}
+.orange-text{
+	color:#CA6A1B;
+	font-size:14px;
+	font-weight:bold;
+}
+.label{
+	color:#EEE6E0;
+	font-style:italic;
+}
+#title{
+	font-size:22px;
+}

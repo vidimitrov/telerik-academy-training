@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>HTML5-Tables-Forms-Frames- Exercise 6</title>
+</head>
+<body>
+	<table  border="1" cellspacing="0" cellpadding="0" bgcolor="#DFE3E8">
+		<tr>
+			<td colspan="6">Drag a column header and drop it herre to group by that column</td>
+		</tr>
+		<tr>
+			<td><label for="productID">Product ID</label></td>
+			<td width="300px"><label for="productName">Product Name</label></td>
+			<td><label for="unitPrice">Unit price</label></td>
+			<td><label for="quantity">Quantity per unit</label></td>
+			<td><label for="units">Units in stock</label></td>
+			<td><label for="check">Discontinued</label></td>
+		</tr>
+		<tr>
+			<td><input type="text" maxlength="3" size="1" id="productID"/></td>
+			<td width="300px"><input type="text" id="productName"/></td>
+			<td>
+				<table>
+					<tr>
+						<td><input type="text" id="unitPrice" size="7"/></td>
+						<td><input type="image" src="upper-button.png" alt="submit"/></td>
+					</tr>
+				</table>
+			</td>
+			<td><input type="text" id="quantity"/></td>
+			<td>
+				<table>
+					<tr>
+						<td><input type="text" id="units" size="7"/></td>
+						<td><input type="image" src="upper-button.png" alt="submit"/></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<input type="checkbox" id="check"/>
+						</td>
+						<td>
+							<input type="image" src="upper-button.png" alt="submit"/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table border="1" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="68px">1</td>
+			<td width="300px">Chai</td>
+			<td width="109px">$18.00</td>
+			<td width="157px">10 boxes x 20 bags</td>
+			<td width="109px">39</td>
+			<td width="78px"><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Chang</td>
+			<td>$19.00</td>
+			<td>24 - 12 oz bottles</td>
+			<td>17</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Anyseed Syrup</td>
+			<td>$10.00</td>
+			<td>12 - 550 ml bottles</td>
+			<td>13</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Chef Anton's Cajun Seasoning</td>
+			<td>$22.00</td>
+			<td>48 - 6 oz jars</td>
+			<td>53</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Chef Anton's Gumbo Mix</td>
+			<td>$21.35</td>
+			<td>36 boxes</td>
+			<td>0</td>
+			<td><input type="checkbox" readonly="readonly" checked="checked"/></td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Grandma's Boysenberry Spread</td>
+			<td>$25.00</td>
+			<td>12 - 8 oz jars</td>
+			<td>120</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Uncle Bob's Organic Dried Pears</td>
+			<td>$30.00</td>
+			<td>12 - 1 lb pkgs.</td>
+			<td>15</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>Northwoods Cranberry Sauce</td>
+			<td>$40.00</td>
+			<td>12 - 12 oz jars</td>
+			<td>6</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>Mishi Kobe Niku</td>
+			<td>$97.00</td>
+			<td>18 - 500 g pkgs.</td>
+			<td>29</td>
+			<td><input type="checkbox" readonly="readonly" checked="checked"/></td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Ikura</td>
+			<td>$31.00</td>
+			<td>12 - 200 ml jars</td>
+			<td>31</td>
+			<td><input type="checkbox" readonly="readonly"/></td>
+		</tr>
+		<tr>
+			<table bgcolor="#DFE3E8">
+				<tr>
+					<td><input type="image" src="begining.png"/></td>
+					<td><input type="image" src="back-button.png"/></td>
+					<td>
+					<table border="1" bordercolor="red" cellspacing="0">
+						<tr>
+							<td>1</td>
+						</tr>
+					</table>
+					</td>
+					<td>2 3 4 5 6 7 8 9 10 ...</td>
+					<td><input type="image" src="next-button.png"/></td>
+					<td><input type="image" src="end.png"/></td>
+					<td>Page size: 
+						<select>
+							<option value="Value1">1</option>
+							<option value="Value2">2</option>
+							<option value="Value3">3</option>
+							<option value="Value4">4</option>
+							<option value="Value5">5</option>
+							<option value="Value6">6</option>
+							<option value="Value7">7</option>
+							<option value="Value8">8</option>
+							<option value="Value9">9</option>
+							<option value="Value10" selected="selected">10</option>
+						</select>
+					</td>
+					<td width="471px" align="right">335104 items in 33511 pages</td>
+				</tr>
+			</table>
+		</tr>
+	</table>
+</body>
+</html>

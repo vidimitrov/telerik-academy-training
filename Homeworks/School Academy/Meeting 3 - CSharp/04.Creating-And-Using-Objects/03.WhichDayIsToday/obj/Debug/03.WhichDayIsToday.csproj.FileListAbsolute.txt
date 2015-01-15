@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\03.WhichDayIsToday\bin\Debug\03.WhichDayIsToday.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\03.WhichDayIsToday\bin\Debug\03.WhichDayIsToday.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\03.WhichDayIsToday\bin\Debug\03.WhichDayIsToday.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\03.WhichDayIsToday\obj\Debug\03.WhichDayIsToday.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\03.WhichDayIsToday\obj\Debug\03.WhichDayIsToday.pdb

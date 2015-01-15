@@ -1,0 +1,9 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\01.Select-Employees-Include.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\01.Select-Employees-Include.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\01.Select-Employees-Include.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\EntityFramework.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\EntityFramework.xml
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\obj\Debug\01.Select-Employees-Include.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-EntityFramework-Performance\01.Select-Employees-Include\obj\Debug\01.Select-Employees-Include.pdb

@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\03. PrintNumbers\bin\Debug\_03.PrintNumbers.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\03. PrintNumbers\bin\Debug\_03.PrintNumbers.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\03. PrintNumbers\bin\Debug\_03.PrintNumbers.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\03. PrintNumbers\obj\Debug\_03.PrintNumbers.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\03. PrintNumbers\obj\Debug\_03.PrintNumbers.pdb

@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Consuming REST API</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="admin-panel">
+        <fieldset id="add-fieldset">
+            <legend>Add student</legend>
+            <span>Name: </span><input type="text" id="student-name"><br>
+            <span>Grade: </span><input type="text" id="student-grade">
+            <button id="add-button">Add</button>
+        </fieldset>
+        <br>
+        <fieldset id="delete-fieldset">
+            <legend>Delete student</legend>
+            <span>ID: </span><input type="text" id="student-id">
+            <button id="delete-button">Delete</button>
+        </fieldset>
+        <br>
+    </div>
+    <div id="students-panel">
+        <h3>Students:</h3>
+        <div id="students-list">
+        </div>
+        <button id="get-all-button">Get all students</button>
+        <div class="clear"></div>
+    </div>
+	<script type="text/javascript" src="libs/q.js"></script>
+    <script type="text/javascript" src="http-methods.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

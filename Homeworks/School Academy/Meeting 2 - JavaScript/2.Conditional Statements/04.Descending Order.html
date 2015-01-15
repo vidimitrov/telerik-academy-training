@@ -1,0 +1,60 @@
+<html>
+<head>
+	<script>
+		function descendingOrder(){
+			var firstNumber = parseInt(document.getElementById("firstNum").value) | 0;
+			var secondNumber = parseInt(document.getElementById("secondNum").value) | 0;
+			var thirdNumber = parseInt(document.getElementById("thirdNum").value) | 0;
+			var result = document.getElementById("result");
+			var max = firstNumber;
+			var min, middle;
+			if(secondNumber > firstNumber){
+				max = secondNumber;
+				if(thirdNumber > secondNumber){
+					max = thirdNumber;
+				}
+			}
+			else if(thirdNumber > firstNumber){
+				max = thirdNumber;
+			}
+			if(thirdNumber != max){
+				if(secondNumber != max){
+					if(thirdNumber > secondNumber){
+						min = secondNumber;
+						middle = thirdNumber;
+					}
+					else{
+						min = thirdNumber;
+						middle = secondNumber;
+					}
+				}
+				else if(thirdNumber > firstNumber){ 
+					min = firstNumber;
+					middle = thirdNumber;
+				}
+				else{
+					min = thirdNumber;
+					middle = firstNumber;
+				}
+			}
+			else if(firstNumber > secondNumber){
+				min = secondNumber;
+				middle = firstNumber;
+			}
+			else{
+				min = firstNumber;
+				middle = secondNumber;
+			}
+			result.value = max+" "+ middle +" "+ min;
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="firstNum"/>
+	<input type="text" id="secondNum"/>
+	<input type="text" id="thirdNum"/></br>
+	<input type="button" onclick="descendingOrder()" value="Arrange in descending order"/> --->
+	<input type="text" id="result"/>
+	
+</body>
+</html>

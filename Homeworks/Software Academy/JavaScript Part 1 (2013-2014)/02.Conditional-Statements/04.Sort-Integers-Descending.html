@@ -1,0 +1,71 @@
+<!--04. Sort 3 real values in descending order using nested if statements.-->
+
+<html>
+<head>
+    <title>Sort three integers</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="firstNumber">First number: </label>
+    <input type="text" id="firstNumber"/>
+    <label for="secondNumber">Second number: </label>
+    <input type="text" id="secondNumber"/>
+    <label for="thirdNumber">Third number: </label>
+    <input type="text" id="thirdNumber"/>
+    <input type="button" onclick="orderBy()" value="Order">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function orderBy() {
+            var firstNum = jsConsole.readInteger("#firstNumber");
+            var secondNum = jsConsole.readInteger("#secondNumber");
+            var thirdNum = jsConsole.readInteger("#thirdNumber");
+            
+            var firstInOrder;
+            var secondInOrder;
+            var thirdInOrder;
+                        
+            if(firstNum < secondNum){
+                if(firstNum < thirdNum){
+                    if(secondNum < thirdNum){
+                        firstInOrder = thirdNum;
+                        secondInOrder = secondNum;
+                        thirdInOrder = firstNum;
+                    }
+                    else{
+                        firstInOrder = secondNum;
+                        secondInOrder = thirdNum;
+                        thirdInOrder = firstNum;
+                    }
+                }
+                else{
+                    firstInOrder = secondNum;
+                    secondInOrder = firstNum;
+                    thirdInOrder = thirdNum;
+                }
+            }
+            else{
+                if(firstNum > thirdNum){
+                    firstInOrder = firstNum;
+                    
+                    if(secondNum < thirdNum){
+                        secondInOrder = thirdNum;
+                        thirdInOrder = secondNum;
+                    }
+                    else{
+                        secondInOrder = secondNum;
+                        thirdInOrder = thirdNum;
+                    }
+                }
+                else{
+                    firstInOrder = thirdNum;
+                    secondInOrder = firstNum;
+                    thirdInOrder = secondNum;
+                }
+            }
+            
+            jsConsole.writeLine("Ordered by descending: " + firstInOrder + ", " + secondInOrder + ", " + thirdInOrder);
+        }
+    </script>
+</body>
+</html>

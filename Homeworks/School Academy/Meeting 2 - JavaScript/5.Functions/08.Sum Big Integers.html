@@ -1,0 +1,73 @@
+<html>
+<head>
+	<script>
+		function representation(string){
+			var string;
+			var outputArray = new Array();
+			for(var i in string){
+				outputArray.unshift(parseInt(string[i])|0);
+			}
+			return outputArray;
+		}
+		function biggerLen(firstLength, secondLength, arr1, arr2){
+			var difference;
+			if(firstLength > secondLength){
+				biggerLength = firstLength;
+				difference = firstLength - secondLength;
+				for(var i=0; i < difference; i++){
+					arr2.push(0);
+				}
+			}
+			else{
+				biggerLength = secondLength;
+				difference = secondLength - firstLength;
+				for(var i=0; i < difference; i++){
+					arr1.push(0);
+				}
+			}
+			return biggerLength;
+		}
+		function sumBigIntegers(){
+			var firstNum = document.getElementById("firstNum").value;
+			var secondNum = document.getElementById("secondNum").value;
+			var result = document.getElementById("result");
+			var repFirstNum = new Array(10000);
+			var repSecondNum = new Array(10000);
+			repFirstNum = representation(firstNum);
+			repSecondNum = representation(secondNum);
+			var firstLen = repFirstNum.length;
+			var secondLen = repSecondNum.length;
+			var biggerLength = biggerLen(firstLen, secondLen, repFirstNum, repSecondNum);
+			var sum = 0;
+			var rest = 0;
+			var sumArray = new Array();
+			for(var i=0; i < biggerLength; i++){
+				sum = repFirstNum[i] + repSecondNum[i] + rest;
+				if(sum > 9){
+						rest = ((sum / 10) % 10) | 0;
+						sumArray.unshift(sum % 10);
+				}
+				else{
+					sumArray.unshift(sum);
+					rest = 0;
+				}
+				if(i == (biggerLength - 1) && (rest > 0)){
+					sumArray.unshift(rest);
+				}
+			}
+			var outputStr = "";
+			for(var i in sumArray){
+				outputStr += sumArray[i];
+			}
+			result.innerText = outputStr;
+		}
+	</script>
+</head>
+<body>
+	<p>Enter the two numbers:</p>
+	<input type="text" id="firstNum"/>
+	<input type="text" id="secondNum"/>
+	<input type="button" value="click" onclick="sumBigIntegers()"/>
+	<p id="result"></p>
+</body>
+</html>

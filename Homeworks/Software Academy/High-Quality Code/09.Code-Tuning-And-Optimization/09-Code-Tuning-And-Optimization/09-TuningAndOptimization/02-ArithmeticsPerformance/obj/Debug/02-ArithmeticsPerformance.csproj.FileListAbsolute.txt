@@ -1,0 +1,1 @@
+D:\Telerik Academy\Homework\Software Academy\High-Quality Code\09.Code-Tuning-And-Optimization\09-Code-Tuning-And-Optimization\09-TuningAndOptimization\02-ArithmeticsPerformance\bin\Debug\02-ArithmeticsPerformance.exe.config

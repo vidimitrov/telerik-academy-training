@@ -1,0 +1,16 @@
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\bin\Release\VideoPlayer.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\bin\Release\VideoPlayer.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\bin\Release\VideoPlayer.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\Controls\VideoPlayer.g.cs
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\MainWindow.g.cs
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\App.g.cs
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer_MarkupCompile.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer_MarkupCompile.lref
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\Controls\VideoPlayer.baml
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\MainWindow.baml
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer.g.resources
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer.Properties.Resources.resources
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer.csproj.GenerateResource.Cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Concepts\VideoPlayer\obj\Release\VideoPlayer.pdb

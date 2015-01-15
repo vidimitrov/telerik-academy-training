@@ -1,0 +1,38 @@
+.container
+    .well4
+        .row
+            .col-md-2
+                span Sort by:
+                select(ng-model="sortBy")
+                    option(value="username", selected="selected") Username
+                    option(value="email") Email
+                    option(value="role") Role
+                    option(value="address") Address
+            .col-md-2
+                button.btn.btn-info(ng-click="sortPage(page, sortBy)") Sort
+        table.table.table-striped.table-hover
+            thead
+                tr
+                    th Username
+                    th Email
+                    th Role
+                    th Address
+                    th Edit User
+                    th Delete User
+            tbody
+                tr(ng-repeat="user in users")
+                    td {{user.local.username}}
+                    td {{user.local.email}}
+                    td {{user.local.role}}
+                    td {{user.local.address}}
+                    td
+                        a(href="#/admin/users/edit/{{user._id}}") Edit
+                    td
+                        a(href="#/admin/users/delete/{{user._id}}") DELETE
+        .row
+            .col-md-1.col-lg-offset-9
+                button.btn.btn-info(ng-click="previousPage()") <<
+            .col-md-1
+                input.form-control(type="text", value="{{page}}")
+            .col-md-1
+                button.btn.btn-info(ng-click="nextPage()") >>

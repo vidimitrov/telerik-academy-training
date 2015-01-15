@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\01.SumAndAverageOfElements\bin\Debug\01.SumAndAverageOfElements.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\01.SumAndAverageOfElements\bin\Debug\01.SumAndAverageOfElements.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\01.SumAndAverageOfElements\bin\Debug\01.SumAndAverageOfElements.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\01.SumAndAverageOfElements\obj\Debug\01.SumAndAverageOfElements.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\01.SumAndAverageOfElements\obj\Debug\01.SumAndAverageOfElements.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\01.SumAndAverageOfElements\obj\Debug\01.SumAndAverageOfElements.pdb

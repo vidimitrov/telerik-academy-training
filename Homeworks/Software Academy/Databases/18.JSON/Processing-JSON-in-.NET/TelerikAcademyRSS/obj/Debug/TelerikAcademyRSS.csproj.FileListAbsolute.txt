@@ -1,0 +1,8 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\bin\Debug\TelerikAcademyRSS.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\obj\Debug\TelerikAcademyRSS.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\bin\Debug\TelerikAcademyRSS.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\bin\Debug\TelerikAcademyRSS.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\bin\Debug\Newtonsoft.Json.dll
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\bin\Debug\Newtonsoft.Json.xml
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\obj\Debug\TelerikAcademyRSS.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Processing-JSON-in-.NET\TelerikAcademyRSS\obj\Debug\TelerikAcademyRSS.pdb

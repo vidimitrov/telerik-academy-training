@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\02.Reverse-Integers\bin\Debug\02.Reverse-Integers.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\02.Reverse-Integers\bin\Debug\02.Reverse-Integers.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\02.Reverse-Integers\bin\Debug\02.Reverse-Integers.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\02.Reverse-Integers\obj\Debug\02.Reverse-Integers.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\02.Reverse-Integers\obj\Debug\02.Reverse-Integers.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\02.Reverse-Integers\obj\Debug\02.Reverse-Integers.pdb

@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script>
+		var Human = function(hname, hgender, haddress, htel){
+			var self=this;
+			self.name = hname;
+			self.gender = hgender;
+			self.address = haddress;
+			self.tel = htel;
+			self.toString = function(){
+				return "Hi, I am " + self.name + ".\nMy gender is '" + self.gender + "'.\nI come from '" + self.address + "'.\n My number is " + self.tel;
+			}
+			return self;
+		}
+		function introducingHuman(){
+			var	inputName = document.getElementById("name").value;
+			var inputGender = document.getElementById("gender").value;
+			var	inputAddress = document.getElementById("address").value;
+			var	inputTel = document.getElementById("tel").value;
+			var result = document.getElementById("result");
+			result.innerText = Human(inputName, inputGender, inputAddress, inputTel);
+		}
+	</script>
+</head>
+		Name: <input type="text" id="name" required="required"/></br>
+		Gender: <input type="text" id="gender" required="required"/></br>
+		Address: <input type="text" id="address" required="required"/></br>
+		Tel. number:<input type="text" id="tel" required="required"/></br>
+		<input type="button" value="click" onclick="introducingHuman()"/>
+		<p id="result"></p>
+</body>
+</html>

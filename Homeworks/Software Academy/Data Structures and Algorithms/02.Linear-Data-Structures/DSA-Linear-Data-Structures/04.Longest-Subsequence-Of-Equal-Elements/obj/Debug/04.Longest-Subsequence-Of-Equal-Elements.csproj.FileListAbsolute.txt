@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\04.Longest-Subsequence-Of-Equal-Elements\bin\Debug\04.Longest-Subsequence-Of-Equal-Elements.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\04.Longest-Subsequence-Of-Equal-Elements\bin\Debug\04.Longest-Subsequence-Of-Equal-Elements.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\04.Longest-Subsequence-Of-Equal-Elements\bin\Debug\04.Longest-Subsequence-Of-Equal-Elements.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\04.Longest-Subsequence-Of-Equal-Elements\obj\Debug\04.Longest-Subsequence-Of-Equal-Elements.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\04.Longest-Subsequence-Of-Equal-Elements\obj\Debug\04.Longest-Subsequence-Of-Equal-Elements.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\04.Longest-Subsequence-Of-Equal-Elements\obj\Debug\04.Longest-Subsequence-Of-Equal-Elements.pdb

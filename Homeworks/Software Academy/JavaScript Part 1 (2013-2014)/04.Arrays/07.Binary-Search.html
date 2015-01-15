@@ -1,0 +1,53 @@
+<!--07. Write a program that finds the index of given element
+        in a sorted array of integers by using the binary search algorithm.-->
+        
+<html>
+    <head>
+        <title>Binary search</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <label for="searchFor">Search: </label>
+        <input type="text" id="searchFor">
+        <input type="button" onclick="binarySearch()" value="Find">
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            function orderBy(a, b){
+	            return (a == b) ? 0 : (a > b) ? 1 : -1;
+            };
+
+            function binarySearch() {
+                var sequence = [8, 3, 2, 1, 12, 4, 0, 9, 5, 21, 44, 28, 10, 71, -7, 77, 61];
+                
+                sequence.sort(orderBy);
+                
+                jsConsole.writeLine("Sequence: [" + sequence + "]");
+                
+                var wantedElement = jsConsole.readInteger("#searchFor");
+                
+                var min = 0;
+                var max = sequence.length - 1;
+
+                while (min <= max)
+                {
+                    var mid = parseInt((min + max) / 2);
+
+                    if (sequence[mid] == wantedElement)
+                    {
+                        jsConsole.writeLine("The index of the element is " + mid);
+                        break;
+                    }
+                    else if (wantedElement < sequence[mid])
+                    {
+                        max = mid - 1;
+                    }
+                    else
+                    {
+                        min = mid + 1;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

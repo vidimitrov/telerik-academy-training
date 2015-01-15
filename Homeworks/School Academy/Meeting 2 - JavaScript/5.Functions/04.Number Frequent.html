@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script>
+		function frequence(arr,num){
+			var count = 0;
+			for(var i in arr){
+				if(arr[i] == num){
+					count++;
+				}
+			}
+			return count;
+		}
+		function numberFrequent(){
+			var number = parseInt(document.getElementById("number").value) | 0;
+			var result = document.getElementById("result");
+			var array = [2,41,233,2,44,1,2,2,12,44,5];
+			result.innerText ="The number you entered occurs ( "+frequence(array, number)+" ) time/s in the array : [ "+ array.join(", ") +" ]";
+		}
+	</script>
+</head>
+<body>
+	Number:<input type="text" id="number"/>
+	<input type="button" value="click" onclick="numberFrequent()"/>
+	<p id="result"></p>
+</body>
+</html>

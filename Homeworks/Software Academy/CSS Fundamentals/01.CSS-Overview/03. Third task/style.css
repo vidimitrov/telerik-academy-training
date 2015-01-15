@@ -1,0 +1,42 @@
+body{
+    background-color: #A9A9A9;
+}
+
+h1, h2{
+    color: #FAFAD2;
+}
+
+body > header h1{
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li:nth-child(2) a{
+    background-color: #D3D3D3;
+}
+
+nav ul li:nth-child(4) a{
+    text-decoration: underline;
+}
+
+nav a{
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body > footer{
+    text-align: center;
+}

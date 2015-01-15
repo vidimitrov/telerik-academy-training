@@ -1,0 +1,15 @@
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.exe.config
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.csprojResolveAssemblyReference.cache
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.exe
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.pdb
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.exe
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\05.MaximalIncreasingSequence\bin\Debug\05.MaximalIncreasingSequence.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\05.MaximalIncreasingSequence\obj\Debug\05.MaximalIncreasingSequence.pdb

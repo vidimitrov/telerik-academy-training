@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-03-20 16:58+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Chinese, China\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../init.php ../../boxes.php
+msgid "Boxes Lite"
+msgstr "盒精简版"
+
+#: ../../boxes.php
+msgid "Boxes Lite Element"
+msgstr "盒精简版元素"
+
+#: ../../boxes.php
+msgid "Box Image"
+msgstr "盒装图片"
+
+#: ../../boxes.php
+msgid "Box URL"
+msgstr "盒URL"
+
+#: ../../boxes.php
+msgid "Box Text"
+msgstr "框文本"
+
+#: ../../boxes.php
+msgid "Responsive iFeature Slider"
+msgstr "响应iFeature的滑块"
+
+#: ../../boxes.php
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr "新的触摸友好的iFeature的5滑块任何移动触摸设备。"
+
+#: ../../boxes.php
+msgid "Responsive Design"
+msgstr "响应设计"
+
+#: ../../boxes.php
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"iFeature的Pro 5和触摸友好的响应设计，现在你可以控制你的网站在任何设备上。"
+
+#: ../../boxes.php
+msgid "Excellent Support"
+msgstr "出色的支持"
+
+#: ../../boxes.php
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr "需要帮助吗？阅读说明，请访问我们的专门Pro产品论坛"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "投资组合精简版"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "发表页"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "滑块精简版"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitter的酒吧"
+
+#: ../../init.php
+msgid "Page"
+msgstr "页"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "没有要显示的鸣叫"
+
+#: ../../twitter-bar.php
+msgid "Invalid Response"
+msgstr "无效的响应"

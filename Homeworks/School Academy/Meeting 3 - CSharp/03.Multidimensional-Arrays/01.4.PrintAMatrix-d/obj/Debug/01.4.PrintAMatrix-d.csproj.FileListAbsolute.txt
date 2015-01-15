@@ -1,0 +1,6 @@
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.4.PrintAMatrix-d\bin\Debug\01.4.PrintAMatrix-d.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.4.PrintAMatrix-d\bin\Debug\01.4.PrintAMatrix-d.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.4.PrintAMatrix-d\bin\Debug\01.4.PrintAMatrix-d.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.4.PrintAMatrix-d\obj\Debug\01.4.PrintAMatrix-d.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.4.PrintAMatrix-d\obj\Debug\01.4.PrintAMatrix-d.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.4.PrintAMatrix-d\obj\Debug\01.4.PrintAMatrix-d.pdb

@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\02.ReversingIntegers\bin\Debug\02.ReversingIntegers.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\02.ReversingIntegers\bin\Debug\02.ReversingIntegers.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\02.ReversingIntegers\bin\Debug\02.ReversingIntegers.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\02.ReversingIntegers\obj\Debug\02.ReversingIntegers.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\02.ReversingIntegers\obj\Debug\02.ReversingIntegers.pdb

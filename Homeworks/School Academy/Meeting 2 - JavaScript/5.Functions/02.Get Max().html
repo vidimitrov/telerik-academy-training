@@ -1,0 +1,31 @@
+<html>
+<head>
+	<script>
+		function getMax(firstNumber, secondNumber){
+			var bigger = firstNumber;
+			if(secondNumber > firstNumber){
+				bigger = secondNumber;
+			}
+			return bigger;
+		}
+		function biggestOfThreeNumbers(){
+			var numbers = new Array(3);
+			for(var i=0; i < numbers.length; i++){
+				numbers[i] = parseInt(prompt("Number:")) |0;
+				console.log("iter");
+			}
+			//console.log(numbers.join(", "));
+			var result = document.getElementById("result");
+			var max = getMax(numbers[0], numbers[1]);
+			if(numbers[2] > max){
+				max = numbers[2];
+			}
+			result.innerText = "The biggest of ( " + numbers.join(", ") + ") is: " + max;
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="getMax()" onclick="biggestOfThreeNumbers()"/>
+	<p id="result"></p>
+</body>
+</html>

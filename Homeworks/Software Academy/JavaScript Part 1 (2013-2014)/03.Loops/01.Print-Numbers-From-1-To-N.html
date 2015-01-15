@@ -1,0 +1,27 @@
+<!--01. Write a script that prints all the numbers from 1 to N.-->
+
+<html>
+<head>
+    <title>Print numbers from 1 to N</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="number">N: </label>
+    <input type="text" id="number"/>
+    <input type="button" onclick="printNumbers()" value="Examine">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function printNumbers() {
+            var n = jsConsole.readInteger("#number");
+                        
+            var i;
+            for (i = 1; i <= n; i++) {
+                jsConsole.write(i + " ");   
+            }
+            
+            jsConsole.writeLine("");
+        }
+    </script>
+</body>
+</html>

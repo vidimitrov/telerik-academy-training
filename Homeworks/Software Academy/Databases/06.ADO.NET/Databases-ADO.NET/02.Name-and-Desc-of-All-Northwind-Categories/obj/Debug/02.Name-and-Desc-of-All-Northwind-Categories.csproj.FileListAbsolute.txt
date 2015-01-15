@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\02.Name-and-Desc-of-All-Northwind-Categories\bin\Debug\02.Name-and-Desc-of-All-Northwind-Categories.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\02.Name-and-Desc-of-All-Northwind-Categories\bin\Debug\02.Name-and-Desc-of-All-Northwind-Categories.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\02.Name-and-Desc-of-All-Northwind-Categories\bin\Debug\02.Name-and-Desc-of-All-Northwind-Categories.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\02.Name-and-Desc-of-All-Northwind-Categories\obj\Debug\02.Name-and-Desc-of-All-Northwind-Categories.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\02.Name-and-Desc-of-All-Northwind-Categories\obj\Debug\02.Name-and-Desc-of-All-Northwind-Categories.pdb
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\02.Name-and-Desc-of-All-Northwind-Categories\obj\Debug\02.Name-and-Desc-of-All-Northwind-Categories.csprojResolveAssemblyReference.cache

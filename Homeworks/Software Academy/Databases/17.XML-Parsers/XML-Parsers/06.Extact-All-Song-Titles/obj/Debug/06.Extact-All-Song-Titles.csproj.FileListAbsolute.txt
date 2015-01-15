@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\06.Extact-All-Song-Titles\bin\Debug\06.Extact-All-Song-Titles.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\06.Extact-All-Song-Titles\bin\Debug\06.Extact-All-Song-Titles.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\06.Extact-All-Song-Titles\bin\Debug\06.Extact-All-Song-Titles.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\06.Extact-All-Song-Titles\obj\Debug\06.Extact-All-Song-Titles.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\06.Extact-All-Song-Titles\obj\Debug\06.Extact-All-Song-Titles.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\06.Extact-All-Song-Titles\obj\Debug\06.Extact-All-Song-Titles.csprojResolveAssemblyReference.cache

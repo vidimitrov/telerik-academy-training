@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script>
+		//var array =[4,1,5,2,3,7,8,9];
+		//var result = document.getElementById("result"); --------- probvai da gi deklarira6 kato globalni promenlivi i za dvete funkcii
+		function load(){
+			var array =[101,9,2,1,515,3,7,8,4,6,12,22,33,41,42,43];
+			var result = document.getElementById("result");
+			result.innerText = "[ " + array.join(", ")+ " ]\n";
+		}
+		function selectionSort(){
+			var array =[101,9,2,1,515,3,7,8,4,6,12,22,33,41,42,43];
+			var length = array.length;
+			var sortedArray = new Array(length);
+			var min;
+			var swap;
+			for(var i=0; i < length; i++){			
+				min = array[0];
+				for(var j=0; j < length; j++){
+					if(array[j] < min){
+						min = array[j];
+						swap = array[0];
+						array[0] = array[j];
+						array[j] = swap;
+					}
+				}
+				array.shift();
+				sortedArray[i] = min;
+			}
+			result.innerText = "[ " + sortedArray.join(", ")+ " ]";
+		}
+	</script>
+</head>
+<body onload="load()">
+	<div id="result"></div>
+	<input type="button" value="Sort" onclick="selectionSort()"/>
+</body>
+</html>

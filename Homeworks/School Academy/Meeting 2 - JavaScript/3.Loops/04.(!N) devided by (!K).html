@@ -1,0 +1,35 @@
+<html>
+<head>
+	<script>
+		function factorielExpression(){
+			var n = parseInt(document.getElementById("n").value) | 0;
+			var k = parseInt(document.getElementById("k").value) | 0;
+			var displayResult = document.getElementById("displayResult");
+			var nFact = 1, kFact = 1;
+			if((k < n) || (n < 1) ||(k < 1)){
+				displayResult.innerText = "The input values must be in the relation: (1 < n < k)";
+			}
+			else{
+				while(n > 1){
+					nFact *= n;
+					n--;
+				}
+				while(k > 1){
+					kFact *= k;
+					k--;
+				}
+				var result = nFact / kFact;
+				console.log(nFact);
+				console.log(kFact);
+				displayResult.innerText = "The expression !N/!K = " + result;
+			}
+		}
+	</script>
+</head>
+<body>
+	N = <input type="text" id="n"/></br>
+	K = <input type="text" id="k"/></br>
+	<input type="button" value="!N / !K" onclick="factorielExpression()"/>                       
+	<div id="displayResult"></div>
+</body>
+</html>

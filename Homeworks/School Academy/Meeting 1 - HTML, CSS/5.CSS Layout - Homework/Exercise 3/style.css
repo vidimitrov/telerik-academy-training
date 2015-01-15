@@ -1,0 +1,57 @@
+#login-form{
+	background-color:#3B3B3B;
+	height:275px;
+	width:661px;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid #806850;
+}
+#header{
+	height:53px;
+	background:url("images/header-line.png") center bottom no-repeat;
+}
+#icon-left{
+	width:37px;
+	height:43px;
+	float:left;
+	margin-right:20px;
+	background-image:url("images/monitor.png");
+}
+#info{
+	padding-right:69px;
+}
+h1{
+	color:#FCD61D;
+	font-size:40px;
+	font-weight:lighter;
+	margin:15px 0px;
+}
+p{
+	margin:0px;
+	color:#A1A1A1;
+	font-family:Arial;
+	font-size:14px;
+}
+p span{
+	color:#FFFFFF;
+}
+label{
+	color:#FFFFFF;
+	font:bold 20px Georgia;
+	position:relative;
+	top:3px;
+}
+input{
+	margin-left:16px;
+}
+input:nth-of-type(1), input:nth-of-type(2){
+	padding:0px 0px 4px 9px;
+}
+input:nth-of-type(3){
+	background:url("images/go.png") no-repeat;
+	cursor:pointer;
+	width:56px;
+	height:28px;
+	border:none;
+}

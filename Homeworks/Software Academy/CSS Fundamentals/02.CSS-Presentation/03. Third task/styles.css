@@ -1,0 +1,15 @@
+.holder{
+    height: 60px;
+}
+
+.styled-div{
+    border-radius: 50px;
+    border: 1px solid red;
+    background-color: black;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.full-height{
+    height: 100%;
+}

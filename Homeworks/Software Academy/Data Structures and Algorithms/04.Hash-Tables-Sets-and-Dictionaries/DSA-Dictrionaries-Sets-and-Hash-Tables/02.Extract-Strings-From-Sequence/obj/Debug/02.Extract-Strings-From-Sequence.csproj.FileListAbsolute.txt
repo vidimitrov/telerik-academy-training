@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\02.Extract-Strings-From-Sequence\bin\Debug\02.Extract-Strings-From-Sequence.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\02.Extract-Strings-From-Sequence\bin\Debug\02.Extract-Strings-From-Sequence.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\02.Extract-Strings-From-Sequence\bin\Debug\02.Extract-Strings-From-Sequence.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\02.Extract-Strings-From-Sequence\obj\Debug\02.Extract-Strings-From-Sequence.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\02.Extract-Strings-From-Sequence\obj\Debug\02.Extract-Strings-From-Sequence.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\02.Extract-Strings-From-Sequence\obj\Debug\02.Extract-Strings-From-Sequence.csprojResolveAssemblyReference.cache

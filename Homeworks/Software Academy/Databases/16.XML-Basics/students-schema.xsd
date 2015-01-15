@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student" maxOccurs="unbounded"/>
+          <xs:element ref="name" maxOccurs="1"/>
+          <xs:element ref="sex" maxOccurs="1"/>
+          <xs:element ref="birth-date" maxOccurs="1"/>
+          <xs:element ref="phone" maxOccurs="1"/>
+          <xs:element ref="email" maxOccurs="1"/>
+          <xs:element ref="course" maxOccurs="1"/>
+          <xs:element ref="specialty" maxOccurs="1"/>
+          <xs:element ref="faculty-number" maxOccurs="1"/>
+          <xs:element ref="exams" maxOccurs="1"/>
+            <xs:element ref="exam-name" maxOccurs="1"/>
+            <xs:element ref="tutor" maxOccurs="1"/>
+            <xs:element ref="score" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="student" type="xs:ENTITY"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="sex" type="xs:string"/>
+  <xs:element name="birth-date" type="xs:dateTime"/>
+  <xs:element name="phone" type="xs:string"/>
+  <xs:element name="email" type="xs:anyURI"/>
+  <xs:element name="course" type="xs:ENTITY"/>
+  <xs:element name="specialty" type="xs:string"/>
+  <xs:element name="faculty-number" type="xs:string"/>
+  <xs:element name="exams" type="xs:ENTITIES"/>
+  <xs:element name="exam-name" type="xs:string"/>
+  <xs:element name="tutor" type="xs:string"/>
+  <xs:element name="score" type="xs:decimal"/>
+</xs:schema>

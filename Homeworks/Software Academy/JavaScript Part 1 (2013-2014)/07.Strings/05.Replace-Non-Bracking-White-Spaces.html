@@ -1,0 +1,21 @@
+<!--05. Write a function that replaces non breaking white-spaces in a text with &nbsp;-->
+
+<html>
+<head>
+    <title>Replacing non breaking white-spaces</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var nbsp = String.fromCharCode(160);
+        
+        var text = 'Hello,' + nbsp + 'how' + nbsp + 'are' + nbsp + 'you?';
+        
+        text = text.split(nbsp).join('&nbsp');
+        
+        console.log(text);
+    </script>
+</body>
+</html>

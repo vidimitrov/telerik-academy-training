@@ -1,0 +1,30 @@
+<!--02. Write a script that prints all the numbers from 1 to N,
+        that are not divisible by 3 and 7 at the same time.-->
+
+<html>
+<head>
+    <title>Print numbers from 1 to N - divisible by 3 and 7</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="number">N: </label>
+    <input type="text" id="number"/>
+    <input type="button" onclick="printNumbers()" value="Examine">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function printNumbers() {
+            var n = jsConsole.readInteger("#number");
+                        
+            var i;
+            for (i = 1; i <= n; i++) {
+                if((i % 3 == 0) && (i % 7 == 0)){
+                    jsConsole.write(i + " ");
+                } 
+            }
+            
+            jsConsole.writeLine("");
+        }
+    </script>
+</body>
+</html>

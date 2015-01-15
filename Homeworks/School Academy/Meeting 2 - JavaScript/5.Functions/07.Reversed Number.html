@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script>
+		function reverse(num){
+			var reversedNum = new Array();
+			var reversedStr = "";
+			for(var i in num){
+				reversedNum[i] = num[i];
+			}
+			reversedNum.reverse();
+			for(var i in reversedNum){
+				reversedStr += reversedNum[i];
+			}
+			return reversedStr;
+		}
+		function reversedNumber(){
+			var number = document.getElementById("number").value;
+			var result = document.getElementById("result");
+			result.innerText ="Reversed: " + reverse(number);
+		}
+	</script>
+</head>
+<body>
+	<p>Enter the number you want to reverse:</p>
+	<input type="text" id="number"/>
+	<input type="button" value="click" onclick="reversedNumber()"/>
+	<p id="result"></p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\05.Remove-Negatives\bin\Debug\05.Remove-Negatives.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\05.Remove-Negatives\bin\Debug\05.Remove-Negatives.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\05.Remove-Negatives\bin\Debug\05.Remove-Negatives.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\05.Remove-Negatives\obj\Debug\05.Remove-Negatives.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\05.Remove-Negatives\obj\Debug\05.Remove-Negatives.pdb
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\05.Remove-Negatives\obj\Debug\05.Remove-Negatives.csprojResolveAssemblyReference.cache

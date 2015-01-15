@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript">
+	function checkOddEven(){
+		var number = (parseInt(document.getElementById("inputValue").value)) | 0;
+		console.log(number);
+		var result = document.getElementById("result");
+		(number % 2 == 0) ? result.value = "Even" : result.value = "Odd";
+		}
+</script>
+</head>
+<body>
+	<input type="text" id="inputValue"/></br>
+	<input type="button" onclick="checkOddEven()" value="Check"/>
+	<input type="text" id="result"/>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#main{
+    width: 500px;
+}
+
+body{
+    font-family: Consolas;
+    color: #0094FF;
+    font-size: 14px;
+}
+
+.diff-text{
+    font-weight: bold;
+    display: block;
+}
+
+.diff-text:first-letter{
+    font-family: Edwardian Script ITC;
+    font-size: 2em;
+}

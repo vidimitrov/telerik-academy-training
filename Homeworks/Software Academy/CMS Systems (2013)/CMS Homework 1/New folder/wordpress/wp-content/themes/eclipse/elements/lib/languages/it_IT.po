@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-03-20 16:58+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Italian, Italy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../init.php ../../boxes.php
+msgid "Boxes Lite"
+msgstr "Scatole Lite"
+
+#: ../../boxes.php
+msgid "Boxes Lite Element"
+msgstr "Scatole Lite Elemento"
+
+#: ../../boxes.php
+msgid "Box Image"
+msgstr "Box Immagine"
+
+#: ../../boxes.php
+msgid "Box URL"
+msgstr "Casella URL"
+
+#: ../../boxes.php
+msgid "Box Text"
+msgstr "Casella di testo"
+
+#: ../../boxes.php
+msgid "Responsive iFeature Slider"
+msgstr "Reattivo iFeature Slider"
+
+#: ../../boxes.php
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"Il nuovo Touch Screen iFeature 5 Slider ora risponde a qualsiasi dispositivo "
+"cellulare touch."
+
+#: ../../boxes.php
+msgid "Responsive Design"
+msgstr "Progettazione Responsive"
+
+#: ../../boxes.php
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"Con iFeature progettazione Pro 5 e il tatto amichevole reattivo è ora "
+"possibile controllare il vostro sito web su qualsiasi dispositivo."
+
+#: ../../boxes.php
+msgid "Excellent Support"
+msgstr "L'eccellente assistenza"
+
+#: ../../boxes.php
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"Hai bisogno di aiuto? Leggere le istruzioni e si prega di visitare il nostro "
+"Forum di supporto dedicato Pro"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Portfolio Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Invia Pagina"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Cursore Lite"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Pagina"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "No tweets da visualizzare"
+
+#: ../../twitter-bar.php
+msgid "Invalid Response"
+msgstr "Risposta non valida"

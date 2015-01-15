@@ -1,0 +1,62 @@
+<!--04. Write a function that checks if a given object contains a given property.
+        var obj  = …;
+        var hasProp = hasProperty(obj,"length");
+        -->
+
+<html>
+    <head>
+        <title>Is given object contains property</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            var computer = {
+                brand: "Asus",
+                model: "A55A",
+                cpu: "i3 Ivy Bridge",
+                cpuFrequency: 2.4,
+                ram: 4,
+                video: "Integrated"
+            };
+            
+            var videoProp = "video";
+            var fanProp = "fan";
+            
+            var hasVideoProp = hasProperty(computer, videoProp);
+            var hasFanProp = hasProperty(computer, fanProp);
+            
+            jsConsole.writeLine("Computer object:");
+            printObject(computer, "--");
+            
+            jsConsole.writeLine("");
+            jsConsole.writeLine("Has property: " + videoProp + " ? " + hasVideoProp);
+            jsConsole.writeLine("Has property: " + fanProp + " ? " + hasFanProp);
+            
+            function hasProperty(obj, prop) {
+                var objProperties = Object.getOwnPropertyNames(obj);
+                
+                for(var i in objProperties){
+                    if(objProperties[i] == prop){
+                        return true;
+                    }
+                }
+                
+                return false;
+            }
+            
+            function printObject(obj, str){
+                for(var prop in obj){
+                    if(typeof obj[prop] === "object"){
+                        jsConsole.writeLine(str + prop + ": ");
+                        printObject(obj[prop], str + "--");
+                    }
+                    else{
+                        jsConsole.writeLine(str + prop + ": " + obj[prop]);
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

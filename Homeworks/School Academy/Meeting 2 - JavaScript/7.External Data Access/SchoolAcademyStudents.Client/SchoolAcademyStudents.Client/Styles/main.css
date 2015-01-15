@@ -1,0 +1,82 @@
+﻿fieldset, div, h1, ul, li, span, a, input {
+    margin: 0;
+    padding: 0;
+}
+
+
+#add-student-fieldset {
+    width: 600px;
+    padding: 5px;
+}
+
+    #add-student-fieldset #new-marks-list {
+        list-style-type: none;
+    }
+
+#students-info {
+    width: 600px;
+}
+
+    #students-info::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+#students-fieldset {
+    padding: 5px;
+    float: left;
+    width: 45%;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+    #students-fieldset .students-list {
+        list-style-type: none;
+    }
+
+
+        #students-fieldset .students-list a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            margin: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-bottom:1px solid darkgray;
+            border-top:1px solid darkgray
+        }
+
+            #students-fieldset .students-list a:hover {
+                text-decoration: underline;
+                background-color: lightgray;
+            }
+
+            #students-fieldset .students-list a.selected {
+                text-decoration: underline;
+            }
+
+    #students-fieldset #students-container {
+        height: 100%;
+        overflow: auto;
+    }
+
+
+
+#student-details-fieldset {
+    padding: 5px;
+    float: right;
+    width: 45%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+    #student-details-fieldset #student-details-container ul {
+        list-style-type: none;
+    }
+
+        #student-details-fieldset #student-details-container ul li {
+            border-bottom:1px solid darkgray;
+        }

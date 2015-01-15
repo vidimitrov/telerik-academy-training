@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-03-20 16:58+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Indonesian, Indonesia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../init.php ../../boxes.php
+msgid "Boxes Lite"
+msgstr "Kotak Lite"
+
+#: ../../boxes.php
+msgid "Boxes Lite Element"
+msgstr "Kotak Lite Elemen"
+
+#: ../../boxes.php
+msgid "Box Image"
+msgstr "Kotak Gambar"
+
+#: ../../boxes.php
+msgid "Box URL"
+msgstr "Kotak URL"
+
+#: ../../boxes.php
+msgid "Box Text"
+msgstr "Text Box"
+
+#: ../../boxes.php
+msgid "Responsive iFeature Slider"
+msgstr "Responsif iFeature Slider"
+
+#: ../../boxes.php
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"Touch Ramah New iFeature 5 Slider saat menanggapi setiap perangkat sentuh "
+"ponsel."
+
+#: ../../boxes.php
+msgid "Responsive Design"
+msgstr "Responsif Desain"
+
+#: ../../boxes.php
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"Dengan desain yang ramah iFeature Pro 5 dan sentuhan responsif kini Anda "
+"dapat mengontrol website Anda pada perangkat apapun."
+
+#: ../../boxes.php
+msgid "Excellent Support"
+msgstr "Luar Dukungan"
+
+#: ../../boxes.php
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"Butuh bantuan? Baca instruksi dan silahkan kunjungi Forum Dukungan "
+"berdedikasi Pro kami"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Portofolio Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Posting Halaman"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Dance"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "Tidak ada tweet untuk menampilkan"
+
+#: ../../twitter-bar.php
+msgid "Invalid Response"
+msgstr "Respon tidak valid"

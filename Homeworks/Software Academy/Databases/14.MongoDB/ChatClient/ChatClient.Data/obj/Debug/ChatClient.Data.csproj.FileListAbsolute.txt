@@ -1,0 +1,9 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\obj\Debug\ChatClient.Data.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\bin\Debug\ChatClient.Data.dll
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\bin\Debug\ChatClient.Data.pdb
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\obj\Debug\ChatClient.Data.dll
+C:\Users\vesel_000\documents\visual studio 2013\Projects\ChatClient\ChatClient.Data\obj\Debug\ChatClient.Data.pdb

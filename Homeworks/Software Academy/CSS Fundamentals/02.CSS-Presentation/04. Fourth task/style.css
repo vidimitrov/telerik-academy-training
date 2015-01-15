@@ -1,0 +1,203 @@
+#border{
+	background-image:url("images/top-left.png"), url("images/top-right.png"), url("images/left.png"), url("images/right.png"), url("images/bottom.png"), url("images/top.png");
+	background-position:top left, top right, bottom left, bottom right, bottom center, 87px 0px;
+	background-repeat:no-repeat;
+	height: 363px;
+	width:412px;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+#calculator{
+	width:400px;
+	height:329px;
+	border:1px solid #5C6A79;
+	font-family:Sans-serif;
+	font-size:12px;
+	position: relative;
+	top: 27px;
+	left: 5px;
+}
+#main{
+	padding:5px;
+	background:#D9E4F1 url("images/main-tile.png") 0 0 repeat-x;
+}
+#top-buttons div{
+	position:relative;
+	top:0px;
+	right:5px;
+	width:105px;
+	float:right;
+}
+#top-buttons input{
+	border:none;
+	margin:0px;
+	float:left;
+	padding:0px;
+	cursor:pointer;
+}
+#top-buttons input:nth-of-type(1){
+	background-image:url("images/minimize-button.png");
+	width:29px;
+	height:20px;
+}
+#top-buttons input:nth-of-type(2){
+	background-image:url("images/maximize-button.png");
+	width:27px;
+	height:20px;
+}
+#top-buttons input:nth-of-type(3){
+	background-image:url("images/x-button.png");
+	width:49px;
+	height:20px;
+}
+#result-box{
+	text-align:right;
+	width:379px;
+	height:40px;
+	margin:5px;
+	padding:5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	border:1px solid #8E9CAD;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	box-shadow: inset 0px 0px 0px 1px white;
+	-moz-box-shadow: inset 0px 0px 0px 1px white;
+	-webkit-box-shadow: inset 0px 0px 0px 1px white;
+	background:	-webkit-linear-gradient(top, #E6EFFB, #FEFFFF);
+	background: -moz-linear-gradient(top, #E6EFFB, #FEFFFF);
+	background: -ms-linear-gradient(top, #E6EFFB, #FEFFFF);
+	background: -o-linear-gradient(top, #E6EFFB, #FEFFFF);
+}
+#result-box span{
+	font:20px Verdana;
+	color: #1B2024;
+	position:relative;
+	top:5px;
+}
+#binary-num{
+	width:379px;
+	height:63px;	
+	margin:5px;
+	padding:3px 5px 5px;
+	font-size:11px;
+	border:1px solid #8696AA;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-shadow: inset 0px 0px 0px 1px white;
+	-moz-box-shadow: inset 0px 0px 0px 1px white;
+	-webkit-box-shadow: inset 0px 0px 0px 1px white;
+	border-radius:2px;
+	-moz-border-radius:2px;
+}
+#binary-num div:last-of-type{
+	margin-left:20px;
+}
+#binary-num li{
+	margin-left:25px;
+}
+#binary-num li:first-of-type{
+	margin-left:0px;
+}
+#binary-num span{
+	color:#666666;
+}
+.border{
+	border:1px solid #8696AA;
+}
+.left{
+	float:left;
+}
+.left .border{
+	margin:0px 5px 5px 5px;
+	padding:4px 18px 4px 4px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+}
+.right{
+	float:right;
+}
+#pad{
+	width: 293px;
+	padding-right: 6px;
+}
+.clear{
+	clear:both;
+	height:0px;
+	margin:0px;
+	padding:0px;
+}
+#navigation{
+	background:#D9E4F1 url("images/nav-tile.png") 0 0 repeat-x;
+	height:18px;
+	border-bottom:1px solid #B6BCCC;
+}
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding: 0px;
+}
+li{
+	float:left;
+}
+#navigation li{
+	margin:2px 4px;
+}
+#navigation li:hover{
+	border:1px solid #A0A3AB;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	background:url("images/li-tile.png") 0 0 no-repeat;
+	box-shadow: inset 0px 0px 0px 1px white;
+	-moz-box-shadow: inset 0px 0px 0px 1px white;
+	-webkit-box-shadow: inset 0px 0px 0px 1px white;
+	cursor:default;
+	padding:0px 2px;
+}
+li span:first-of-type{
+	text-decoration:underline;
+}
+.right input{
+	width:34px;
+	height:27px;
+	border:1px solid #8696AA;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	margin-bottom:3px;
+	background-color:#D9E4F1;
+}
+.zero{
+	width:71px !important;
+}
+.last{
+	height:57px !important;
+	float: right;
+	background:url("images/last-tile.png") 0 0 repeat-x !important;
+}
+.last:hover{
+	background:url("images/last-hover-tile.png") 0 0 repeat-x !important;
+}
+.active{
+	background:url("images/buttons-tile.png") 0 0 repeat-x;
+	box-shadow: inset 0px 0px 0px 1px white;
+	-moz-box-shadow: inset 0px 0px 0px 1px white;
+	-webkit-box-shadow: inset 0px 0px 0px 1px white;
+}
+.nums{
+	background:url("images/nums-tile.png") 0 0 repeat-x;
+	box-shadow: inset 0px 0px 0px 1px white;
+	-moz-box-shadow: inset 0px 0px 0px 1px white;
+	-webkit-box-shadow: inset 0px 0px 0px 1px white;
+}
+.active:hover, .nums:hover{
+	background:url("images/hover-tile.png") 0 0 repeat-x;
+	border:1px solid #FCE87A;
+	box-shadow: inset 0px 0px 0px 1px white;
+	-moz-box-shadow: inset 0px 0px 0px 1px white;
+	-webkit-box-shadow: inset 0px 0px 0px 1px white;
+}

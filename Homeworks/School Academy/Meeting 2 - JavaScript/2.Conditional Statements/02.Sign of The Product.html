@@ -1,0 +1,63 @@
+<script>
+	var firstNumber = 1;
+	var secondNumber = -3;
+	var thirdNumber = -12;
+	var checkFirst = 0;
+	var checkSecond = 0;
+	var checkThird = 0;
+	if((firstNumber == 0) || (secondNumber == 0) || (thirdNumber == 0)){
+		console.log("The product is Zero!");
+	}
+	if(firstNumber < 0){
+		checkFirst = 1;
+	}
+	if(secondNumber < 0){
+		checkSecond = 1;
+	}
+	if(thirdNumber < 0){
+		checkThird = 1;
+	}
+	var product = (checkFirst + checkSecond + checkThird) | 0;
+	switch(product){
+		case 1: console.log("-");break;
+		case 2: console.log("+");break;
+		case 3: console.log("-");break;
+	}
+		
+	/*else 
+	if(firstNumber< 0){
+		if(secondNumber< 0){
+			if(thirdNumber< 0){
+				console.log("The sign of the product is '-'!");
+			}
+			else{
+				console.log("The sign of the product is '+'!");
+			}
+		}
+		else {
+			if(thirdNumber< 0){
+				console.log("The sign of the product is '+'!");
+			}
+			else{
+				console.log("The sign of the product is '-'!");
+			}
+		}
+	}
+	else
+		if(secondNumber< 0){
+			if(thirdNumber< 0){
+				console.log("The sign of the product is '+'!");
+			}
+			else{
+				console.log("The sign of the product is '-'!");
+			}
+		}
+		else {
+			if(thirdNumber< 0){
+				console.log("The sign of the product is '-'!");
+			}
+			else{
+				console.log("The sign of the product is '+'!");
+			}
+		}*/
+</script>

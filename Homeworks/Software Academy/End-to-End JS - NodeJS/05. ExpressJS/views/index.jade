@@ -1,0 +1,19 @@
+extends layout
+block main-content
+    header.nav.navbar-default.navbar-fixed-top
+        .container
+            .navbar-header
+                a.navbar-brand(href="#/") Wooooo
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href="#/") Homeworks
+                    li
+                        a(href="#/admin", ng-show="identity.isAdmin()") Admin Panel
+                div(ng-include="'partials/account/login'")
+    section
+        div(ng-view)
+    chatbox
+    footer.text-center(ng-cloak)
+        a(href="www.telerikacademy.com", target="_blank")
+            | &copy; Express homework - 2014

@@ -1,0 +1,55 @@
+<script>
+	var a = 344;
+	var b = 511;
+	var c = 122;
+	var d = 12555;
+	var e = 4422;
+	var max = a;
+	if(b > a){
+		max = b;
+		if(c > b){
+			max = c;
+			if(d > c){
+				max = d;
+				if(e > d){
+					max = e;
+				}
+			}
+			else if(e > c){
+				max = e;
+			}
+		}
+		else if(d > b){
+			max = d;
+			if(e > d){
+				max = e;
+			}
+		}
+		else if(e > b){
+			max = e;
+		}
+	}
+	else 
+	if(c > a){
+		max = c;
+		if(d > c){
+			max = d;
+			if(e > d){
+				max = e;
+			}
+		}
+		else if(e > c){
+			max = e;
+		}
+	}
+	else if(d > a){
+		max = d;
+		if(e > d){
+			max = e;
+		}
+	}
+	else if(c > a){
+		max = c;
+	}
+	console.log(max);
+</script>

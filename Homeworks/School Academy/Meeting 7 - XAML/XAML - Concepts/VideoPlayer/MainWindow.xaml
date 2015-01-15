@@ -1,0 +1,20 @@
+﻿<Window x:Class="VideoPlayer.MainWindow" Background="DarkBlue"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="460" Width="610"
+        xmlns:my="clr-namespace:VideoPlayer.Controls">
+    <Grid Background="SkyBlue" Margin="3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="ContentPanel" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition  MaxHeight="30"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="VideoPanel" Grid.Row="0" Grid.RowSpan="2">
+                <my:VideoPlayer x:Name="VideoPlayer" VerticalAlignment="Stretch"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

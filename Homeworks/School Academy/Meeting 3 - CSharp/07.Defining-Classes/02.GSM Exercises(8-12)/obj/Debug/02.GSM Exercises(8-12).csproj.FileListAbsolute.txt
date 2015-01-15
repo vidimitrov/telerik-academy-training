@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\02.GSM Exercises(8-12)\bin\Debug\02.GSM Exercises(8-12).exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\02.GSM Exercises(8-12)\bin\Debug\02.GSM Exercises(8-12).exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\02.GSM Exercises(8-12)\bin\Debug\02.GSM Exercises(8-12).pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\02.GSM Exercises(8-12)\obj\Debug\02.GSM Exercises(8-12).exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\07.Defining-Classes\02.GSM Exercises(8-12)\obj\Debug\02.GSM Exercises(8-12).pdb

@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Windows calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="border">
+		<div id="top-buttons">
+			<div>
+				<input type="button"/>
+				<input type="button"/>
+				<input type="button"/>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div id="calculator">
+			<div id="navigation">
+				<ul>
+					<li><span>V</span><span>iew</span></li>
+					<li><span>E</span><span>dit</span></li>
+					<li><span>H</span><span>elp</span></li>
+				</ul>
+			</div>
+			<div id="main">
+				<div id="result-box">
+					<span>8854455</span>
+				</div>
+				<div id="binary-num">
+					<div class="left">
+						<ul>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+						</ul>
+						<span class="left">63</span>
+						<div class="clear"></div>
+						<ul>
+							<li>0000</li>
+							<li>0000</li>
+							<li>1000</li>
+							<li>0111</li>
+						</ul>
+						<span class="left">31</span>
+						<div class="clear"></div>
+					</div>
+					<div class="right">
+						<ul>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+						</ul>
+						<span class="left">47</span>
+						<span class="right">32</span>
+						<div class="clear"></div>
+						<ul>
+							<li>0001</li>
+							<li>1011</li>
+							<li>1011</li>
+							<li>0111</li>
+						</ul>
+						<span class="left">15</span>
+						<span class="right">0</span>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="left">
+					<div class="border">
+						<form>
+							<input type="radio" name="group1"/>Hex</br>
+							<input type="radio" name="group1" checked/>Dec</br>
+							<input type="radio" name="group1"/>Oct</br>
+							<input type="radio" name="group1"/>Bin
+						</form>
+					</div>
+					<div class="border">
+						<form>
+							<input type="radio" name="group2" checked/>Qword</br>
+							<input type="radio" name="group2"/>Dword</br>
+							<input type="radio" name="group2"/>Word</br>
+							<input type="radio" name="group2"/>Byte
+						</form>
+					</div>
+				</div>
+				<div class="right" id="pad">
+					<input type="button" class="" value=" "/>
+					<input type="button" class="active" value="Mod"/>
+					<input type="button" class="" value="A"/>
+					<input type="button" class="" value="MC"/>
+					<input type="button" class="" value="MR"/>
+					<input type="button" class="" value="MS"/>
+					<input type="button" class="" value="M+"/>
+					<input type="button" class="" value="M-"/>
+					
+					<input type="button" class="active" value="("/>
+					<input type="button" class="active" value=")"/>
+					<input type="button" class="" value="B"/>
+					<input type="button" class="active" value="&#x2190"/>
+					<input type="button" class="active" value="CE"/>
+					<input type="button" class="active" value="C"/>
+					<input type="button" class="active" value="&#xb1"/>
+					<input type="button" class="" value="&#x221a"/>
+					
+					<input type="button" class="active" value="RoL"/>
+					<input type="button" class="active" value="RoR"/>
+					<input type="button" class="" value="C"/>
+					<input type="button" class="nums" value="7"/>
+					<input type="button" class="nums" value="8"/>
+					<input type="button" class="nums" value="9"/>
+					<input type="button" class="active" value="/"/>
+					<input type="button" class="" value="%"/>
+					
+					<input type="button" class="active" value="Or"/>
+					<input type="button" class="active" value="Xor"/>
+					<input type="button" class="" value="D"/>
+					<input type="button" class="nums" value="4"/>
+					<input type="button" class="nums" value="5"/>
+					<input type="button" class="nums" value="6"/>
+					<input type="button" class="active" value="*"/>
+					<input type="button" class="" value="1/x"/>
+					
+					<input type="button" class="active last" value="="/>
+					
+					<div>
+						<input type="button" class="active" value="Lsh"/>
+						<input type="button" class="active" value="Rsh"/>
+						<input type="button" class="" value="E"/>
+						<input type="button" class="nums" value="1"/>
+						<input type="button" class="nums" value="2"/>
+						<input type="button" class="nums" value="3"/>
+						<input type="button" class="active" value="-"/></br>
+						<input type="button" class="active" value="Not"/>
+						<input type="button" class="active" value="And"/>
+						<input type="button" class="" value="F"/>
+						<input type="button" class="nums zero" value="0"/>
+						<input type="button" class="" value=","/>
+						<input type="button" class="active" value="+"/>
+					</div>				
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script>
+		function isBigger(array, position){
+			var array;
+			var position;
+			if((array[position - 1] < array[position]) && (array[position] > array[position + 1])){
+				return 1;
+			}
+			else{
+				return 0;
+			}
+		}
+		function firstBiggerThanNeighbours(){
+			var inputArray = [1,11,8,7,51,5,66,6,101,13];
+			var result = document.getElementById("result");
+			var outputArray = document.getElementById("array");
+			var check;
+			outputArray.innerText = "[ " + inputArray.join(", ") + " ]";
+			for(var i=0; i < inputArray.length; i++){
+				check = isBigger(inputArray, i);
+				if(check){
+					result.innerText ="[ " + i + " ] and it's value is " + inputArray[i];
+					break;
+				}
+				else{
+					result.innerText = "-1";
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<p>The first element that is bigger than it's neighbours is:</p>
+	<p id="result"></p>
+	<p id="array"></p>
+	<input type="button" value="Find" onclick="firstBiggerThanNeighbours()"/>
+</body>
+</html>

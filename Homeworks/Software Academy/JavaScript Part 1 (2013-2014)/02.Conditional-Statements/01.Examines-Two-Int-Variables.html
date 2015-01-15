@@ -1,0 +1,34 @@
+<!--01. Write an if statement that examines two integer variables
+ and exchanges their values if the first one is greater than the second one.-->
+
+<html>
+<head>
+    <title>Examine integer variables</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="firstNumber">First number: </label>
+    <input type="text" id="firstNumber"/>
+    <label for="secondNumber">Second number: </label>
+    <input type="text" id="secondNumber"/>
+    <input type="button" onclick="examineVariables()" value="Examine">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function examineVariables() {
+            var firstNum = jsConsole.readInteger("#firstNumber");
+            var secondNum = jsConsole.readInteger("#secondNumber");
+            
+            var swap;
+            
+            if(firstNum > secondNum){
+                swap = firstNum;
+                firstNum = secondNum;
+                secondNum = swap;
+            }
+            
+            jsConsole.writeLine("First number: " + firstNum + " , Second num: " + secondNum);
+        }
+    </script>
+</body>
+</html>

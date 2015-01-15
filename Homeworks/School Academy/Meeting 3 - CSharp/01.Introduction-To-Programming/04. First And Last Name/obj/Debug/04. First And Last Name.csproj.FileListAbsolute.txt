@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\04. First And Last Name\bin\Debug\_04.First_And_Last_Name.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\04. First And Last Name\bin\Debug\_04.First_And_Last_Name.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\04. First And Last Name\bin\Debug\_04.First_And_Last_Name.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\04. First And Last Name\obj\Debug\_04.First_And_Last_Name.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\04. First And Last Name\obj\Debug\_04.First_And_Last_Name.pdb

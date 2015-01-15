@@ -1,0 +1,82 @@
+<html>
+<head>
+	<script>
+		var Human = function (studentSchool, studentMarks){ //parametrite trqbva da sa parametrite na klasovete otdolu
+			var Student = function(studentSchool, studentMarks){
+				var self = this;
+				self.school = studentSchool;
+				self.marks = studentMarks; //vhodnite danni sa masiv
+				self.averageMark = function(studentMarks){//ne e qsno dali self.marks e masiv zashtoto e property na obekta???
+					var array = studentMarks;
+					var numberOfMarks = array.length;
+					var average = 0;
+					var sum = 0;
+					for(var i=0; i < numberOfMarks; i++){
+						sum += array[i];
+					}
+					average = sum / numberOfMarks;
+					return average;
+				}
+				self.addMark = function(){
+					self.marks
+				}
+				self.removeMark = function(){
+					
+				}
+				return self;
+			}
+			var Parent = function(){
+				
+			}
+		}
+		
+		
+		
+		function main(){
+			var stdSchool = document.getElementById("school").value;
+			var inputMarks = document.getElementsByName("mark");
+			var numberOfMarks = inputMarks.length;
+			var marks = new Array();
+			for(var i=0; i < numberOfMarks; i++){
+				marks.push(parseInt(inputMarks[i].value));
+			}
+			console.log("School: " + stdSchool + " ----- [" + marks.join(", ") + " ]");
+		}
+		
+		
+		
+		
+		function addMark(){
+			var liElement = document.createElement("li");
+			liElement.innerText = "Mark:";
+			liElement.className = "temporary";
+			var breaker = document.createElement("br");
+			var inputElement = document.createElement("input");
+			inputElement.setAttribute("name","mark");
+			inputElement.setAttribute("type","text");
+			inputElement.appendChild(breaker);
+			liElement.appendChild(inputElement);
+			var holder = document.getElementById("holder");
+			holder.appendChild(liElement);
+		}
+		function removeMark(){
+			var length = document.getElementsByClassName("temporary").length;
+			var lastElement = document.getElementsByClassName("temporary")[length - 1];
+			var holder = lastElement.parentNode;
+			holder.removeChild(lastElement);
+		}
+	</script>
+</head>
+<body>
+	School:<input type="text" id="school"/></br>
+	<ul type="none" id="holder">
+		<li class="temporary">
+			Mark:<input type="text" name="mark"/></br>
+		</li>
+	</ul>
+	<input type="button" value="addMark" onclick="addMark()"/>
+	<input type="button" value="removeMark" onclick="removeMark()"/></br>
+	<input type="button" value="click" onclick="main()"/>
+	<p id="result"></p>
+</body>
+</html>

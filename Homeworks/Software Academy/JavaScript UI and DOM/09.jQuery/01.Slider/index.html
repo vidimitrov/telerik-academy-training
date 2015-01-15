@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Slider</title>
+    <style>
+        #slider {
+            width: 1000px;
+            height: 800px;
+            text-align: center;
+            background-color: blue;
+            padding-top: 20px;
+        }
+
+        #current-slide {
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 950px;
+            height: 750px;
+            border: 1px solid green;
+            background-color: #66FF88;
+        }
+
+        article {
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="slider">
+        <div id="current-slide">
+
+        </div>
+
+        <button id="prev-button">
+            Prev
+        </button>
+
+        <button id="next-button">
+            Next
+        </button>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>

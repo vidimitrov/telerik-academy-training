@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script>
+		inputArray = [2,41,11,8,7,51,5,66,6,101,13];
+		function load(){
+			var result = document.getElementById("result");
+			result.innerText = "[ "+ inputArray.join(", ") +" ]";
+		}
+		function isBigger(array, position){
+			var array;
+			var position;
+			if((array[position - 1] < array[position]) && (array[position] > array[position + 1])){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+		function biggerThanNeighbours(){
+			var inputPosition = parseInt(document.getElementById("element").value) | 0;
+			var result = document.getElementById("result");
+			var check = isBigger(inputArray, inputPosition);
+			if(check){
+				result.innerText = "True";
+			}
+			else{
+				result.innerText = "False";
+			}
+		}
+	</script>
+</head>
+<body onload="load()">
+	<div id="text">What is the index of the element you want to compare with it's neighbours?</div>
+	<div id="result"></div>
+	<input id="element" type="text"/>
+	<input type="button" value="isBigger" onclick="biggerThanNeighbours()"/>
+	<input type="button" value="Try again" onclick="location.reload()"/>
+</body>
+</html>

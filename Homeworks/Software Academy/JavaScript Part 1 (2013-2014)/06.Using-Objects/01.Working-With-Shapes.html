@@ -1,0 +1,76 @@
+<!--01. Write functions for working with shapes in standard Planar coordinate system.
+        Points are represented by coordinates P(X, Y).
+        Lines are represented by two points, marking their beginning and ending.
+        Example: L(P1(X1,Y1),P2(X2,Y2))
+        Calculate the distance between two points.
+        Check if three segment lines can form a triangle.-->
+
+<html>
+    <head>
+        <title>Working with shapes in planar coordinate system</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            function createPoint(xCoord, yCoord){
+                return {
+                    x: xCoord,
+                    y: yCoord,
+                    toString: function () {
+                                    return "{" + xCoord + ", " + yCoord + "}";
+                                }
+                }
+            }
+
+            function createLine(point1, point2) {
+                return {
+                    start: point1,
+                    end: point2,
+                    length: function() { 
+                                    return calculateDistance(point1, point2);
+                                }()
+                }
+            }
+
+            function calculateDistance(point1, point2) {
+                var xDiff = point1.x - point2.x;
+                var yDiff = point1.y - point2.y;
+
+                return Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
+            }
+
+            function checkFormingTriangle(line1, line2, line3){            
+                if(line1 + line2 < line3){
+                    return false;
+                }
+                if(line1 + line3 < line2){
+                    return false;
+                }
+                if(line2 + line3 < line1){
+                    return false;
+                }
+                return true;
+            }
+
+            var firstPoint = createPoint(1, 2);
+            var secondPoint = createPoint(2, 3);
+            var thirdPoint = createPoint(3, 4);
+            var fourthPoint = createPoint(4, 14);
+
+            var firstLine = createLine(firstPoint, secondPoint);
+            var secondLine = createLine(secondPoint, thirdPoint);
+            var thirdLine = createLine(thirdPoint, firstPoint);
+            var fourthLine = createLine(thirdPoint, fourthPoint);
+
+            jsConsole.writeLine("Distance between point " + firstPoint + " and point " + secondPoint + " : " + firstLine.length);
+
+            var threeLinesAsStr = "Line1 = " + firstLine.length + ", Line2 = "+ secondLine.length +", Line3 = " + thirdLine.length;
+            jsConsole.writeLine(threeLinesAsStr + "/ Forming triangle? - " + checkFormingTriangle(firstLine.length, secondLine.length, thirdLine.length));
+
+            anotherThreeLinesAsStr = "Line1 = " + secondLine.length + ", Line2 = "+ thirdLine.length +", Line3 = " + fourthLine.length;
+            jsConsole.writeLine(anotherThreeLinesAsStr + "/ Forming triangle? - " + checkFormingTriangle(secondLine.length, thirdLine.length, fourthLine.length));
+        </script>
+    </body>
+</html>

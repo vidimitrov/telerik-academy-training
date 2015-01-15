@@ -1,0 +1,76 @@
+<!--03. Write a function that finds all the occurrences of word in a text.
+        The search can case sensitive or case insensitive.
+        Use function overloading.-->
+
+<html>
+<head>
+    <title>Count occurrences of word in text</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="text">Text: </label>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+    <label for="searchCriteria">Search for: </label>
+    <input type="text" id="searchCriteria"/>
+    <input type="checkbox" onchange="changeCase()">Case sensitive
+    <input type="button" onclick="countWordOccurrencesInText()" value="Check">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var isCaseSensitive = false;
+        
+        function changeCase(){
+            isCaseSensitive = !isCaseSensitive;
+        }
+        
+        function countOccurrences(searchCriteria, isCaseSensitive) {
+            switch(arguments.length){
+                case 1:{
+                    alert("Some arguments missing. Enter the text and the searching criteria!");
+                } break;
+                case 2:{
+                    if((typeof arguments[0] == "string") && (typeof arguments[1] == "string")){
+                        return countOccurrences(arguments[0], arguments[1], false);
+                    }
+                } break;
+                case 3: {
+                    var occurrencesCount = 0;
+                    
+                    if(arguments[2]){
+                        //count the occurrences case sensitive
+                        var separatedWords = arguments[0].split(" ");
+                        for(var i = 0; i < separatedWords.length; i++){
+                            if(separatedWords[i] == arguments[1]){
+                                occurrencesCount++;
+                            }
+                        }
+                    }
+                    else{
+                        //count the occurrences case insensitive
+                        var separatedWords = arguments[0].split(" ");
+                        for(var i = 0; i < separatedWords.length; i++){
+                            if(separatedWords[i].toLowerCase() == arguments[1].toLowerCase()){
+                                occurrencesCount++;
+                            }
+                        }
+                    }
+                    
+                    return occurrencesCount;
+                } ; break;
+            }
+        }
+        
+        function countWordOccurrencesInText() {
+            var searchCriteria = jsConsole.read("#searchCriteria");
+            var text = jsConsole.read("#text");
+            
+            var occurrences = countOccurrences(text, searchCriteria, isCaseSensitive);
+            jsConsole.writeLine("Occurrences: " + occurrences);
+            
+            //Test the overloading
+            //var occurrences = countOccurrences(text, searchCriteria);
+            //jsConsole.writeLine("Occurrences: " + occurrences);
+        }
+    </script>
+</body>
+</html>

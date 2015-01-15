@@ -1,0 +1,61 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="ChatClient.App.ChatClientWindow"
+        Title="Chat Client" Height="350" Width="525" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" 
+                   x:Name="LoggedUserTextBox" 
+                   FontSize="20" 
+                   Foreground="White" 
+                   Margin="5"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Background="Gray" 
+                         Grid.Column="0"
+                         Margin="5"
+                         Height="40"
+                         TextAlignment="Left" 
+                         VerticalAlignment="Center"
+                         Name="MessageText">
+                </TextBox>
+
+                <Button Grid.Column="1"
+                        FontWeight="Bold"
+                        Margin="5"
+                        Height="40" 
+                        Click="Send_Message_Button_Click">
+                    Send
+                </Button>
+            </Grid>
+            <StackPanel HorizontalAlignment="Left" 
+                        Margin="5"
+                        Width="515"
+                        Height="240"
+                        Grid.Row="1" 
+                        Background="#FF66D3F6"
+                        VerticalAlignment="Top"
+                        Loaded="StackPanel_Loaded"
+                        Name="ChatStackPanel">
+            </StackPanel>
+        </Grid>
+
+
+
+    </Grid>
+</Window>

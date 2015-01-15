@@ -1,0 +1,8 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\obj\Debug\DebuggingSystem.Model.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\bin\Debug\DebuggingSystem.Model.dll.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\bin\Debug\DebuggingSystem.Model.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\bin\Debug\DebuggingSystem.Model.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\bin\Debug\EntityFramework.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\bin\Debug\EntityFramework.xml
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\obj\Debug\DebuggingSystem.Model.dll
+c:\users\vesel_000\documents\visual studio 2012\Projects\DebuggingSystem\DebuggingSystem.Model\obj\Debug\DebuggingSystem.Model.pdb

@@ -1,0 +1,6 @@
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\06. SplitStringIntoIntegers\bin\Debug\_06.SplitStringIntoIntegers.exe.config
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\06. SplitStringIntoIntegers\bin\Debug\_06.SplitStringIntoIntegers.exe
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\06. SplitStringIntoIntegers\bin\Debug\_06.SplitStringIntoIntegers.pdb
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\06. SplitStringIntoIntegers\obj\Debug\06. SplitStringIntoIntegers.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\06. SplitStringIntoIntegers\obj\Debug\_06.SplitStringIntoIntegers.exe
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\06. SplitStringIntoIntegers\obj\Debug\_06.SplitStringIntoIntegers.pdb

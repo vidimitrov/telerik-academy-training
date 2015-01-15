@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\03.All-Different-Artists-in-Catalog-XPath\bin\Debug\03.All-Different-Artists-in-Catalog-XPath.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\03.All-Different-Artists-in-Catalog-XPath\bin\Debug\03.All-Different-Artists-in-Catalog-XPath.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\03.All-Different-Artists-in-Catalog-XPath\bin\Debug\03.All-Different-Artists-in-Catalog-XPath.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\03.All-Different-Artists-in-Catalog-XPath\obj\Debug\03.All-Different-Artists-in-Catalog-XPath.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\03.All-Different-Artists-in-Catalog-XPath\obj\Debug\03.All-Different-Artists-in-Catalog-XPath.pdb

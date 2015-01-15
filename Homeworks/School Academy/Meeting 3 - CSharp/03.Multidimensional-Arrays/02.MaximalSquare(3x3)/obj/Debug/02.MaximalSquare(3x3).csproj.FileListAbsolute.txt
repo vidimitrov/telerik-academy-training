@@ -1,0 +1,5 @@
+C:\Users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\02.MaximalSquare(3x3)\bin\Debug\02.MaximalSquare(3x3).exe.config
+C:\Users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\02.MaximalSquare(3x3)\bin\Debug\02.MaximalSquare(3x3).exe
+C:\Users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\02.MaximalSquare(3x3)\bin\Debug\02.MaximalSquare(3x3).pdb
+C:\Users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\02.MaximalSquare(3x3)\obj\Debug\02.MaximalSquare(3x3).exe
+C:\Users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\02.MaximalSquare(3x3)\obj\Debug\02.MaximalSquare(3x3).pdb

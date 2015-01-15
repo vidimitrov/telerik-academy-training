@@ -1,0 +1,125 @@
+<!--08. Write a script that converts a number in the range [0...999] 
+	to a text corresponding to its English pronunciation. 
+	Examples:
+	0 -> "Zero"
+	273 -> "Two hundred seventy three"
+	400 -> "Four hundred"
+	501 -> "Five hundred and one"
+	711 -> "Seven hundred and eleven"-->
+
+<html>
+<head>
+    <title>English pronounciation of number</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="num">Number: </label>
+    <input type="text" id="num"/>
+    <input type="button" onclick="getEngPronounciation()" value="Show name">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getEngPronounciation() {
+            var num = jsConsole.readInteger("#num");
+            
+            var a, b, c;
+            a = parseInt(num / 100);
+            b = parseInt((num / 10) % 10);
+            c = parseInt(num % 10);
+            var units = "", tens = "", hundrets = "";
+            
+            switch (a)
+            {
+                case 1: hundrets = "One hundred"; break;
+                case 2: hundrets = "Two hundred"; break;
+                case 3: hundrets = "Three hundred"; break;
+                case 4: hundrets = "Four hundred"; break;
+                case 5: hundrets = "Five hundred"; break;
+                case 6: hundrets = "Six hundred"; break;
+                case 7: hundrets = "Seven hundred"; break;
+                case 8: hundrets = "Eight hundred"; break;
+                case 9: hundrets = "Nine hundred"; break;
+            }
+            switch (b)
+            {
+                case 1: tens = "Ten"; break;
+                case 2: tens = "Twenty"; break;
+                case 3: tens = "Thirty"; break;
+                case 4: tens = "Fourty"; break;
+                case 5: tens = "Fifty"; break;
+                case 6: tens = "Sixty"; break;
+                case 7: tens = "Seventy"; break;
+                case 8: tens = "Eighty"; break;
+                case 9: tens = "Ninety"; break;
+            }
+            switch (c)
+            {
+                case 0: units = "Zero"; break;
+                case 1: units = "One"; break;
+                case 2: units = "Two"; break;
+                case 3: units = "Three"; break;
+                case 4: units = "Four"; break;
+                case 5: units = "Five"; break;
+                case 6: units = "Six"; break;
+                case 7: units = "Seven"; break;
+                case 8: units = "Eight"; break;
+                case 9: units = "Nine"; break;
+            }
+            if ((a == 0) && (b == 0))
+            {
+                jsConsole.writeLine("The number in a english is " + units);
+            }
+            else if (a == 0)
+            {
+                if (c == 0)
+                {
+                    jsConsole.writeLine("The number in a english is " + tens);
+                }
+                else if ((b == 1) && (c == 1))
+                {
+                    jsConsole.writeLine("The number in a english is Eleven");
+                }
+                else if ((b == 1) && (c == 2))
+                {
+                    jsConsole.writeLine("The number in a english is Twelve");
+                }
+                else
+                {
+                    jsConsole.writeLine("The number in a english is " + tens + " " + units);
+                }
+            }
+            else
+            {
+                if (b == 0)
+                {
+                    if (c == 0)
+                    {
+                        jsConsole.writeLine("The number in a english is " + hundrets);
+                    }
+                    else
+                    {
+                        jsConsole.writeLine("The number in a english is " + hundrets + " and " + units);
+                    }
+
+                }
+                else if (c == 0)
+                {
+                    jsConsole.writeLine("The number in a english is " + hundrets + " and " + tens);
+                }
+                else if ((b == 1) && (c == 1))
+                {
+                    jsConsole.writeLine("The number in a english is " + hundrets + " and Eleven");
+                }
+                else if ((b == 1) && (c == 2))
+                {
+                    jsConsole.writeLine("The number in a english is " + hundrets + " and Twelve", hundrets);
+                }
+                else
+                {
+                    jsConsole.writeLine("The number in a english is " + hundrets + " and " + tens + " " + units);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="ChatClient.App.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="350" Width="525" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Foreground="White" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            Enter username:
+        </Label>
+        <TextBox Grid.Row="1" Name="Username" Background="#FFBEBEBE" Margin="5" FontSize="20" Width="250" Foreground="#FF1EA0EC" TextAlignment="Center">
+
+        </TextBox>
+        <Button Grid.Row="2" Width="200" Height="50" Click="Login_Button_Click">
+            Login
+        </Button>
+    </Grid>
+</Window>

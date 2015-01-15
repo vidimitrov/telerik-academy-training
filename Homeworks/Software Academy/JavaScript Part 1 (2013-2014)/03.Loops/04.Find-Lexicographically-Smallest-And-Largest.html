@@ -1,0 +1,56 @@
+<!--04. Write a script that finds the lexicographically
+        smallest and largest property in document, window and navigator objects.-->
+
+<html>
+<head>
+    <title>Find min and max</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="button" onclick="findSmallestAndLargestProp()" value="Find">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function findSmallestAndLargestProp() {
+            var doc = document;
+            var win = window;
+            var nav = navigator;
+            
+            
+            var min = doc["URL"], max = doc["URL"];
+                    
+            for (var prop in doc) {
+                if(prop < min) {
+                    min = prop;
+                }
+                
+                if(prop > max) {
+                    max = prop;
+                }
+            }
+            
+            for (var prop in win) {
+                if(prop < min) {
+                    min = prop;
+                }
+                
+                if(prop > max) {
+                    max = prop;
+                }
+            }
+            
+            for (var prop in nav) {
+                if(prop < min) {
+                    min = prop;
+                }
+                
+                if(prop > max) {
+                    max = prop;
+                }
+            }
+            
+            jsConsole.writeLine("Smallest property: " + min + "  -----" + " Largest property: " + max);
+        }
+    </script>
+</body>
+</html>

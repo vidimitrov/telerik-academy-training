@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combo box</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div id="container">
+            
+        </div>
+        <script src="scripts/libs/require.js" data-main="scripts/app.js"></script>
+        <script id="people-template" type="text/x-handlebars-template">
+            {{#people}}
+                <div class='person'>
+                    <img class="person-image" src="{{avatarUrl}}" width="100px"/>
+                    <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+                </div>
+            {{/people}}
+        </script>
+    </body>
+</html>

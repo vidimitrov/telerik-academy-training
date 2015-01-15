@@ -1,0 +1,12 @@
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe.config
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystem.Client.pdb
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\EntityFramework.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystem.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystemContext.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystemContext.pdb
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\StudentSystem.pdb
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\bin\Debug\EntityFramework.xml
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\obj\Debug\StudentSystem.Client.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\obj\Debug\StudentSystem.Client.exe
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystem.Client\obj\Debug\StudentSystem.Client.pdb

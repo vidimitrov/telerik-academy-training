@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\05.Images-from-Northwind\bin\Debug\05.Images-from-Northwind.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\05.Images-from-Northwind\bin\Debug\05.Images-from-Northwind.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\05.Images-from-Northwind\bin\Debug\05.Images-from-Northwind.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\05.Images-from-Northwind\obj\Debug\05.Images-from-Northwind.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\05.Images-from-Northwind\obj\Debug\05.Images-from-Northwind.pdb
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\05.Images-from-Northwind\obj\Debug\05.Images-from-Northwind.csprojResolveAssemblyReference.cache

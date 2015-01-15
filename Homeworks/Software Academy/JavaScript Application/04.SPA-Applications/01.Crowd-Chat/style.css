@@ -1,0 +1,29 @@
+#chat-box {
+    display: none;
+}
+#chat-box, #login-panel {
+    border: 1px solid black;
+    width: 215px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    box-shadow: 7px 8px 10px #88897C;
+}
+#chat-posts {
+    border: 1px solid black;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    word-wrap: break-word;
+    background-color: aquamarine;
+}
+h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: darkturquoise;
+}
+h4 {
+    margin: 0;
+}

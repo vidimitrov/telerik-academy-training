@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>SVG Drawing - MEAN stack image</title>
+    </head>
+    <style>
+        svg {
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+        <svg width="500" height="300">
+            <circle cx="390" cy="70" r="50"
+                    fill=#333>
+            </circle>
+            <image x="365" y="40" 
+                   xlink:href="images/mongo.png" 
+                   height="50" width="50"/>
+            <circle cx="390" cy="120" r="50"
+                    fill=#111>
+            </circle>
+            <image x="350" y="70" 
+                   xlink:href="images/expressjs.png" 
+                   height="80" width="80"/>
+            <circle cx="390" cy="170" r="50"
+                    fill=#AA0000>
+            </circle>
+            <image x="355" y="140" 
+                   xlink:href="images/angularjs.png" 
+                   height="70" width="70"/>
+            <circle cx="390" cy="220" r="50"
+                    fill=#15802f>
+            </circle>
+            <image x="345" y="170" 
+                   xlink:href="images/nodejs.png" 
+                   height="90" width="90"/>
+                   
+            <path stroke="#333" fill="none" stroke-width="5"
+                  d="M 250 80 V 30 L 270 70 L 290 30 V 80" />
+                  
+            <path stroke="#111" fill="none" stroke-width="5"
+                  d="M 250 140 H 290 M 250 115 H 290 M 250 90 H 290 M 250 90 V 140" />
+                  
+            <path stroke="#AA0000" fill="none" stroke-width="5"
+                  d="M 250 200 L 270 150 L 290 200 M 280 175 H 260" />
+                  
+            <path stroke="#15802f" fill="none" stroke-width="5"
+                  d="M 250 260 V 210 L 290 260 V 210" />
+        </svg>
+    </body>
+</html>

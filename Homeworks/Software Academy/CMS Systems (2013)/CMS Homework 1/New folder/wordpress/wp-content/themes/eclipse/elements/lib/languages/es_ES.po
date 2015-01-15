@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-03-20 16:58+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Spanish, Spain\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../init.php ../../boxes.php
+msgid "Boxes Lite"
+msgstr "Cajas Lite"
+
+#: ../../boxes.php
+msgid "Boxes Lite Element"
+msgstr "Lite Cajas Element"
+
+#: ../../boxes.php
+msgid "Box Image"
+msgstr "Caja imagen"
+
+#: ../../boxes.php
+msgid "Box URL"
+msgstr "Caja URL"
+
+#: ../../boxes.php
+msgid "Box Text"
+msgstr "Cuadro de texto"
+
+#: ../../boxes.php
+msgid "Responsive iFeature Slider"
+msgstr "Responsive deslizante iFeature"
+
+#: ../../boxes.php
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"El New Touch friendly iFeature 5 deslizante ahora responde a cualquier "
+"dispositivo móvil táctil."
+
+#: ../../boxes.php
+msgid "Responsive Design"
+msgstr "Diseño Sensible"
+
+#: ../../boxes.php
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"Con iFeature Pro 5 y el tacto sensible diseño amigable ahora puede controlar "
+"su sitio web en cualquier dispositivo."
+
+#: ../../boxes.php
+msgid "Excellent Support"
+msgstr "Apoyo Excelente"
+
+#: ../../boxes.php
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"¿Necesitas ayuda? Lea las instrucciones y, por favor visite nuestro Foro de "
+"Soporte dedicado Pro"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Cartera Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Publica página"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Deslizador Lite"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Ritmo"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "No hay mensajes de twitter para mostrar"
+
+#: ../../twitter-bar.php
+msgid "Invalid Response"
+msgstr "Respuesta no válida"

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuery Ajax - Demos</title>
+    <script src="Scripts/jquery-1.8.2.js"></script>
+    <script src="Scripts/functions.js"></script>
+    <script>
+        $(document).ready(onDocumentReady);
+    </script>
+    <link href="Styles/main.css" rel="stylesheet" />
+</head>
+<body>
+    <fieldset id="add-student-fieldset">
+        <legend>Add Student</legend>
+        <label for="fname-tb">Firstname:</label>
+        <input type="text" id="fname-tb" name="fname-tb" placeholder="Firstname" /><br />
+
+        <label for="lname-tb">Lastname:</label>
+        <input type="text" id="lname-tb" name="lname-tb" placeholder="Lastname" />
+        <ul id="new-marks-list">
+            <li>Subject:
+                <input type="text" name="tb-subject" placeholder="Subject" />
+                Score:
+                <input type="text" name="tb-score" placeholder="Score" />
+            </li>
+            <li>Subject:
+                <input type="text" name="tb-subject" placeholder="Subject" />
+                Score:
+                <input type="text" name="tb-score" placeholder="Score" />
+            </li>
+            <li>Subject:
+                <input type="text" name="tb-subject" placeholder="Subject" />
+                Score:
+                <input type="text" name="tb-score" placeholder="Score" />
+            </li>
+        </ul>
+        <button id="add-button">Add new student</button>
+        <button id="more-button">Add mark</button>
+        <button id="remove-student">Remove student</button>
+    </fieldset>
+    <div id="students-info">
+        <fieldset id="students-fieldset">
+            <legend>Students</legend>
+            <div id="students-container">
+            </div>
+        </fieldset>
+        <fieldset id="student-details-fieldset">
+            <legend>Student Details</legend>
+            <div id="student-details-container">
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.exe.config
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.csprojResolveAssemblyReference.cache
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.exe
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.pdb
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.exe
+C:\Users\SoBIeSkI\documents\visual studio 2012\Projects\Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\07.MaxFrequentNumber\bin\Debug\07.MaxFrequentNumber.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\07.MaxFrequentNumber\obj\Debug\07.MaxFrequentNumber.pdb

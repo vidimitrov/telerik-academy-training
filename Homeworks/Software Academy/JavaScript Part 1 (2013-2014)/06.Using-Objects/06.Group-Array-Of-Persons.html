@@ -1,0 +1,91 @@
+<!--06. Write a function that groups an array of persons by age, first or last name.
+        The function must return an associative array, with keys - 
+        the groups, and values -arrays with persons in this groups
+        Use function overloading (i.e. just one function)
+            var persons = {…};
+            var groupedByFname = group(persons,"firstname");
+            var groupedByAge= group(persons,"age");
+        -->
+        
+<html>
+    <head>
+        <title>Group array of persons</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            var people = [
+                createPerson("Gergana", "Petkova", 20),
+                createPerson("Gergana", "Georgieva", 23),
+                createPerson("Gergana", "Grigorova", 29),
+                createPerson("Pesho", "Ivanov", 22),
+                createPerson("Vesko", "Ivanov", 33),
+                createPerson("Gosho", "Dimitrov", 18),
+                createPerson("Petar", "Deninski", 18),
+                createPerson("Aleks", "Popov", 22),
+                createPerson("Ganio", "Balkanski", 40),
+                createPerson("Bai", "Ivan", 50),
+            ];
+            
+            var groupedByFname = group(people, "firstName");
+            var groupedByLname = group(people, "lastName");
+            var groupedByAge = group(people, "age");
+
+            jsConsole.writeLine("---------------------- Grouped by first name: ----------------------");
+            jsConsole.writeLine("");
+            printObject(groupedByFname, "--");
+            jsConsole.writeLine("");
+            jsConsole.writeLine("---------------------- Grouped by last name: ----------------------");
+            jsConsole.writeLine("");
+            printObject(groupedByLname, "--");
+            jsConsole.writeLine("");
+            jsConsole.writeLine("---------------------- Grouped by age: ----------------------");
+            jsConsole.writeLine("");
+            printObject(groupedByAge, "--");
+            
+            
+            function group(collection, groupBy){
+                var grouped = {};
+                for(var i in collection){
+                    if(grouped[collection[i][groupBy]]){
+                        if(grouped[collection[i][groupBy]] instanceof Array){
+                            grouped[collection[i][groupBy]].push(collection[i]);
+                        }
+                        else{
+                            var temp = grouped[collection[i][groupBy]];
+                            grouped[collection[i][groupBy]] = new Array();
+                            grouped[collection[i][groupBy]].push(temp);
+                            grouped[collection[i][groupBy]].push(collection[i]);
+                        }
+                    }
+                    else{
+                        grouped[collection[i][groupBy]] = collection[i];
+                    }
+                }
+                return grouped;
+            }
+            
+            function createPerson(fname, lname, age) {
+                return {
+                    firstName: fname,
+                    lastName: lname,
+                    age: age
+                }
+            }
+            
+            function printObject(obj, str){
+                for(var prop in obj){
+                    if(typeof obj[prop] === "object"){
+                        jsConsole.writeLine(str + prop + ": ");
+                        printObject(obj[prop], str + "--");
+                    }
+                    else{
+                        jsConsole.writeLine(str + prop + ": " + obj[prop]);
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

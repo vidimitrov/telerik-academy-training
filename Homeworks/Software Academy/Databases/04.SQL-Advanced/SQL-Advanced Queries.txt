@@ -1,0 +1,210 @@
+Homework from Advanced-SQL:
+
+(01.) SELECT FirstName, Salary FROM Employees WHERE Salary = (SELECT MIN(Salary) FROM Employees)
+------------------------------------------------------------------------------------------------
+(02.) SELECT FirstName, Salary FROM Employees WHERE Salary > 9900
+------------------------------------------------------------------------------------------------
+(03.) SELECT FirstName +' '+ LastName as FullName, Salary, Name 
+      FROM Employees e
+        JOIN Departments d
+		ON (d.DepartmentID = e.DepartmentID)
+      WHERE Salary = 
+      (SELECT MIN(Salary) FROM Employees WHERE DepartmentID = e.DepartmentID)
+------------------------------------------------------------------------------------------------
+(04.) SELECT AVG(Salary) as AvgSalary, DepartmentID FROM Employees 
+	GROUP BY DepartmentID HAVING DepartmentID = 1
+------------------------------------------------------------------------------------------------
+(05.) SELECT AVG(Salary) as AvgSalary, d.Name FROM Employees e 
+	JOIN Departments d ON (e.DepartmentID = d.DepartmentID)
+      GROUP BY d.Name HAVING Name = 'Sales'
+------------------------------------------------------------------------------------------------
+(06.) SELECT COUNT(EmployeeID) as [Number of employees]FROM Employees
+------------------------------------------------------------------------------------------------
+(07.) SELECT COUNT(EmployeeID) as [Number of employees] FROM Employees 
+	WHERE ManagerID IS NOT NULL
+------------------------------------------------------------------------------------------------
+(08.) SELECT COUNT(EmployeeID) as [Number of employees] FROM Employees 
+	WHERE ManagerID IS NULL
+------------------------------------------------------------------------------------------------
+(09.) SELECT d.Name, AVG(e.Salary) as [Average salary] FROM Employees e
+	JOIN Departments d ON (e.DepartmentID = d.DepartmentID) 
+	GROUP BY Name
+------------------------------------------------------------------------------------------------
+(10.) SELECT  d.Name, COUNT(e.EmployeeID) as [Number of employees] FROM Employees e
+	JOIN Departments d ON (e.DepartmentID = d.DepartmentID)
+	GROUP BY Name
+------------------------------------------------------------------------------------------------
+(11.) SELECT ManagerID ,COUNT(EmployeeID) as [Number of employees] FROM Employees 
+	GROUP BY ManagerID HAVING COUNT(EmployeeID) = 5
+
+------------------------------------------------------------------------------------------------
+(12.) SELECT e.EmployeeID, COALESCE(m.FirstName +' '+ m.LastName, 'no manager') as [Name]
+	FROM Employees e LEFT OUTER JOIN Employees m ON (e.ManagerID = m.EmployeeID)
+
+------------------------------------------------------------------------------------------------
+(13.) SELECT LastName FROM Employees WHERE LEN(LastName) = 5
+------------------------------------------------------------------------------------------------
+(14.) SELECT CONVERT(VARCHAR(24), GETDATE(), 113) as [DD MM YY HH:MI:SS:MMM]
+------------------------------------------------------------------------------------------------
+(15.) CREATE TABLE Users (
+	UserID int IDENTITY,
+	UserName nvarchar(30) NOT NULL,
+	Pass nvarchar(20),
+	FullName nvarchar(50),
+	LastLogin date,
+	CONSTRAINT PK_Users PRIMARY KEY (UserID),
+	UNIQUE (UserName),
+	CHECK (LEN(Pass) >= 5)
+)
+------------------------------------------------------------------------------------------------
+(16.) CREATE VIEW [Today's Users] AS
+	SELECT UserName, LastLogin FROM Users
+	WHERE DATEDIFF(day, LastLogin, GETDATE()) = 0
+------------------------------------------------------------------------------------------------
+(17.) CREATE TABLE Groups(
+	GroupID int IDENTITY,
+	GroupName nvarchar(20) NOT NULL,
+	UNIQUE(GroupName),
+	CONSTRAINT PK_Groups PRIMARY KEY (GroupID)
+)
+------------------------------------------------------------------------------------------------
+(18.) ALTER TABLE Users
+      ADD GroupID int
+
+      ALTER TABLE Users
+      ADD CONSTRAINT FK_Users_Groups
+      FOREIGN KEY (GroupID)
+      REFERENCES Groups(GroupID)
+
+------------------------------------------------------------------------------------------------
+(19.) INSERT INTO Groups(GroupName)
+      VALUES ('New users') 
+
+      INSERT INTO Groups(GroupName)
+      VALUES ('Old users')
+
+      INSERT INTO Users(UserName, Pass, FullName, LastLogin, GroupID)
+      VALUES ('SoBIeSkI', '12345', 'Veselin Dimitrov', GETDATE(), 2)
+
+      INSERT INTO Users(UserName, Pass, FullName, LastLogin, GroupID)
+      VALUES ('pesho931', '54321', 'Pesho Ivanov', GETDATE(), 1)
+------------------------------------------------------------------------------------------------
+(20.) UPDATE Groups
+      SET GroupName = '.NET Ninjas'
+      WHERE GroupID = 2
+
+      UPDATE Users
+      SET Pass = '987654321'
+      WHERE UserID = 4
+------------------------------------------------------------------------------------------------
+(21.) DELETE FROM Users WHERE UserID = 2
+      DELETE FROM Groups WHERE GroupID = 1
+------------------------------------------------------------------------------------------------
+(22.) INSERT INTO Users (UserName, Pass, FullName, LastLogin)
+      SELECT LOWER(LEFT(FirstName, 1) + LastName), LOWER(LEFT(FirstName, 1) + LastName),
+      FirstName +' '+ LastName, NULL 
+      FROM Employees
+------------------------------------------------------------------------------------------------
+(23.) UPDATE Users
+      SET Pass = NULL
+      WHERE LastLogin = '2010-03-10'
+------------------------------------------------------------------------------------------------
+(24.) DELETE FROM Users WHERE Pass IS NULL
+------------------------------------------------------------------------------------------------
+(25.) SELECT  d.Name as Department, e.JobTitle, AVG(Salary) as AvgSalary FROM Employees e
+      JOIN Departments d ON (e.DepartmentID = d.DepartmentID)
+      GROUP BY JobTitle, Name, e.DepartmentID, d.DepartmentID HAVING (e.DepartmentID = d.DepartmentID)
+      ORDER BY d.Name
+------------------------------------------------------------------------------------------------
+(26.) SELECT  d.Name as Department, e.JobTitle, MIN(e.Salary) as MinSalary, m.FirstName as Employee 
+       FROM Employees e
+      JOIN Departments d 
+	ON (e.DepartmentID = d.DepartmentID)
+      JOIN Employees m 
+	ON (m.Salary IN (SELECT MIN(Salary) FROM Employees e))
+      GROUP BY e.JobTitle, d.Name, e.DepartmentID, d.DepartmentID, m.FirstName
+      HAVING (e.DepartmentID = d.DepartmentID)
+      ORDER BY d.Name
+------------------------------------------------------------------------------------------------
+(27.) CREATE VIEW EmpsInTowns AS
+      SELECT t.Name, COUNT(e.EmployeeID) NumberOfEmployees FROM Employees e 
+      JOIN Addresses a ON (e.AddressID = a.AddressID)
+      JOIN Towns t ON (a.TownID = t.TownID)
+      GROUP BY t.Name
+      ----------------------------
+      SELECT Name FROM EmpsInTowns
+      WHERE NumberOfEmployees = (SELECT MAX(NumberOfEmployees) FROM EmpsInTowns)
+------------------------------------------------------------------------------------------------
+(28.) SELECT t.Name, COUNT(e.EmployeeID) as [Number of employees] FROM Employees e 
+      JOIN Addresses a ON (e.AddressID = a.AddressID) AND (e.EmployeeID IN (SELECT ManagerID FROM Employees))
+      JOIN Towns t ON (a.TownID = t.TownID)
+      GROUP BY t.Name
+------------------------------------------------------------------------------------------------
+(29.) CREATE TABLE WorkHours(
+	ReportID int IDENTITY,
+	EmployeeID int NOT NULL,
+	ReportDate date,
+	Task nvarchar(30),
+	WorkHours int,
+	Comments text,
+	CONSTRAINT PK_Report PRIMARY KEY (ReportID),
+	CONSTRAINT FK_WorkHours_Employee FOREIGN KEY (EmployeeID)
+	REFERENCES Employees(EmployeeID)
+)
+
+      INSERT INTO WorkHours(EmployeeID, ReportDate, Task, WorkHours, Comments)
+      SELECT e.EmployeeID, GETDATE(), p.Name, DATEDIFF(hour, p.StartDate, p.EndDate),'some comment'  
+      FROM Employees e
+      JOIN EmployeesProjects m ON (e.EmployeeID = m.EmployeeID)
+      JOIN Projects p ON (m.ProjectID = p.ProjectID)
+
+      UPDATE WorkHours
+      SET Comments = 'You are working hard!'
+      WHERE WorkHours = (SELECT MAX(WorkHours) FROM WorkHours)
+
+      DELETE FROM WorkHours w 
+      WHERE w.WorkHours = (SELECT MIN(WorkHours) FROM WorkHours)
+
+      CREATE TABLE WorkHoursLogs(
+	LogID int IDENTITY,
+	OldRegord int,
+	NewRecord int,
+	Command nvarchar(20)
+)
+------------------------------------------------------------------------------------------------
+(30.) BEGIN TRAN
+
+	ALTER TABLE EmployeesProjects
+	DROP CONSTRAINT FK_EmployeesProjects_Employees
+	ALTER TABLE Employees
+	DROP CONSTRAINT FK_Employees_Departments
+	ALTER TABLE Employees
+	DROP CONSTRAINT FK_Employees_Employees
+	ALTER TABLE WorkHours
+	DROP CONSTRAINT FK_WorkHours_Employee
+	ALTER TABLE Departments
+	DROP CONSTRAINT FK_Departments_Employees
+
+	DELETE Employees FROM Employees e 
+	JOIN Departments d ON (e.DepartmentID = d.DepartmentID)
+	JOIN WorkHours w ON (e.EmployeeID = w.EmployeeID) 
+	JOIN EmployeesProjects p ON (e.EmployeeID = p.EmployeeID)
+	WHERE d.Name = 'Sales' ;
+
+      ROLLBACK TRAN
+------------------------------------------------------------------------------------------------
+(31.) BEGIN TRAN
+      DROP TABLE EmployeesProjects
+      COMMIT TRAN
+------------------------------------------------------------------------------------------------
+(32.) CREATE TABLE #TempTable(EmployeeID int, ProjectID int)
+
+      INSERT INTO #TempTable(EmployeeID, ProjectID)
+      SELECT EmployeeID, ProjectID FROM EmployeesProjects
+
+      DROP TABLE EmployeesProjects
+
+      CREATE TABLE EmployeesProjects(EmployeeID int, ProjectID int)
+
+      INSERT INTO EmployeesProjects(EmployeeID, ProjectID)
+      SELECT EmployeeID, ProjectID FROM #TempTable

@@ -1,0 +1,30 @@
+<!--11. Write a function that formats a string using placeholders-->
+
+<html>
+<head>
+    <title>Placeholders</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var format = 'Hello, {0}. How are you? My name is {1} and I am {2} years old. Nice to meet you {0}',
+            hostName = 'Gary',
+            hostYears = 25,
+            guestName = 'Tom';
+            
+        console.log(stringFormat(format, guestName, hostName, hostYears));
+        
+        function stringFormat(formatPattern){
+            var output = formatPattern;
+            
+            for(var i = 1; i < arguments.length; i++){
+                output = output.split('{' + (i - 1) + '}').join(arguments[i]);
+            }
+            
+            return output;
+        }
+    </script>
+</body>
+</html>

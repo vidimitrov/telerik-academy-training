@@ -1,0 +1,61 @@
+<!--07. Write a script that finds the greatest of given 5 variables.-->
+
+<html>
+<head>
+    <title>Greatest of five variables</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="firstNumber">First number: </label>
+    <input type="text" id="firstNumber"/><br>
+    <label for="secondNumber">Second number: </label>
+    <input type="text" id="secondNumber"/><br>
+    <label for="thirdNumber">Third number: </label>
+    <input type="text" id="thirdNumber"/><br>
+    <label for="fourthNumber">Fourth number: </label>
+    <input type="text" id="fourthNumber"/><br>
+    <label for="fifthNumber">Fifth number: </label>
+    <input type="text" id="fifthNumber"/><br>
+    <input type="button" onclick="getGreatest()" value="Get greatest">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function getGreatest() {
+            var firstNum = jsConsole.readInteger("#firstNumber");
+            var secondNum = jsConsole.readInteger("#secondNumber");
+            var thirdNum = jsConsole.readInteger("#thirdNumber");
+            var fourthNum = jsConsole.readInteger("#fourthNumber");
+            var fifthNum = jsConsole.readInteger("#fifthNumber");
+            
+            var greatest;
+
+            var isFirstGreatest = (firstNum > secondNum) && (firstNum > thirdNum) && (firstNum > fourthNum) && (firstNum > fifthNum);
+            var isSecondGreatest = (secondNum > firstNum) && (secondNum > thirdNum) && (secondNum > fourthNum) && (secondNum > fifthNum);
+            var isThirdGreatest = (thirdNum > firstNum) && (thirdNum > secondNum) && (thirdNum > fourthNum) && (thirdNum > fifthNum);
+            var isFourthGreatest = (fourthNum > firstNum) && (fourthNum > secondNum) && (fourthNum > thirdNum) && (fourthNum > fifthNum);
+            var isFifthGreatest = (fifthNum > firstNum) && (fifthNum > secondNum) && (fifthNum > thirdNum) && (fifthNum > fourthNum);
+
+            if (isFirstGreatest)
+            {
+                jsConsole.writeLine("The greatest is " + firstNum);
+            }
+            else if (isSecondGreatest)
+            {
+                jsConsole.writeLine("The greatest is " + secondNum);
+            }
+            else if (isThirdGreatest)
+            {
+                jsConsole.writeLine("The greatest is " + thirdNum);
+            }
+            else if (isFourthGreatest)
+            {
+                jsConsole.writeLine("The greatest is " + fourthNum);
+            }
+            else if (isFifthGreatest)
+            {
+                jsConsole.writeLine("The greatest is " + fifthNum);
+            }    
+        }
+    </script>
+</body>
+</html>

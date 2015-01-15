@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-03-20 16:57+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Hindi, India\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../../init.php ../../boxes.php
+msgid "Boxes Lite"
+msgstr "बक्से लाइट"
+
+#: ../../boxes.php
+msgid "Boxes Lite Element"
+msgstr "बक्से लाइट तत्व"
+
+#: ../../boxes.php
+msgid "Box Image"
+msgstr "बॉक्स छवि"
+
+#: ../../boxes.php
+msgid "Box URL"
+msgstr "बॉक्स यूआरएल"
+
+#: ../../boxes.php
+msgid "Box Text"
+msgstr "पाठ बॉक्स"
+
+#: ../../boxes.php
+msgid "Responsive iFeature Slider"
+msgstr "उत्तरदायी iFeature स्लाइडर"
+
+#: ../../boxes.php
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"नई टच के अनुकूल iFeature 5 स्लाइडर अब किसी भी मोबाइल स्पर्श डिवाइस के लिए जवाब है."
+
+#: ../../boxes.php
+msgid "Responsive Design"
+msgstr "उत्तरदायी डिजाइन"
+
+#: ../../boxes.php
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"IFeature Pro 5 और स्पर्श अनुकूल उत्तरदायी डिजाइन के साथ अब आप किसी भी डिवाइस पर "
+"अपनी वेबसाइट पर नियंत्रण कर सकते हैं."
+
+#: ../../boxes.php
+msgid "Excellent Support"
+msgstr "उत्कृष्ट समर्थन"
+
+#: ../../boxes.php
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr "मदद की ज़रूरत है? निर्देश पढ़ें और हमारे समर्पित प्रो समर्थन फोरम पर जाएँ"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Not Ranked पोर्टफोलियो लाइट"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "पोस्ट पेज"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "स्लाइडर लाइट"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "चहचहाना बार"
+
+#: ../../init.php
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "प्रदर्शन के लिए कोई tweets"
+
+#: ../../twitter-bar.php
+msgid "Invalid Response"
+msgstr "अमान्य प्रतिसाद"

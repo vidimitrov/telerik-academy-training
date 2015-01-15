@@ -1,0 +1,13 @@
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\bin\Debug\Exercise 2.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\bin\Debug\Exercise 2.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\bin\Debug\Exercise 2.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise 2.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\MainWindow.baml
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\MainWindow.g.cs
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\App.g.cs
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise 2_MarkupCompile.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise 2.g.resources
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise_2.Properties.Resources.resources
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise 2.csproj.GenerateResource.Cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise 2.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\XAML - Layout Containers\Exercise 2\obj\Debug\Exercise 2.pdb

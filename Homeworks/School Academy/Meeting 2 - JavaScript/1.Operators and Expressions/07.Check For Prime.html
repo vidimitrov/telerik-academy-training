@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script>
+		function isPrime(){
+			var number = parseInt(document.getElementById("number").value) | 0;
+			var result = document.getElementById("result");
+			var isPrime = true;
+			var divider = 2;
+			var maxDivider = Math.sqrt(number);
+			while((divider <= maxDivider) && isPrime){
+				if((number % divider) == 0){
+					isPrime = false;
+				}
+				divider++;
+			}
+			if(isPrime){
+				result.innerText = "The number "+ number +" is prime.";
+			}
+			else{
+				result.innerText = "The number "+ number +" is not prime.";
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="number"/>
+	<input type="button" value="Is Prime?" onclick="isPrime()"/>
+	<div id="result"></div>
+</body>
+</html>

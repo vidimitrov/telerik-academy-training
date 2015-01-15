@@ -1,0 +1,24 @@
+{
+  "name": "Bookstore",
+  "version": "0.0.1",
+  "authors": [
+    "ExpressJS Homework"
+  ],
+  "description": "Sample app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.0-rc.3",
+    "angular-route": "~1.2.25",
+    "angular-resource": "~1.2.25",
+    "angular-sanitize": "~1.2.25",
+    "bootstrap": "~3.2.0",
+    "angular-cookies": "~1.2.26"
+  }
+}

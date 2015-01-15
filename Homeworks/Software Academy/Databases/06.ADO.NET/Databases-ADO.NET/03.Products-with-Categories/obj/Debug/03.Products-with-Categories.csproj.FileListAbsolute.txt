@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\03.Products-with-Categories\bin\Debug\03.Products-with-Categories.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\03.Products-with-Categories\bin\Debug\03.Products-with-Categories.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\03.Products-with-Categories\bin\Debug\03.Products-with-Categories.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\03.Products-with-Categories\obj\Debug\03.Products-with-Categories.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\03.Products-with-Categories\obj\Debug\03.Products-with-Categories.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\03.Products-with-Categories\obj\Debug\03.Products-with-Categories.pdb

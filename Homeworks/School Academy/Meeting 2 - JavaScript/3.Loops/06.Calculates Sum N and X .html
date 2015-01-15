@@ -1,0 +1,41 @@
+<html>
+<head>
+	<script>
+		function calculateSum(){
+			var n = parseInt(document.getElementById("firstValue").value) | 0;
+			var x = parseInt(document.getElementById("secondValue").value) | 0;
+			var result = document.getElementById("result");
+            var factoriel = 1, power = 1, sum = 1;
+            var k;
+            for (var i = 1; i <= n; i++){
+                k = i;
+                while (true){
+                    if (k <= 0){
+                        break;
+                    }
+                    else{
+                        factoriel = factoriel * k;
+                        k--;
+                    }
+                }
+                k = i;
+                while (k >= 1)
+                {
+                    power = power * x;
+                    k--;
+                }
+                sum = sum + (factoriel / power);
+                factoriel = 1;
+                power = 1;
+            }
+            result.innerText = "The sum (1 + 1!/X + 2!/X*X + ... + N!/pow(X,N)) = " + sum;
+		}
+	</script>
+</head>
+<body>
+	N = <input type="text" id="firstValue"/></br>
+	X = <input type="text" id="secondValue"/></br>
+	<input type="button" value="Calculate SUM" onclick="calculateSum()"/>                       
+	<div id="result"></div>
+</body>
+</html>

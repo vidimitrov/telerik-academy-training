@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\04.RemovingElements\bin\Debug\04.RemovingElements.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\04.RemovingElements\bin\Debug\04.RemovingElements.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\04.RemovingElements\bin\Debug\04.RemovingElements.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\04.RemovingElements\obj\Debug\04.RemovingElements.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\04.RemovingElements\obj\Debug\04.RemovingElements.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\04.RemovingElements\obj\Debug\04.RemovingElements.pdb

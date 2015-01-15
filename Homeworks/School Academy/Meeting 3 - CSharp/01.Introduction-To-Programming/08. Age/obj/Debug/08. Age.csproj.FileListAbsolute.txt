@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\08. Age\bin\Debug\_08.Age.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\08. Age\bin\Debug\_08.Age.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\08. Age\bin\Debug\_08.Age.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\08. Age\obj\Debug\_08.Age.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\08. Age\obj\Debug\_08.Age.pdb

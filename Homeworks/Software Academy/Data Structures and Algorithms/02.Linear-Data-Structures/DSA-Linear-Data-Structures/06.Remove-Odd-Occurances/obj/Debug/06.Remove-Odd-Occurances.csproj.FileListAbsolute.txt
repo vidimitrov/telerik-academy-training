@@ -1,0 +1,6 @@
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\06.Remove-Odd-Occurances\bin\Debug\06.Remove-Odd-Occurances.exe.config
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\06.Remove-Odd-Occurances\obj\Debug\06.Remove-Odd-Occurances.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\06.Remove-Odd-Occurances\bin\Debug\06.Remove-Odd-Occurances.exe
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\06.Remove-Odd-Occurances\bin\Debug\06.Remove-Odd-Occurances.pdb
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\06.Remove-Odd-Occurances\obj\Debug\06.Remove-Odd-Occurances.exe
+C:\Users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\06.Remove-Odd-Occurances\obj\Debug\06.Remove-Odd-Occurances.pdb

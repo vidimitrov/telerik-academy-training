@@ -1,0 +1,40 @@
+<!--05. Write script that asks for a digit and depending on the input
+ shows the name of that digit (in English) using a switch statement.-->
+
+<html>
+<head>
+    <title>Show the name of the digit</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="digit">Digit: </label>
+    <input type="text" id="digit"/>
+    <input type="button" onclick="showNameOfDigit()" value="Show name">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function showNameOfDigit() {
+            var digit = jsConsole.readInteger("#digit");
+            
+            var nameOfDigit;
+            
+            switch(digit){
+                case 0: nameOfDigit = "Zero"; break;
+                case 1: nameOfDigit = "One"; break;
+                case 2: nameOfDigit = "Two"; break;
+                case 3: nameOfDigit = "Three"; break;
+                case 4: nameOfDigit = "Four"; break;
+                case 5: nameOfDigit = "Five"; break;
+                case 6: nameOfDigit = "Six"; break;
+                case 7: nameOfDigit = "Seven"; break;
+                case 8: nameOfDigit = "Eight"; break;
+                case 9: nameOfDigit = "Nine"; break;
+                
+                default: alert("Please enter a digit!"); break;
+            }
+            
+            jsConsole.writeLine("The of the digit is: " + nameOfDigit);
+        }
+    </script>
+</body>
+</html>

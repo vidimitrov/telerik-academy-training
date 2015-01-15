@@ -1,0 +1,98 @@
+<!--04. Write a script that finds the maximal increasing sequence in an array. 
+        Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.-->
+
+<html>
+    <head>
+        <title>Maximal sequence of increasing elements in array</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            var sequence = [3, 2, 3, 4, 2, 2, 4];
+
+            var sequencesTable = new Array(sequence.length);
+
+            for(var i = 0; i < sequence.length; i++){
+                sequencesTable[i] = new Array(2);
+                for(var j = 0; j < sequencesTable[i].length; j++){
+                    sequencesTable[i][j] = 0;
+                }
+            }
+
+            var sequencesCount = 0;
+
+            //Only for text representation of the columns in the table
+            var elementsInSequence = 0;
+            var startingPostition = 1;
+            //========================================================
+
+            var newSequence = true;
+
+            //Collect infromation about the sequences
+
+            for (var i = 0; i < sequence.length - 1; i++)
+            {
+                if (sequence[i] < sequence[i + 1])
+                {
+                    if (newSequence)
+                    {
+                        sequencesTable[sequencesCount][elementsInSequence] = 1;
+                        sequencesTable[sequencesCount][startingPostition] = i;
+                        newSequence = false;
+                    }
+                    sequencesTable[sequencesCount][elementsInSequence]++;
+                }
+                else
+                {
+                    sequencesCount++;
+                    newSequence = true;
+                }
+            }
+
+            var maxSequence = 1;
+            var startingFrom = Number.MIN_VALUE;
+            var maxSequencesCount = 0;
+
+            //Checking for the maximal increasing sequence
+
+            for (var i = 0; i < sequence.length; i++)
+            {
+                if (sequencesTable[i][elementsInSequence] > maxSequence)
+                {
+                    maxSequencesCount = 1;
+                    maxSequence = sequencesTable[i][elementsInSequence];
+                    startingFrom = sequencesTable[i][startingPostition];
+                }
+                else if (sequencesTable[i][elementsInSequence] == maxSequence)
+                {
+                    maxSequencesCount++;
+                }
+            }
+
+            jsConsole.writeLine("Sequence: [" + sequence + "]");
+            if (maxSequencesCount > 1)
+            {
+                jsConsole.writeLine("There are " + maxSequencesCount + " maximal increasing sequences!");
+            }
+            else if (maxSequencesCount == 1)
+            {
+                var sequenceBuilder = new Array(maxSequence);
+                var position = startingFrom;
+                var pos = position;
+
+                for (var i = 0; i < maxSequence; i++)
+                {
+                    sequenceBuilder[i] = sequence[pos];
+                    pos++;
+                }
+                jsConsole.writeLine("The maximal increasing sequence consists " + maxSequence + " elements and they are ["+ sequenceBuilder +"]!");
+            }
+            else
+            {
+                jsConsole.writeLine("There are no increasing sequences!");
+            }
+        </script>
+    </body>
+</html>

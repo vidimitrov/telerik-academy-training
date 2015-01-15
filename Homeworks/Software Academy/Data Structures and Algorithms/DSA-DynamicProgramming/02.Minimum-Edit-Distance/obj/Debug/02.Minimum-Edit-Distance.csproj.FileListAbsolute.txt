@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\02.Minimum-Edit-Distance\bin\Debug\02.Minimum-Edit-Distance.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\02.Minimum-Edit-Distance\bin\Debug\02.Minimum-Edit-Distance.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\02.Minimum-Edit-Distance\bin\Debug\02.Minimum-Edit-Distance.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\02.Minimum-Edit-Distance\obj\Debug\02.Minimum-Edit-Distance.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\02.Minimum-Edit-Distance\obj\Debug\02.Minimum-Edit-Distance.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\02.Minimum-Edit-Distance\obj\Debug\02.Minimum-Edit-Distance.pdb

@@ -1,0 +1,33 @@
+ span {
+    display: inline-block;
+    width: 100px;
+}
+#add-fieldset, #delete-fieldset {
+    width: 320px;
+}
+#admin-panel {
+    width: 400px;
+}
+#students-panel {
+    width: 350px;
+    border: 1px solid black;
+}
+#students-panel h3 {
+    margin-left: 10px;
+}
+#students-list {
+    width: 330px;
+    height: 180px;
+    margin: 10px;
+    border: 1px solid black;
+    overflow: auto;
+}
+#get-all-button {
+    margin: 10px;
+    float: right;
+}
+.clear {
+    display: block;
+    content: '';
+    clear: both;
+}

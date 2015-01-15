@@ -1,0 +1,41 @@
+*{
+	font-family:Arial;
+}
+#head{
+	background: -moz-linear-gradient(100% 100% 90deg,#5EC306,#4EB106);
+	background: -webkit-linear-gradient(#5EC306, #4EB106);
+}
+#head span{
+	color:#ffffff;
+}
+.table:nth-child(2n){
+	background-color:#FFFFFF;
+}
+.table:nth-child(2n+1){
+	background-color:#ECECD8;
+}
+.main-table{
+	width:550px;
+}
+.mexico{
+	background-image: url("images/mexico.gif");
+	width: 37px;
+	height: 26px;
+}
+.table td:nth-of-type(3) td:nth-of-type(1)
+{
+	width: 38px;
+	height: 26px;
+}
+.main-table tr:nth-of-type(2) td:nth-of-type(3) td:nth-of-type(1){
+	background: url("images/germany.gif");
+}
+.main-table tr:nth-of-type(3) td:nth-of-type(3) td:nth-of-type(1){
+	background: url("images/mexico.gif");
+}
+.main-table tr:nth-of-type(4) td:nth-of-type(3) td:nth-of-type(1){
+	background: url("images/mexico.gif");
+}
+.main-table tr:nth-of-type(5) td:nth-of-type(3) td:nth-of-type(1){
+	background: url("images/uk.gif");
+}

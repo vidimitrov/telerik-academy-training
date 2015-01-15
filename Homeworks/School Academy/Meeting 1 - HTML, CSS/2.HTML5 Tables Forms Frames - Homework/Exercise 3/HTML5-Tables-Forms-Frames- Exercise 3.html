@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>HTML5-Tables-Forms-Frames- Exercise 3</title>
+</head>
+<body>
+	<form>
+		<table border="1">
+			<tr>
+				<td align="right"><label for="lastName"><strong>Last Name</strong></label></td>
+				<td><input type="text" id="lastName" required="true" value="Nakov"/></td>
+			</tr>
+			<tr>
+				<td align="right"><label for="firstName"><strong>First Name</strong></label></td>
+				<td><input type="text" id="firstName" required="true" value="Svetlin"/></td>
+			</tr>
+			<tr>
+				<td align="right"><label for="adress"><strong>Adress</strong></label></td>
+				<td><textarea id="adress" rows="4" cols="20">17 Hristo Botev Str. floor 3. apt.12</textarea></td>
+			</tr>
+			<tr>
+				<td align="right"><label for="city"><strong>City</strong></label></td>
+				<td>
+				<table>
+					<td>
+						<input type="text" id="city" value="Kaspichan"/>
+					</td>
+					<td>
+						<label for="state">State</label>
+					</td>
+					<td>
+						<input type="text" id="state" size="5" required="true" value="9325"/>
+					</td>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label for="code"><strong>ZIP/Postal Code</strong></label></td>
+				<td><input type="text" id="code" size="8"/></td>
+			</tr>
+			<tr>
+				<td align="right"><label for="country"><strong>Country</strong></label></td>
+				<td>
+					<select name="country" id="country">
+						<option value="Value1" select="selected">Bulgaria</option>
+						<option value="Value2">Rumania</option>
+						<option value="Value3">Turkey</option>
+						<option value="Value4">Greece</option>
+						<option value="Value5">Macedonia</option>
+						<option value="Value6">Serbia</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label for="tel"><strong>Phone(country code,</br> area code, number)</strong></label></td>
+				<td>
+					<table>
+						<td>(+<input type="text" id="tel" size="4" value="359"/>)</td>
+						<td><input type="text" size="6" value="88"/></td>
+						<td>-<input type="text" size="10" value="8334343"/></td>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label for="mail"><strong>E-mail</strong></label></td>
+				<td><input type="email" pattern="[^ @]*@[^ @]*.[^ @]" required="true" id="mail" value="nakov@kaspichan.org"/></td>
+			</tr>
+			<tr>
+				<td align="right"><label for="month"><strong>Birth date</strong></label></td>
+				<td>
+				<table>
+					<td>
+						<label for="month" value="06">Month</label>
+					</td>
+					<td>
+						<input type="text" id="month" value="06" size="1" maxlength="2"/>
+					</td>
+					<td>
+						<label for="date">Date</label>
+					</td>
+					<td>
+						<input type="text" id="date" value="14" size="1" maxlength="2"/>
+					</td>
+					<td>
+						<label for="year">Year(4-digit)</label>
+					</td>
+					<td>
+						<input type="text" id="year" value="1980" size="4" maxlength="4"/>
+					</td>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label for=""><strong>Gender</strong></label></td>
+				<td>
+					<select>
+						<option value="Value1">Other</option>
+						<option value="Value2" select="selected">Male</option>
+						<option value="Value3">Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label for=""><strong>Starting date</strong></label></td>
+				<td>
+					<input type="radio" name="startDate" checked/>Spring 2006
+					<input type="radio" name="startDate"/>Summer 2006
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label for=""><strong>Comments/Questions</strong></label></td>
+				<td>
+					<textarea cols="20" rows="6">Please send me more information about the lodging.</textarea>
+				</td>
+			</tr>
+			<tr bgcolor="#D1EDE1">
+				<td colspan="2" align="center"><input type="submit"/><input type="reset"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

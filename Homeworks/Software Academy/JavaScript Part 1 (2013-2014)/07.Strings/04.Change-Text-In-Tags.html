@@ -1,0 +1,85 @@
+<!--04. You are given a text. Write a function that changes the text in all regions:
+        <upcase>text</upcase> to uppercase.
+        <lowcase>text</lowcase> to lowercase
+        <mixcase>text</mixcase> to mix casing(random)-->
+
+<html>
+<head>
+    <title>Change text between tags</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var textWithTags = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anyTHing</lowcase> else.",
+            isOpenTag = false,
+            i = 0,
+            textInMixcase = getInnerText(textWithTags, '<mixcase>', '</mixcase>'),
+            textInUpcase = getInnerText(textWithTags, '<upcase>', '</upcase>'),
+            textInLowcase = getInnerText(textWithTags, '<lowcase>', '</lowcase>');
+        
+        
+        var modifiedText = modifyText(textWithTags, textInUpcase, 'upcase');
+            modifiedText = modifyText(modifiedText, textInLowcase, 'lowcase');
+            modifiedText = modifyText(modifiedText, textInMixcase, 'mixcase');
+        
+        //Log the modified text in the console
+        console.log(modifiedText);
+                
+        function getInnerText(text, openTag, closeTag){
+            var wordsInMixcase = [],
+                startIndex = text.indexOf(openTag) + openTag.length,
+                endIndex = text.indexOf(closeTag),
+                wordInMixcase = text.substring(startIndex, endIndex);
+                
+            wordsInMixcase.push(wordInMixcase);
+                
+            while(endIndex !== -1){
+                startIndex = text.indexOf(openTag, startIndex) + openTag.length;
+                
+                endIndex = text.indexOf(closeTag, endIndex + closeTag.length);
+                if(endIndex !== -1){
+                    wordInMixcase = text.substring(startIndex, endIndex);
+                    wordsInMixcase.push(wordInMixcase);
+                }
+            };
+            
+            return(wordsInMixcase);
+        }
+        
+        //Replace the words into tags with the modified value
+        function modifyText(text, words, tag){
+            switch(tag){
+                case 'upcase': {
+                    for(var i in words){
+                        text = text.replace('<upcase>' + words[i] + '</upcase>', words[i].toUpperCase());
+                    }
+                }; break;
+                case 'lowcase': {
+                    for(var i in words){
+                        text = text.replace('<lowcase>' + words[i] + '</lowcase>', words[i].toLowerCase());
+                    }
+                }; break;
+                case 'mixcase': {
+                    for(var i in words){
+                        text = text.replace('<mixcase>' + words[i] + '</mixcase>', mixWord(words[i]));
+                    }
+                }; break;
+            }
+            
+            return text;
+        }
+        
+        function mixWord(word){
+            for(var i = 0; i < word.length; i++){
+                if(i % 2 === 0){
+                    word = word.replace(word[i], word[i].toUpperCase());
+                }
+            }
+            
+            return word;
+        }
+    </script>
+</body>
+</html>

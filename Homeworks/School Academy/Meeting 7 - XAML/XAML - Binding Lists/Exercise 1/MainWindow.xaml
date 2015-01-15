@@ -1,0 +1,55 @@
+﻿<Window x:Class="Exercise_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="150" Width="525"
+        xmlns:local="clr-namespace:Exercise_1">
+    <Window.Resources>
+        <local:Countries x:Key="Countries">
+            <local:Country Name="Bulgaria" Language="Bulgarian" NationalFlag="BGR"/>
+            <local:Country Name="Italy" Language="Italian" NationalFlag="ITL"/>
+            <local:Country Name="England" Language="English" NationalFlag="ENG"/>
+        </local:Countries>
+        <local:Towns x:Key="Towns">
+            <local:Town Name="Dupnitsa" Population="80000" Country="Bulgaria"/>
+            <local:Town Name="Sofia" Population="2000000" Country="Bulgaria"/>
+            <local:Town Name="Varna" Population="500000" Country="Bulgaria"/>
+            <local:Town Name="Rome" Population="100000" Country="Italy"/>
+            <local:Town Name="Milano" Population="1000000" Country="Italy"/>
+            <local:Town Name="Venezia" Population="90000" Country="Italy"/>
+            <local:Town Name="Manchester" Population="90000" Country="England"/>
+            <local:Town Name="London" Population="5000000" Country="England"/>
+            <local:Town Name="Nothingam" Population="2000000" Country="England"/>
+        </local:Towns>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" DataContext="{StaticResource Towns}">
+            <WrapPanel Height="117" Width="230">
+                <Label>Town</Label>
+                <TextBox Text="{Binding Path=Name}" Height="21" Width="184"></TextBox>
+                <Label>Population</Label>
+                <TextBox Text="{Binding Path=Population}" Height="18" Width="156"></TextBox>
+                <Label>Country</Label>
+                <TextBox Text="{Binding Path=Country}" Name="TownCountry" Height="18" Width="156"></TextBox>
+                <Button Margin="40 10" Click="buttonBack_Click">Prev</Button>
+                <Button Margin="40 10" Click="buttonForward_Click">Next</Button>
+            </WrapPanel>
+        </TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="0" DataContext="{StaticResource Countries}">
+            <WrapPanel>
+                <Label>Country</Label>
+                <TextBox Text="{Binding Path=Text, ElementName=TownCountry}" Height="21" Width="173"></TextBox>
+                <Label>Language</Label>
+                <TextBox Text="{Binding Path=Language}" Height="18" Width="163"></TextBox>
+                 <Label>National flag</Label>
+                <TextBox Text="{Binding Path=NationalFlag}" Height="18" Width="147"></TextBox>
+            </WrapPanel>
+        </TextBlock>
+    </Grid>
+</Window>

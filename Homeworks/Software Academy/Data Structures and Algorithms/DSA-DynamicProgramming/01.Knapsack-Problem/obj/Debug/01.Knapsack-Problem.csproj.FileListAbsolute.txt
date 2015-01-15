@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\01.Knapsack-Problem\bin\Debug\01.Knapsack-Problem.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\01.Knapsack-Problem\bin\Debug\01.Knapsack-Problem.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\01.Knapsack-Problem\bin\Debug\01.Knapsack-Problem.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\01.Knapsack-Problem\obj\Debug\01.Knapsack-Problem.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\01.Knapsack-Problem\obj\Debug\01.Knapsack-Problem.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-DynamicProgramming\01.Knapsack-Problem\obj\Debug\01.Knapsack-Problem.pdb

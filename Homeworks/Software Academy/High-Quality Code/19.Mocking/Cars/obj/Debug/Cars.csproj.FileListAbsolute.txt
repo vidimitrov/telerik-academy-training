@@ -1,0 +1,5 @@
+D:\Telerik Academy\Homeworks\Software Academy\High-Quality Code\19.Mocking\Cars\bin\Debug\Cars.dll
+D:\Telerik Academy\Homeworks\Software Academy\High-Quality Code\19.Mocking\Cars\bin\Debug\Cars.pdb
+D:\Telerik Academy\Homeworks\Software Academy\High-Quality Code\19.Mocking\Cars\obj\Debug\Cars.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\Software Academy\High-Quality Code\19.Mocking\Cars\obj\Debug\Cars.dll
+D:\Telerik Academy\Homeworks\Software Academy\High-Quality Code\19.Mocking\Cars\obj\Debug\Cars.pdb

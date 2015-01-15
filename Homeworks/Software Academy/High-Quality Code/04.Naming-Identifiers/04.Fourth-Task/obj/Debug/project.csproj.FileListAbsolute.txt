@@ -1,0 +1,5 @@
+D:\Telerik Academy\Homework\Software Academy\High-Quality Code\04.Naming-Identifiers\Naming-Identifiers-Homework\bin\Debug\Minesweeper.exe
+D:\Telerik Academy\Homework\Software Academy\High-Quality Code\04.Naming-Identifiers\Naming-Identifiers-Homework\bin\Debug\Minesweeper.pdb
+D:\Telerik Academy\Homework\Software Academy\High-Quality Code\04.Naming-Identifiers\Naming-Identifiers-Homework\obj\Debug\project.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homework\Software Academy\High-Quality Code\04.Naming-Identifiers\Naming-Identifiers-Homework\obj\Debug\Minesweeper.exe
+D:\Telerik Academy\Homework\Software Academy\High-Quality Code\04.Naming-Identifiers\Naming-Identifiers-Homework\obj\Debug\Minesweeper.pdb

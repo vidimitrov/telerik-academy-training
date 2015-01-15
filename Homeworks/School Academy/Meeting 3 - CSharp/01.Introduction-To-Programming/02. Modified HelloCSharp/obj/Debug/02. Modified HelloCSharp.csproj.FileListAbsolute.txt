@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\02. Modified HelloCSharp\bin\Debug\_02.Modified_HelloCSharp.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\02. Modified HelloCSharp\bin\Debug\_02.Modified_HelloCSharp.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\02. Modified HelloCSharp\bin\Debug\_02.Modified_HelloCSharp.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\02. Modified HelloCSharp\obj\Debug\_02.Modified_HelloCSharp.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\02. Modified HelloCSharp\obj\Debug\_02.Modified_HelloCSharp.pdb

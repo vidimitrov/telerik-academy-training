@@ -1,0 +1,20 @@
+<!--08. Write a JavaScript function that replaces in 
+        a HTML document given as string all the tags 
+        <a href="…">…</a> with corresponding tags [URL=…]…/URL]. -->
+
+<html>
+<head>
+    <title>Replace anchor tags</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var html = '<p>Please visit <a href="http://academy.telerik. com">our site</a> to choose a training course. Also visit <a href="www.devbg.org">our forum</a> to discuss the courses.</p>';
+        html = html.split("<a href=\"").join("[URL=").split("</a>").join("[/URL]").split("\">").join("]");
+        
+        console.log(html);
+    </script>
+</body>
+</html>

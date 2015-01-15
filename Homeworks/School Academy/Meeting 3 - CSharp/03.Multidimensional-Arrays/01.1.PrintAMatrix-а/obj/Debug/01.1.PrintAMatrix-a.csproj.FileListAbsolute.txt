@@ -1,0 +1,11 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\01.PrintAMatrix\bin\Debug\01.PrintAMatrix.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\01.PrintAMatrix\obj\Debug\01.PrintAMatrix.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\01.PrintAMatrix\obj\Debug\01.PrintAMatrix.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\01.PrintAMatrix\bin\Debug\01.PrintAMatrix.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\04.MultidimensionalArrays\01.PrintAMatrix\bin\Debug\01.PrintAMatrix.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.PrintAMatrix\bin\Debug\01.PrintAMatrix.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.PrintAMatrix\obj\Debug\01.PrintAMatrix.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.PrintAMatrix\obj\Debug\01.PrintAMatrix.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.1.PrintAMatrix-а\bin\Debug\01.PrintAMatrix.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.1.PrintAMatrix-а\obj\Debug\01.PrintAMatrix.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\03.Multidimensional-Arrays\01.1.PrintAMatrix-а\obj\Debug\01.PrintAMatrix.pdb

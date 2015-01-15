@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-03-20 16:57+0530\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Japanese, Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../init.php ../../boxes.php
+msgid "Boxes Lite"
+msgstr "ライトボックス"
+
+#: ../../boxes.php
+msgid "Boxes Lite Element"
+msgstr "ボックスLiteの要素"
+
+#: ../../boxes.php
+msgid "Box Image"
+msgstr "ボックスイメージ"
+
+#: ../../boxes.php
+msgid "Box URL"
+msgstr "ボックスのURL"
+
+#: ../../boxes.php
+msgid "Box Text"
+msgstr "Box text: "
+
+#: ../../boxes.php
+msgid "Responsive iFeature Slider"
+msgstr "レスポンシブiFeatureスライダー"
+
+#: ../../boxes.php
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"新しいタッチフレンドリーiFeature 5スライダーは今どんなモバイルタッチデバイス"
+"に対応しています。"
+
+#: ../../boxes.php
+msgid "Responsive Design"
+msgstr "レスポンシブ·デザイン"
+
+#: ../../boxes.php
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"iFeature Pro 5とタッチに優しい敏感なデザインであなたは今どのデバイスでも、あ"
+"なたのウェブサイトを制御することができます。"
+
+#: ../../boxes.php
+msgid "Excellent Support"
+msgstr "優れたサポート体制"
+
+#: ../../boxes.php
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"ヘルプが必要ですか？指示を読み、私達の専用Proのサポートフォーラムをご覧くださ"
+"い"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "ポートフォリオLiteの"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "投稿ページ"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "スライダーLiteの"
+
+#: ../../init.php
+msgid "Twitter Bar"
+msgstr "Twitterのバー"
+
+#: ../../init.php
+msgid "Page"
+msgstr "ページ"
+
+#: ../../twitter-bar.php
+msgid "No tweets to display"
+msgstr "表示するつぶやきがありません"
+
+#: ../../twitter-bar.php
+msgid "Invalid Response"
+msgstr "無効な応答"

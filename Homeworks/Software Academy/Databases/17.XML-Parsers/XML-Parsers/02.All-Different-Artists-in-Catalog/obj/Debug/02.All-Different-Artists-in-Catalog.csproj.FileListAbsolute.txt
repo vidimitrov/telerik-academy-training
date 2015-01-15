@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\02.All-Different-Artists-in-Catalog\bin\Debug\02.All-Different-Artists-in-Catalog.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\02.All-Different-Artists-in-Catalog\bin\Debug\02.All-Different-Artists-in-Catalog.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\02.All-Different-Artists-in-Catalog\bin\Debug\02.All-Different-Artists-in-Catalog.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\02.All-Different-Artists-in-Catalog\obj\Debug\02.All-Different-Artists-in-Catalog.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\02.All-Different-Artists-in-Catalog\obj\Debug\02.All-Different-Artists-in-Catalog.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\XML-Parsers\02.All-Different-Artists-in-Catalog\obj\Debug\02.All-Different-Artists-in-Catalog.pdb

@@ -1,0 +1,9 @@
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\09. Letters\bin\Debug\_09.Letters.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\09. Letters\bin\Debug\_09.Letters.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\09. Letters\bin\Debug\_09.Letters.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\09. Letters\obj\Debug\09. Letters.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\09. Letters\obj\Debug\_09.Letters.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\09. Letters\obj\Debug\_09.Letters.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\09. Letters\bin\Debug\_09.Letters.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\09. Letters\obj\Debug\_09.Letters.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\09. Letters\obj\Debug\_09.Letters.pdb

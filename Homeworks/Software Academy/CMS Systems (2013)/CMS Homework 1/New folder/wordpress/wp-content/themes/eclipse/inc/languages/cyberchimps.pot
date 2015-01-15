@@ -1,0 +1,279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eclipse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-20 10:07:38 UTC\n"
+"PO-Revision-Date: 2013-03-21 07:46:28 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WebTranslateIt.com\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../404.php
+msgid "Oops! That page cannot be found."
+msgstr ""
+
+#: ../../404.php
+msgid "It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+
+#: ../../comments.php
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../../comments.php
+#: ../../comments.php
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../comments.php
+#: ../../comments.php
+msgid "Older Comments"
+msgstr ""
+
+#: ../../comments.php
+#: ../../comments.php
+msgid "Newer Comments"
+msgstr ""
+
+#: ../../comments.php
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../content.php
+#: ../../image.php
+#: ../../image.php
+#: ../../content.php
+msgid "Edit"
+msgstr ""
+
+#: ../../content.php
+#: ../../content.php
+#: ../../content.php
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../../content.php
+#: ../../content.php
+#: ../../content.php
+msgid "Continue reading"
+msgstr ""
+
+#: ../../image.php
+#: ../../content.php
+#: ../../content.php
+#: ../../content.php
+msgid "Pages:"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+#: ../../footer.php
+msgid "Pages"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+#: ../../footer.php
+msgid "Archives"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+#: ../../footer.php
+msgid "Categories"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+#: ../../sidebar-left.php
+#: ../../footer.php
+#: ../../footer.php
+msgid "WordPress"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+#: ../../footer.php
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+#: ../../footer.php
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: ../../functions.php
+msgid "Previous Page"
+msgstr ""
+
+#: ../../functions.php
+msgid "Next Page"
+msgstr ""
+
+#: ../../functions.php
+msgid "Pingback:"
+msgstr ""
+
+#: ../../functions.php
+#: ../../functions.php
+msgid "(Edit)"
+msgstr ""
+
+#: ../../functions.php
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../functions.php
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../../functions.php
+msgid "View all posts by"
+msgstr ""
+
+#: ../../functions.php
+msgid "Leave a comment"
+msgstr ""
+
+#: ../../functions.php
+msgid "1 Comment"
+msgstr ""
+
+#: ../../functions.php
+msgid "Comments"
+msgstr ""
+
+#: ../../functions.php
+msgid "Eclipse 2 Responsive WordPress Theme"
+msgstr ""
+
+#: ../../functions.php
+msgid "Cyberchimps Link"
+msgstr ""
+
+#: ../../functions.php
+#: ../../functions.php
+msgid "Logo"
+msgstr ""
+
+#: ../../functions.php
+msgid "Slider Lite"
+msgstr ""
+
+#: ../../functions.php
+msgid "Portfolio Lite"
+msgstr ""
+
+#: ../../functions.php
+msgid "Post Page"
+msgstr ""
+
+#: ../../image.php
+msgid "Published"
+msgstr ""
+
+#: ../../image.php
+msgid "size"
+msgstr ""
+
+#: ../../image.php
+msgid "in"
+msgstr ""
+
+#: ../../image.php
+msgid "Previous"
+msgstr ""
+
+#: ../../image.php
+msgid "Next"
+msgstr ""
+
+#: ../../image.php
+msgid "Post a comment"
+msgstr ""
+
+#: ../../image.php
+msgid "or leave a trackback"
+msgstr ""
+
+#: ../../image.php
+#: ../../image.php
+msgid "Trackback URL"
+msgstr ""
+
+#: ../../image.php
+msgid "Comments are closed, but you can leave a trackback:"
+msgstr ""
+
+#: ../../image.php
+msgid "Trackbacks are closed, but you can"
+msgstr ""
+
+#: ../../image.php
+msgid "post a comment"
+msgstr ""
+
+#: ../../image.php
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../../no-results.php
+msgid "Nothing Found"
+msgstr ""
+
+#: ../../no-results.php
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: ../../no-results.php
+msgid "Get started here"
+msgstr ""
+
+#: ../../no-results.php
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../../no-results.php
+msgid "It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../../search.php
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../../searchform.php
+msgid "Search"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+msgid "Subscribe"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+msgid "Entries (RSS)"
+msgstr ""
+
+#: ../../sidebar.php
+#: ../../sidebar-right.php
+#: ../../sidebar-left.php
+msgid "Comments (RSS)"
+msgstr ""
+

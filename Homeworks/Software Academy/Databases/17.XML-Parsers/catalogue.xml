@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Pesho na more</name>
+    <artist>Pesho peveca</artist>
+    <year>2014</year>
+    <producer>Pesho</producer>
+    <price>1000000</price>
+    <songs>
+      <song>
+        <title>Tu tu tu</title>
+        <duration>3.40</duration>
+      </song>
+      <song>
+        <title>Tu ti to rum tu</title>
+        <duration>2.51</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Pesho na balkan</name>
+    <artist>Pesho peveca</artist>
+    <year>2014</year>
+    <producer>Pesho</producer>
+    <price>99999</price>
+    <songs>
+      <song>
+        <title>Hita na balkana</title>
+        <duration>9.59</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Sgodena za Pesho</name>
+    <artist>Peshka tigricata</artist>
+    <year>2013</year>
+    <producer>Pesho</producer>
+    <price>10</price>
+    <songs>
+      <song>
+        <title>Kak mojah</title>
+        <duration>99.18</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Hit mix '14</name>
+    <artist>Jori ot tretiq etaj</artist>
+    <year>2014</year>
+    <producer>Payner</producer>
+    <price>15.99</price>
+    <songs>
+      <song>
+        <title>Ataka mix</title>
+        <duration>26.59</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Hit mix '13</name>
+    <artist>Pesho peveca</artist>
+    <year>2013</year>
+    <producer>Payner</producer>
+    <price>999.99</price>
+    <songs>
+      <song>
+        <title>Viskoplaten biznesmen</title>
+        <duration>4.50</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

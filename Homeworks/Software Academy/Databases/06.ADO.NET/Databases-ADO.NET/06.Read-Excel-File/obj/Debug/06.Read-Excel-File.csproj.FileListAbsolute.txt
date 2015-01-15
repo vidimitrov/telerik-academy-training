@@ -1,0 +1,6 @@
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\06.Read-Excel-File\bin\Debug\06.Read-Excel-File.exe.config
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\06.Read-Excel-File\bin\Debug\06.Read-Excel-File.exe
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\06.Read-Excel-File\bin\Debug\06.Read-Excel-File.pdb
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\06.Read-Excel-File\obj\Debug\06.Read-Excel-File.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\06.Read-Excel-File\obj\Debug\06.Read-Excel-File.exe
+C:\Users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\06.Read-Excel-File\obj\Debug\06.Read-Excel-File.pdb

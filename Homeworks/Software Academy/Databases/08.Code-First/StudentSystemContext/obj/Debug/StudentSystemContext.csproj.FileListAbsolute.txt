@@ -1,0 +1,10 @@
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\StudentSystemContext.dll.config
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\StudentSystemContext.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\StudentSystemContext.pdb
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\EntityFramework.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\StudentSystem.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\StudentSystem.pdb
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\bin\Debug\EntityFramework.xml
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\obj\Debug\StudentSystemContext.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\obj\Debug\StudentSystemContext.dll
+D:\Telerik Academy\Homeworks\Software Academy\Databases\08.Code-First\StudentSystemContext\obj\Debug\StudentSystemContext.pdb

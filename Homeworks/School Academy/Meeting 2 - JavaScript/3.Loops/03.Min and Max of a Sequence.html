@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script>
+		function sequenceMinMax(){
+			var sequenceLenght = parseInt(document.getElementById("lenght").value) | 0;
+			var result = document.getElementById("result");
+			var member;
+			var max;
+			var min;
+			for(var i = 0; i < sequenceLenght; i++){
+				member = parseInt(prompt("Enter value:","")) | 0;
+				if(i == 0){
+					min = member;
+					max = member;
+					continue;
+				}
+				if(member > max){
+					max = member;
+				}
+				if(member < min){
+					min = member;
+				}
+			}
+			result.innerText = "Max = "+ max +" Min = "+min;			
+		}
+	</script>
+</head>
+<body>
+	Enter the lenght of the sequence: <input type="text" id="lenght"/></br>
+	<input type="button" value="Enter values!" onclick="sequenceMinMax()"/>                       
+	<div id="result"></div>
+</body>
+</html>

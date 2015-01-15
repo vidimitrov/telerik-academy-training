@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\06. SquareOfNumber\bin\Debug\_06.SquareOfNumber.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\06. SquareOfNumber\bin\Debug\_06.SquareOfNumber.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\06. SquareOfNumber\bin\Debug\_06.SquareOfNumber.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\06. SquareOfNumber\obj\Debug\_06.SquareOfNumber.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\06. SquareOfNumber\obj\Debug\_06.SquareOfNumber.pdb

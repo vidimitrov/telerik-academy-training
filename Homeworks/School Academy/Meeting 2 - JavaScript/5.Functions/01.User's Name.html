@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script>
+		function usersName(){
+			var name = document.getElementById("name").value;
+			var result = document.getElementById("result");
+			result.innerText ="Hello, " + name;
+		}
+	</script>
+</head>
+<body>
+	<p>What's your name?</p>
+	<input type="text" id="name"/>
+	<input type="button" value="click" onclick="usersName()"/>
+	<p id="result"></p>
+</body>
+</html>

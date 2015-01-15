@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\03.Sort-Integers\bin\Debug\03.Sort-Integers.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\03.Sort-Integers\bin\Debug\03.Sort-Integers.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\03.Sort-Integers\bin\Debug\03.Sort-Integers.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\03.Sort-Integers\obj\Debug\03.Sort-Integers.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Linear-Data-Structures\03.Sort-Integers\obj\Debug\03.Sort-Integers.pdb

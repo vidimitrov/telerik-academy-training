@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Snake game</title>
+    <style>
+        #snake-canvas {
+            border: 5px solid #7b521a;
+            margin: 0 auto;
+            width: 400px;
+            display: inline-block;
+            background-color: #3f7113;
+        }
+        .tnx {
+            color: #4b8408
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <canvas id="snake-canvas"
+            width="500"
+            height="500"></canvas>
+        <div id="controls">
+            <button id="start-game-btn">Start</button>
+            <button id="stop-game-btn">Stop</button>
+        </div>
+        <p>Use the arrows to navigate the snake.<br>Yes, it has a lot more to do, but I think it has enough... in the code :D</p>
+        <p class='tnx'>Thanks to Doncho Minkov's Snake demo at the School Academy</p>
+    </div>  
+    <script data-main="scripts/app.js" src="scripts/libs/require.js"></script>
+</body>
+</html>

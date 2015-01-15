@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script>
+		function englishPronounce(num){
+			var digit = (num % 10) | 0;
+			var pronounce = "";
+			switch(digit){
+				case 0: pronounce = "Zero";break;
+				case 1: pronounce = "One";break;
+				case 2: pronounce = "Two";break;
+				case 3: pronounce = "Three";break;
+				case 4: pronounce = "Four";break;
+				case 5: pronounce = "Five";break;
+				case 6: pronounce = "Six";break;
+				case 7: pronounce = "Seven";break;
+				case 8: pronounce = "Eight";break;
+				case 9: pronounce = "Nine";break;
+			}
+			return pronounce;
+		}
+		function lastDigitInEnglish(){
+			var number = parseInt(document.getElementById("number").value) | 0;
+			var result = document.getElementById("result");
+			result.innerText = englishPronounce(number);
+		}
+	</script>
+</head>
+<body>
+	Number:<input type="text" id="number"/>
+	<input type="button" value="click" onclick="lastDigitInEnglish()"/>
+	<p id="result"></p>
+</body>
+</html>

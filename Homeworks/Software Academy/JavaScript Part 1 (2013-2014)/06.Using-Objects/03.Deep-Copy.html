@@ -1,0 +1,70 @@
+<!--03. Write a function that makes a deep copy of an object
+        The function should work for both primitive and reference types.-->
+
+<html>
+    <head>
+        <title>Deep copy</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            var student = {
+                name: "Stamat",
+                age: 19,
+                school: "Telerik Academy",
+                profession: "Junior Web Developer",
+                marks: {
+                    CSharp1: "Pass",
+                    CSharp2: "Excellent",
+                    OOP: "Excellent",
+                    HTML: "Excellent",
+                    CSS: "Excellent"
+                },
+                collegues: {
+                    collegue1: "Pesho",
+                    collegue2: {
+                        name: "Gosho"
+                    },
+                    collegue3: {}
+                },
+                drinker: true,
+            };
+
+            var newStudent = {};
+
+            deepCopy(student, newStudent);
+
+            jsConsole.writeLine("Student: ");
+            printObject(student, "--");
+            jsConsole.writeLine("");
+            jsConsole.writeLine("Cloned student: ");
+            printObject(newStudent, "--");
+
+            function deepCopy(source, target){
+                for(var prop in source){
+                    if(typeof source[prop] === "object"){
+                        target[prop] = {};
+                        deepCopy(source[prop], target[prop]);
+                    }
+                    else{
+                        target[prop] = source[prop];
+                    }
+                }
+            }
+
+            function printObject(obj, str){
+                for(var prop in obj){
+                    if(typeof obj[prop] === "object"){
+                        jsConsole.writeLine(str + prop + ": ");
+                        printObject(obj[prop], str + "--");
+                    }
+                    else{
+                        jsConsole.writeLine(str + prop + ": " + obj[prop]);
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

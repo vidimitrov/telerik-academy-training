@@ -1,0 +1,9 @@
+<script>
+	var bitNumber = 3;
+	var integer = 8;
+	var mask = 1 << bitNumber;
+	var check = (integer & mask) != 0;
+	var value;
+	check ? value = 1 : value = 0;
+	console.log(value);
+</script>

@@ -1,0 +1,36 @@
+<!--05. Write a script to sort an array. Use the "selection sort" algorithm: 
+        Find the smallest element, move it at the first position,
+        find the smallest from the rest, move it at the second position, etc.
+        Hint: Use a second array.-->
+
+<html>
+    <head>
+        <title>Selection sort</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            var sequence = [8, 3, 2, 1, 12, 4, 0, 9];
+            jsConsole.writeLine("Sequence: " + sequence);
+
+            var swap;
+
+            for (var i = 0; i < sequence.length; i++)
+            {
+                for (var j = i; j < sequence.length; j++)
+                {
+                    if (sequence[j] < sequence[i])
+                    {
+                        swap = sequence[j];
+                        sequence[j] = sequence[i];
+                        sequence[i] = swap;
+                    }
+                }
+            }
+
+            jsConsole.writeLine("Sorted: " + sequence);
+        </script>
+    </body>
+</html>

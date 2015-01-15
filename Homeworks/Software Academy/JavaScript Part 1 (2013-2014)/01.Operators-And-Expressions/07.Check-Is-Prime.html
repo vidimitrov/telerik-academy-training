@@ -1,0 +1,44 @@
+﻿<!--07. Write an expression that checks if given positive
+    integer number n (n ≤ 100) is prime. E.g. 37 is prime.-->
+
+<html>
+<head>
+    <title>Check if the number is prime</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="inputNumber" />
+    <input type="button" onclick="checkIsPrime()" value="Check">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkIsPrime() {
+            var inputNum = jsConsole.readInteger("#inputNumber");
+            
+            if (inputNum > 100) {
+                alert("The number must be <= 100!");
+                return;
+            }
+
+            var maxDivisor = Math.sqrt(inputNum);
+            var isPrime = true;
+            var divider = 2;
+
+            while (divider <= maxDivisor) {
+                if (inputNum % divider == 0) {
+                    isPrime = false;
+                    break;
+                }
+                divider++;
+            }
+
+            if (isPrime) {
+                jsConsole.writeLine("The number is prime!");
+            }
+            else {
+                jsConsole.writeLine("The number is not prime!");
+            }
+        }
+    </script>
+</body>
+</html>

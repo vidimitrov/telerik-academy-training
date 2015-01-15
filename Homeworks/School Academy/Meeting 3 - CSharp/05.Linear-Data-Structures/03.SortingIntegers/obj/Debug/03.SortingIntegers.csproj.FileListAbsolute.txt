@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\03.SortingIntegers\bin\Debug\03.SortingIntegers.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\03.SortingIntegers\bin\Debug\03.SortingIntegers.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\03.SortingIntegers\bin\Debug\03.SortingIntegers.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\03.SortingIntegers\obj\Debug\03.SortingIntegers.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Linear-Data-Structures\03.SortingIntegers\obj\Debug\03.SortingIntegers.pdb

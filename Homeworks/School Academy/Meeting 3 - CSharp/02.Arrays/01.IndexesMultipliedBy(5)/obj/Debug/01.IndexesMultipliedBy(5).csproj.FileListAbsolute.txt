@@ -1,0 +1,24 @@
+c:\users\sobieski\documents\visual studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe.config
+c:\users\sobieski\documents\visual studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe
+c:\users\sobieski\documents\visual studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).pdb
+c:\users\sobieski\documents\visual studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).csprojResolveAssemblyReference.cache
+c:\users\sobieski\documents\visual studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).exe
+c:\users\sobieski\documents\visual studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).pdb
+D:\Telerik Academy\VS Projects\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe.config
+D:\Telerik Academy\VS Projects\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).exe
+D:\Telerik Academy\VS Projects\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homework\School Academy\Meeting 3 - CSharp\02.Arrays\01.IndexesMultipliedBy(5)\bin\Debug\01.IndexesMultipliedBy(5).exe.config
+D:\Telerik Academy\Homework\School Academy\Meeting 3 - CSharp\02.Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).exe
+D:\Telerik Academy\Homework\School Academy\Meeting 3 - CSharp\02.Arrays\01.IndexesMultipliedBy(5)\obj\Debug\01.IndexesMultipliedBy(5).pdb

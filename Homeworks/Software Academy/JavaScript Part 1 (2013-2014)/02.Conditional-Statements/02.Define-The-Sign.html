@@ -1,0 +1,67 @@
+<!--02. Write a script that shows the sign (+ or -) of the product
+ of three real numbers without calculating it. Use a sequence of if statements.-->
+
+<html>
+<head>
+    <title>Define the sign</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="firstNumber">First number: </label>
+    <input type="text" id="firstNumber"/>
+    <label for="secondNumber">Second number: </label>
+    <input type="text" id="secondNumber"/>
+    <label for="thirdNumber">Third number: </label>
+    <input type="text" id="thirdNumber"/>
+    <input type="button" onclick="defineSign()" value="Sign">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function defineSign() {
+            var firstNum = jsConsole.readInteger("#firstNumber");
+            var secondNum = jsConsole.readInteger("#secondNumber");
+            var thirdNum = jsConsole.readInteger("#thirdNumber");
+                        
+            var sign;
+            if(firstNum < 0){
+                if(secondNum < 0){
+                    if(thirdNum < 0){
+                        sign = '-';    
+                    }
+                    else{
+                        sign = '+';
+                    }
+                }
+                else{
+                    if(thirdNum < 0){
+                        sign = '+';    
+                    }
+                    else{
+                        sign = '-';
+                    }
+                }
+            }
+            else{
+                if(secondNum < 0){
+                    if(thirdNum < 0){
+                        sign = '+';    
+                    }
+                    else{
+                        sign = '-';
+                    }
+                }
+                else{
+                    if(thirdNum < 0){
+                        sign = '-';    
+                    }
+                    else{
+                        sign = '+';
+                    }
+                }
+            }
+            
+            jsConsole.writeLine("The sign of the product is \'" + sign + "\'");
+        }
+    </script>
+</body>
+</html>

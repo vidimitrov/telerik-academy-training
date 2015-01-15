@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\03.Count-Words-in-Text\bin\Debug\03.Count-Words-in-Text.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\03.Count-Words-in-Text\bin\Debug\03.Count-Words-in-Text.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\03.Count-Words-in-Text\bin\Debug\03.Count-Words-in-Text.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\03.Count-Words-in-Text\obj\Debug\03.Count-Words-in-Text.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\03.Count-Words-in-Text\obj\Debug\03.Count-Words-in-Text.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\DSA-Dictrionaries-Sets-and-Hash-Tables\03.Count-Words-in-Text\obj\Debug\03.Count-Words-in-Text.pdb

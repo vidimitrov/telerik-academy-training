@@ -1,0 +1,17 @@
+#1
+In the worst case the algorithm will have n*(n-1) steps,
+so I think its complexity is O(n*(n-1))
+==============================================================
+
+#2
+If all numbers are even we will have n*m steps so if this is
+the way to calculate complexity it must be O(n*m)
+==============================================================
+
+#3
+I think the complex of the algorithm is O(n^m)
+In the best case, if (row + 1) is equal or greater than m,
+there will be only n^1 steps, but if row is equal to 0, then
+there will be n^m steps, because row will icrease until it get
+equal to m
+==============================================================

@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script>
+	function checkPointPosition(){
+		var x = parseInt(document.getElementById("xCoordinates").value) | 0;
+		var y = parseInt(document.getElementById("yCoordinates").value) | 0;
+		var isInCircle = (x*x - 2*x + 1) + (y*y - 2*y + 1) <= 9;
+		var result = document.getElementById("result");
+		if(isInCircle){
+			if((x > -1) && ((y >= -1) && (y <= 1))){
+				result.innerText = "False. \nThe point (" + x +","+ y + ") is in the circle K((1,1), 3) and in the rectangle(top:1, left:-1, width:6, height:2).";
+			}
+			else{
+				result.innerText = "True. \nThe point (" + x +","+ y + ") is in the circle K((1,1), 3) and out of the rectangle(top:1, left:-1, width:6, height:2).";
+			}
+		}
+		else{
+			result.innerText = "False. \nThe point (" + x +","+ y + ") ISN'T in the circle K((1,1), 3)";
+		}
+	}
+	</script>
+</head>
+<body>
+	x = <input type="text" id ="xCoordinates"/></br>
+	y = <input type="text" id ="yCoordinates"/></br>
+	<input type = "button" onclick="checkPointPosition()" value="Check"/>
+	<div id= "result"></div>
+</body>
+</html>

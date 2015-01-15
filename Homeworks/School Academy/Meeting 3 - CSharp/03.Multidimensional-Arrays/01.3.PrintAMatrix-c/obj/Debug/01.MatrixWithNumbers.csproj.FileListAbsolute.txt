@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2012\Projects\multidimensionalArrays\01.MatrixWithNumbers\bin\Debug\01.MatrixWithNumbers.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2012\Projects\multidimensionalArrays\01.MatrixWithNumbers\bin\Debug\01.MatrixWithNumbers.exe
+C:\Users\Stoyan\Documents\Visual Studio 2012\Projects\multidimensionalArrays\01.MatrixWithNumbers\bin\Debug\01.MatrixWithNumbers.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2012\Projects\multidimensionalArrays\01.MatrixWithNumbers\obj\Debug\01.MatrixWithNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2012\Projects\multidimensionalArrays\01.MatrixWithNumbers\obj\Debug\01.MatrixWithNumbers.exe
+C:\Users\Stoyan\Documents\Visual Studio 2012\Projects\multidimensionalArrays\01.MatrixWithNumbers\obj\Debug\01.MatrixWithNumbers.pdb

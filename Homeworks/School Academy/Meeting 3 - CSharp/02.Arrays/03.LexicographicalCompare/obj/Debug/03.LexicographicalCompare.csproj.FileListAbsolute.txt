@@ -1,0 +1,15 @@
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.exe.config
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.csprojResolveAssemblyReference.cache
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.exe
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.pdb
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.exe
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\03.LexicographicalCompare\bin\Debug\03.LexicographicalCompare.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\03.LexicographicalCompare\obj\Debug\03.LexicographicalCompare.pdb

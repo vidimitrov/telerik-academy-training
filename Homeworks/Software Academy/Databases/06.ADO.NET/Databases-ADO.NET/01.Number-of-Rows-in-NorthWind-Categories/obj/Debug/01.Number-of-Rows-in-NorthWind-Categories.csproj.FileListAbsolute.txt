@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\01.Number-of-Rows-in-NorthWind-Categories\bin\Debug\01.Number-of-Rows-in-NorthWind-Categories.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\01.Number-of-Rows-in-NorthWind-Categories\bin\Debug\01.Number-of-Rows-in-NorthWind-Categories.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\01.Number-of-Rows-in-NorthWind-Categories\bin\Debug\01.Number-of-Rows-in-NorthWind-Categories.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\01.Number-of-Rows-in-NorthWind-Categories\obj\Debug\01.Number-of-Rows-in-NorthWind-Categories.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\01.Number-of-Rows-in-NorthWind-Categories\obj\Debug\01.Number-of-Rows-in-NorthWind-Categories.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\01.Number-of-Rows-in-NorthWind-Categories\obj\Debug\01.Number-of-Rows-in-NorthWind-Categories.pdb

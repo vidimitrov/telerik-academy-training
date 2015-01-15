@@ -1,0 +1,47 @@
+<html>
+<head>
+	<script>
+		function gcd(){
+			var firstNumber = parseInt(document.getElementById("firstNumber").value) | 0;
+			var secondNumber = parseInt(document.getElementById("secondNumber").value) | 0;
+			var textResult = document.getElementById("result");
+            var rest = 0;
+			var result = 0;
+            if (firstNumber == 0){
+                result = secondNumber;
+                Console.WriteLine(result);
+                return;
+            }
+            else if (secondNumber == 0){
+                result = firstNumber;
+                Console.WriteLine(result);
+                return;
+            }
+            else if (firstNumber == secondNumber){
+                result = firstNumber;
+                Console.WriteLine(result);
+                return;
+            }
+            while (true){
+                if ((firstNumber % secondNumber) != 0){
+                    rest = firstNumber % secondNumber;
+                    firstNumber = secondNumber;
+                    secondNumber = rest;
+                }
+                else{
+                    result = secondNumber;
+                    break;
+                }
+            }
+            textResult.innerText = "The greatest common divisor is: " + result;
+			
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="firstNumber"/></br>
+	<input type="text" id="secondNumber"/></br>
+	<input type="button" value="Find GCD" onclick="gcd()"/>                 
+	<div id="result"></div>
+</body>
+</html>

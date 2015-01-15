@@ -1,0 +1,10 @@
+E:\Telerik Academy\school-academy\Meeting-21-Web-JS-Development\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\bin\SchoolAcademyStudents.Client.dll
+E:\Telerik Academy\school-academy\Meeting-21-Web-JS-Development\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\bin\SchoolAcademyStudents.Client.pdb
+E:\Telerik Academy\school-academy\Meeting-21-Web-JS-Development\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\obj\Debug\SchoolAcademyStudents.Client.csprojResolveAssemblyReference.cache
+E:\Telerik Academy\school-academy\Meeting-21-Web-JS-Development\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\obj\Debug\SchoolAcademyStudents.Client.dll
+E:\Telerik Academy\school-academy\Meeting-21-Web-JS-Development\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\obj\Debug\SchoolAcademyStudents.Client.pdb
+C:\Users\SoBIeSkI\Documents\Homework\Meeting 2 - JavaScript\7.External Data Access\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\bin\SchoolAcademyStudents.Client.dll
+C:\Users\SoBIeSkI\Documents\Homework\Meeting 2 - JavaScript\7.External Data Access\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\bin\SchoolAcademyStudents.Client.pdb
+C:\Users\SoBIeSkI\Documents\Homework\Meeting 2 - JavaScript\7.External Data Access\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\obj\Debug\SchoolAcademyStudents.Client.csprojResolveAssemblyReference.cache
+C:\Users\SoBIeSkI\Documents\Homework\Meeting 2 - JavaScript\7.External Data Access\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\obj\Debug\SchoolAcademyStudents.Client.dll
+C:\Users\SoBIeSkI\Documents\Homework\Meeting 2 - JavaScript\7.External Data Access\SchoolAcademyStudents.Client\SchoolAcademyStudents.Client\obj\Debug\SchoolAcademyStudents.Client.pdb

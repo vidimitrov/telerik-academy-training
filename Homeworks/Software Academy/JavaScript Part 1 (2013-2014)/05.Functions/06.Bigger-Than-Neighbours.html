@@ -1,0 +1,31 @@
+<!--06. Write a function that checks if the element at given position in given array of
+        integers is bigger than its two neighbours (when such exist).-->
+
+<html>
+<head>
+    <title>Bigger than neighbours</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="position">Position: </label>
+    <input type="text" id="position"/>
+    <label for="array">Array (',' separated): </label>
+    <input type="text" id="array"/>
+    <input type="button" onclick="isBiggerThanNeighbours()" value="Count">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isBiggerThanNeighbours() {
+            var isBigger = false;
+            var position = jsConsole.readInteger("#position");
+            var arr = jsConsole.read("#array").split(",");
+            
+            if((arr[position] > arr[position - 1]) && (arr[position] > arr[position + 1])){
+                isBigger = true;
+            }
+            
+            jsConsole.writeLine("Is number at this position bigger than his neighbours? : " + isBigger);
+        }
+    </script>
+</body>
+</html>

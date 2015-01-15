@@ -1,0 +1,6 @@
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\04.Adding-New-Product-in-Northwind\bin\Debug\04.Adding-New-Product-in-Northwind.exe.config
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\04.Adding-New-Product-in-Northwind\bin\Debug\04.Adding-New-Product-in-Northwind.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\04.Adding-New-Product-in-Northwind\bin\Debug\04.Adding-New-Product-in-Northwind.pdb
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\04.Adding-New-Product-in-Northwind\obj\Debug\04.Adding-New-Product-in-Northwind.csprojResolveAssemblyReference.cache
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\04.Adding-New-Product-in-Northwind\obj\Debug\04.Adding-New-Product-in-Northwind.exe
+c:\users\vesel_000\documents\visual studio 2013\Projects\Databases-ADO.NET\04.Adding-New-Product-in-Northwind\obj\Debug\04.Adding-New-Product-in-Northwind.pdb

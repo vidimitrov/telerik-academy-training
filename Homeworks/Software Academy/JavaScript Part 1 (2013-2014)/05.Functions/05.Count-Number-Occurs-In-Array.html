@@ -1,0 +1,33 @@
+<!--05. Write a function that counts how many times given number appears in given array.            
+        Write a test function to check if the function is working correctly.-->
+
+<html>
+<head>
+    <title>Count the times that a number occurs in array</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="number">Number: </label>
+    <input type="text" id="number"/>
+    <label for="array">Array (',' separated): </label>
+    <input type="text" id="array"/>
+    <input type="button" onclick="countOccurrences()" value="Count">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function countOccurrences() {
+            var occCount = 0;
+            var number = jsConsole.readInteger("#number");
+            var arr = jsConsole.read("#array").split(",");
+            
+            for(var i = 0; i < arr.length; i++){
+                if (arr[i] == number) {
+                    occCount++;
+                } 
+            }
+            
+            jsConsole.writeLine("There are : " + occCount + " occurrences of number " + number + " in the array!");
+        }
+    </script>
+</body>
+</html>

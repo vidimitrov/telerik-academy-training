@@ -1,0 +1,99 @@
+<!--03. Write a script that finds the maximal sequence of equal elements in an array.
+		Example: {2, 1, 1, 2, 3, 3, 2, 2, 2, 1}  {2, 2, 2}.-->
+
+<html>
+    <head>
+        <title>Maximal sequence of equal elements in array</title>
+        <link href="styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="js-console"></div>
+        <script src="scripts/js-console.js"></script>
+        <script>
+            var sequence = [2, 1, 1, 2, 3, 3, 2, 2, 2, 1];
+
+            //Implementing dictionary structure behavior:
+            //Implement a two dimensional array [n, 2] - 
+            //    [n, 0] is for sequence length and [n, 1] is for the element value
+
+            //When found an element that is equal to the previous, [n, 0] iterates with 1
+            //When found an element that is different from the previous,
+            //    a new row is added in the two dimensional array
+
+            var sequencesTable = new Array(sequence.length);
+            for(var i = 0; i < sequence.length; i++){
+                sequencesTable[i] = new Array(2);
+                for(var j = 0; j < sequencesTable[i].length; j++){
+                    sequencesTable[i][j] = 0;
+                }
+            }
+
+            var sequencesCount = 0;
+            var newSequence = true;
+
+            for (var i = 0; i < sequence.length - 1; i++)
+            {
+                if (sequence[i] == sequence[i + 1])
+                {
+                    if (newSequence)
+                    {
+                        sequencesTable[sequencesCount][1] = 1;
+                        newSequence = false;
+                    }
+                    sequencesTable[sequencesCount][0] = sequence[i];
+                    sequencesTable[sequencesCount][1]++;
+                }
+                else
+                {
+                    if (i == 0)
+                    {
+                        sequencesTable[sequencesCount][0] = sequence[i];
+                        sequencesTable[sequencesCount][1]++;
+                    }
+                    else
+                    {
+                        sequencesCount++;
+                        sequencesTable[sequencesCount][0] = sequence[i];
+                        sequencesTable[sequencesCount][1]++;
+                        newSequence = true;
+                        if (i == sequence.length - 2)
+                        {
+                            sequencesTable[sequencesCount + 1][0] = sequence[sequence.length - 1];
+                            sequencesTable[sequencesCount + 1][1]++;
+                        }
+                    }
+                }
+            }
+
+            //Check for the maximal sequence or if there are more than one - for their count
+
+            var maxSequence = 1;
+            var element = Number.MIN_VALUE;
+            var maxSequencesCount = 0;
+
+            for (var i = 0; i < sequence.length; i++)
+            {
+                if (sequencesTable[i][1] > maxSequence)
+                {
+                    maxSequencesCount = 1;
+                    element = sequencesTable[i][0];
+                    maxSequence = sequencesTable[i][1];
+                }
+                else if (sequencesTable[i][1] == maxSequence)
+                {
+                    maxSequencesCount++;
+                }
+            }
+
+            jsConsole.writeLine("Sequence: [" + sequence + "]");
+            if (maxSequencesCount > 1)
+            {
+                jsConsole.writeLine("There are " + maxSequencesCount + " maximal sequences with equal elements!");
+            }
+            else
+            {
+                jsConsole.writeLine("The maximal sequence of equal elements consists " + maxSequence + " elements and their value is " + element + "!");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\07. MembersOfSequence\bin\Debug\_07.MembersOfSequence.exe.config
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\07. MembersOfSequence\bin\Debug\_07.MembersOfSequence.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\07. MembersOfSequence\bin\Debug\_07.MembersOfSequence.pdb
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\07. MembersOfSequence\obj\Debug\_07.MembersOfSequence.exe
+c:\users\vesel_000\documents\visual studio 2012\Projects\01.IntroductionToProgramming\07. MembersOfSequence\obj\Debug\_07.MembersOfSequence.pdb

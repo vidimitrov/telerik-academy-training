@@ -1,0 +1,68 @@
+Homework from SQL:
+
+(04.) SELECT * FROM Departments
+
+(05.) SELECT Name FROM Departments
+
+(06.) SELECT EmployeeID, Salary FROM Employees
+
+(07.) SELECT FirstName +' '+ MiddleName +' '+ LastName as FullName FROM Employees 
+
+(08.) SELECT FirstName +'.'+ LastName + '@telerik.com' as 'Full Email Addresses' FROM Employees
+
+(09.) SELECT DISTINCT Salary FROM Employees
+
+(10.) SELECT * FROM Employees WHERE JobTitle = 'Sales Representative'
+
+(11.) SELECT FirstName FROM Employees WHERE FirstName LIKE 'SA%'
+
+(12.) SELECT LastName FROM Employees WHERE LastName LIKE '%ei%'			
+
+(13.) SELECT Salary FROM Employees WHERE Salary BETWEEN 20000 AND 30000
+
+(14.) SELECT FirstName FROM Employees WHERE Salary IN (25000, 14000, 12500, 23600)
+
+(15.) SELECT * FROM Employees WHERE ManagerID IS NULL 
+
+(16.) SELECT * FROM Employees WHERE Salary > 50000 ORDER BY Salary DESC
+
+(17.) SELECT TOP 5 * FROM Employees ORDER BY Salary DESC
+
+(18.) SELECT e.FirstName +' '+ e.LastName as Name, a.AddressText as Address
+        FROM Employees e
+	INNER JOIN Addresses a
+          ON e.AddressID = a.AddressID
+
+(19.) SELECT e.FirstName +' '+ e.LastName as Name, a.AddressText as Address
+      FROM Employees e, Addresses a
+      WHERE e.AddressID = a.AddressID
+
+(20.) SELECT e.FirstName +' '+ e.LastName + ' manager is ' + m.FirstName +' '+ m.LastName
+      FROM Employees e 
+      JOIN Employees m
+        ON (e.ManagerID = m.EmployeeID)
+
+(21.) SELECT e.FirstName +' '+ e.LastName as Emploee, a.AddressText as Address,
+      m.FirstName +' '+ m.LastName as Manager
+      FROM Employees e 
+      JOIN Employees m
+	ON (e.ManagerID = m.EmployeeID)
+      JOIN Addresses a
+	ON (e.AddressID = a.AddressID)
+
+(22.) 
+
+(23.) SELECT e.FirstName +' '+ e.LastName EmployeesWithManager, m.FirstName +' '+ m.LastName ManagerName
+	/*w.FirstName +' '+ w.LastName EmployeesWithoutManager*/
+	FROM Employees e 
+	 LEFT OUTER JOIN Employees m
+		ON (e.ManagerID = m.EmployeeID)/*
+		  LEFT OUTER JOIN Employees w 
+		     ON (e.EmployeeID = w.EmployeeID)
+			 WHERE w.ManagerID IS NULL*/
+		 
+
+(24.) SELECT * FROM Employees e
+      JOIN Departments d
+      ON(e.DepartmentID = d.DepartmentID)
+      WHERE ((d.Name = 'Sales') OR (d.Name = 'Finance')) AND (e.HireDate BETWEEN 01/01/1995 AND 31/12/2000)

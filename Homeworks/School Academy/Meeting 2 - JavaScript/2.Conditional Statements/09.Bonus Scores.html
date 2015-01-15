@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script>
+		function bonusScores(){
+			var digit = parseInt(document.getElementById("digit").value) | 0;
+			var result = document.getElementById("result");
+			switch(digit){
+				case 1:
+				case 2:
+				case 3: result.innerText = "The bonus score is: "+ digit*10;break;
+				case 4:
+				case 5:
+				case 6: result.innerText = "The bonus score is: "+ digit*100;break;
+				case 7:
+				case 8:
+				case 9:	result.innerText = "The bonus score is: "+ digit*1000;break;
+				default:result.innerText = "Error.The score must be between (1...9)";
+			}
+		}
+	</script>
+</head>
+<body>
+	Give your score: <input type="text" id="digit"/></br>
+	<input type="button" onclick="bonusScores()" value="Click"/>
+	<div id="result"></div>
+</body>
+</html>

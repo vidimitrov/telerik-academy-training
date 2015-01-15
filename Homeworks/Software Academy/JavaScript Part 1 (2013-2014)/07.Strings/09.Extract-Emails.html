@@ -1,0 +1,21 @@
+<!--09. Write a function for extracting all email addresses from given text. 
+        All substrings that match the format <identifier>@<host>…<domain> 
+        should be recognized as emails. Return the emails as array of strings.-->
+
+<html>
+<head>
+    <title>Extract emails</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var html = 'Lorem ipsum dolor sit amet, vipetkov@gmail.com consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore pro06@abv.bg et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation master@yahoo.com ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+        var regex = /\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,4}/;
+        var email = html.match(regex);
+        
+        console.log(email);
+    </script>
+</body>
+</html>

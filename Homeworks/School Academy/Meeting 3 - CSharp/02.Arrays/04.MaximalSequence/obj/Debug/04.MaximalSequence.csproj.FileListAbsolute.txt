@@ -1,0 +1,15 @@
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe.config
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.pdb
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.csprojResolveAssemblyReference.cache
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.exe
+C:\Users\SoBIeSkI\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\02.Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.pdb

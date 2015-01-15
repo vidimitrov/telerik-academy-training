@@ -1,0 +1,15 @@
+c:\users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.exe.config
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.exe
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.pdb
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\05. DaysForWork.csprojResolveAssemblyReference.cache
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\_05.DaysForWork.exe
+C:\Users\vesel_000\documents\visual studio 2012\Projects\05.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\_05.DaysForWork.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\04.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.exe.config
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\04.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\_05.DaysForWork.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\04.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\_05.DaysForWork.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\04.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.exe
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\04.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.pdb
+C:\Users\vesel_000\Documents\Visual Studio 2012\Projects\04.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\05. DaysForWork.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homework\Meeting 3 - CSharp\04.Creating-And-Using-Objects\05. DaysForWork\bin\Debug\_05.DaysForWork.exe.config
+D:\Telerik Academy\Homework\Meeting 3 - CSharp\04.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\_05.DaysForWork.exe
+D:\Telerik Academy\Homework\Meeting 3 - CSharp\04.Creating-And-Using-Objects\05. DaysForWork\obj\Debug\_05.DaysForWork.pdb

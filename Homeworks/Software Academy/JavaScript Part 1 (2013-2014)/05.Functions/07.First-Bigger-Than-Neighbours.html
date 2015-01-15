@@ -1,0 +1,49 @@
+<!--07. Write a Function that returns the index of the first
+        element in array that is bigger than its neighbors, or -1, if there’s no such element.
+        Use the function from the previous exercise.-->
+
+<html>
+<head>
+    <title>First bigger than neighbours</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="array">Array (',' separated): </label>
+    <input type="text" id="array"/>
+    <input type="button" onclick="findBiggerThanNeighbours()" value="Count">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function findBiggerThanNeighbours() {
+            var arr = jsConsole.read("#array").split(",");
+            
+            var firstBiggerPos = firstBiggerThanNeighbours(arr);
+            
+            if(firstBiggerPos != -1){
+                jsConsole.writeLine("The first number bigger than his neighbours is at position : " + firstBiggerPos);
+            }
+            else{
+                jsConsole.writeLine("There is no such element!");
+            }
+        }
+        
+        function firstBiggerThanNeighbours(arr) {
+            var pos = -1;
+            
+            var i;
+            var count = arr.length;
+            for (i = 0; i < count; i++) {
+                var current = parseInt(arr[i]);
+                var prev = parseInt(arr[i - 1]);
+                var next = parseInt(arr[i + 1]);
+                if((current > prev) && (current > next)){
+                    pos = i;
+                    return pos;
+                }
+            }
+            
+            return pos;
+        }
+    </script>
+</body>
+</html>
